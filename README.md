@@ -1,4 +1,4 @@
-# Genome-Resolved-Open-Watersheads-database-GROWdb
+# Genome Resolved Open Watersheads database (GROWdb)
 GROWdb is a community effort to increase genomic sampling and understanding of the global river corridor microbiome with an emphasis on creating a publicly available genome database. 
 
 GROWdb networks efforts across researchers to move beyond a small collection of well-studied river systems, towards a spatially distributed, global network of systematic observations that are of appropriate scale and continuity to inform predictive models from local to global scales. 
