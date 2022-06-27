@@ -1,0 +1,44 @@
+gene_id,gene_description,module,header,subheader
+CE1,CE1 acetyl xylan esterase (EC 3.1.1.72); cinnamoyl esterase (EC 3.1.1.-); feruloyl esterase (EC 3.1.1.73); carboxylesterase (EC 3.1.1.1); S-formylglutathione hydrolase (EC 3.1.2.12); diacylglycerol O-acyltransferase (EC 2.3.1.20); trehalose 6-O-mycolyltransferase (EC 2.3.1.122),Carbohydrate Esterases,CAZY,
+GH65,"GH65 alpha,alpha-trehalase (EC 3.2.1.28); maltose phosphorylase (EC 2.4.1.8); trehalose phosphorylase (EC 2.4.1.64); kojibiose phosphorylase (EC 2.4.1.230); trehalose-6-phosphate phosphorylase (EC 2.4.1.216); nigerose phosphorylase (EC 2.4.1.279); 3-O-alpha-glucopyranosyl-L-rhamnose phosphorylase (EC 2.4.1.282); 2-O-alpha-glucopyranosylglycerol: phosphate beta-glucosyltransferase (EC 2.4.1.-); alpha-glucosyl-1,2-beta-galactosyl-L-hydroxylysine alpha-glucosidase (EC 3.2.1.107)",Glycoside Hydrolases,CAZY,
+GT20,"GT20 alpha,alpha-trehalose-phosphate synthase [UDP-forming] (EC 2.4.1.15); Glucosylglycerol-phosphate synthase (EC 2.4.1.213); trehalose-6-P phosphatase (EC 3.1.3.12); [retaining] GDP-valeniol: validamine 7-phosphate valeniolyltransferase (EC 2.-.-.-)",GlycosylTransferases,CAZY,
+GT4,"GT4 sucrose synthase (EC 2.4.1.13); sucrose-phosphate synthase (EC 2.4.1.14); alpha-glucosyltransferase (EC 2.4.1.52); lipopolysaccharide N-acetylglucosaminyltransferase (EC 2.4.1.56); phosphatidylinositol alpha-mannosyltransferase (EC 2.4.1.57); GDP-Man: Man1GlcNAc2-PP-dolichol alpha-1,3-mannosyltransferase (EC 2.4.1.132); GDP-Man: Man3GlcNAc2-PP-dolichol/Man4GlcNAc2-PP-dolichol alpha-1,2-mannosyltransferase (EC 2.4.1.131); digalactosyldiacylglycerol synthase (EC 2.4.1.141); 1,2-diacylglycerol 3-glucosyltransferase (EC 2.4.1.157); diglucosyl diacylglycerol synthase (EC 2.4.1.208); trehalose phosphorylase (EC 2.4.1.231); NDP-Glc: alpha-glucose alpha-glucosyltransferase / alpha,alpha-trehalose synthase (EC 2.4.1.245); GDP-Man: Man2GlcNAc2-PP-dolichol alpha-1,6-mannosyltransferase (EC 2.4.1.257); UDP-GlcNAc: 2-deoxystreptamine alpha-N-acetylglucosaminyltransferase (EC 2.4.1.283); UDP-GlcNAc: ribostamycin alpha-N-acetylglucosaminyltransferase (EC 2.4.1.285); UDP-Gal alpha-galactosyltransferase (EC 2.4.1.-); UDP-Xyl alpha-xylosyltransferase (EC 2.4.2.-); UDP-GlcA alpha-glucuronyltransferase (EC 2.4.1.-); UDP-Glc alpha-glucosyltransferase (EC 2.4.1.-); UDP-GalNAc: GalNAc-PP-Und alpha-1,3-N-acetylgalactosaminyltransferase (EC 2.4.1.306); UDP-GalNAc: N,N'-diacetylbacillosaminyl-PP-Und alpha-1,3-N-acetylgalactosaminyltransferase (EC 2.4.1.290); ADP-dependent alpha-maltose-1-phosphate synthase (2.4.1.342)",GlycosylTransferases,CAZY,
+GH119,GH119 alpha-amylase (EC 3.2.1.1),Glycoside Hydrolases,CAZY,Starch Backbone Cleavage
+GH126,GH126 alpha-amylase (EC 3.2.1.-),Glycoside Hydrolases,CAZY,Starch Backbone Cleavage
+GH13,"GH13 alpha-amylase (EC 3.2.1.1); pullulanase (EC 3.2.1.41); cyclomaltodextrin glucanotransferase (EC 2.4.1.19); cyclomaltodextrinase (EC 3.2.1.54); trehalose-6-phosphate hydrolase (EC 3.2.1.93); oligo-alpha-glucosidase (EC 3.2.1.10); maltogenic amylase (EC 3.2.1.133); neopullulanase (EC 3.2.1.135); alpha-glucosidase (EC 3.2.1.20); maltotetraose-forming alpha-amylase (EC 3.2.1.60); isoamylase (EC 3.2.1.68); glucodextranase (EC 3.2.1.70); maltohexaose-forming alpha-amylase (EC 3.2.1.98); maltotriose-forming alpha-amylase (EC 3.2.1.116); branching enzyme (EC 2.4.1.18); trehalose synthase (EC 5.4.99.16); 4-alpha-glucanotransferase (EC 2.4.1.25); maltopentaose-forming alpha-amylase (EC 3.2.1.-) ; amylosucrase (EC 2.4.1.4) ; sucrose phosphorylase (EC 2.4.1.7); malto-oligosyltrehalose trehalohydrolase (EC 3.2.1.141); isomaltulose synthase (EC 5.4.99.11); malto-oligosyltrehalose synthase (EC 5.4.99.15); amylo-alpha-1,6-glucosidase (EC 3.2.1.33); alpha-1,4-glucan: phosphate alpha-maltosyltransferase (EC 2.4.99.16); 6'-P-sucrose phosphorylase (EC 2.4.1.-); amino acid transporter",Glycoside Hydrolases,CAZY,Starch Backbone Cleavage
+GH14,GH14 beta-amylase (EC 3.2.1.2),Glycoside Hydrolases,CAZY,Starch Backbone Cleavage
+GH57,GH57 alpha-amylase (EC 3.2.1.1); alpha-galactosidase (EC 3.2.1.22); amylopullulanase (EC 3.2.1.41); cyclomaltodextrinase (EC 3.2.1.54); branching enzyme (EC 2.4.1.18); 4-alpha-glucanotransferase (EC 2.4.1.25),Glycoside Hydrolases,CAZY,Starch Backbone Cleavage
+GH133,"GH133 amylo-alpha-1,6-glucosidase (EC 3.2.1.33);",Glycoside Hydrolases,CAZY,Starch Oligo Cleavage
+GH15,"GH15 glucoamylase (EC 3.2.1.3); glucodextranase (EC 3.2.1.70); alpha,alpha-trehalase (EC 3.2.1.28); dextran dextrinase (EC 2.4.1.2)",Glycoside Hydrolases,CAZY,Starch Oligo Cleavage
+GH97,GH97 glucoamylase (EC 3.2.1.3); alpha-glucosidase (EC 3.2.1.20); alpha-galactosidase (EC 3.2.1.22),Glycoside Hydrolases,CAZY,"Starch Oligo Cleavage, Alpha-galactans Oligo Cleavage"
+GH111,GH111 keratan sulfate hydrolase (endo-beta-N-acetylglucosaminidase) (EC 3.2.1.-),Glycoside Hydrolases,CAZY,Sulf-Polysachharides Backbone Cleavage
+GH150,GH150 l-carrageenase (EC 3.2.1.-),Glycoside Hydrolases,CAZY,Sulf-Polysachharides Backbone Cleavage
+GH56,GH56 hyaluronidase (EC 3.2.1.35); chondroitin hydrolase (EC 3.2.1.-),Glycoside Hydrolases,CAZY,Sulf-Polysachharides Backbone Cleavage
+GH79,GH79 beta-glucuronidase (EC 3.2.1.31); hyaluronoglucuronidase (EC 3.2.1.36); heparanase (EC 3.2.1.166); baicalin beta-glucuronidase (EC 3.2.1.167); beta-4-O-methyl-glucuronidase (EC 3.2.1.-),Glycoside Hydrolases,CAZY,Sulf-Polysachharides Backbone Cleavage
+GH82,GH82 Iota;-carrageenase (EC 3.2.1.157),Glycoside Hydrolases,CAZY,Sulf-Polysachharides Backbone Cleavage
+GH86,GH86 beta-agarase (EC 3.2.1.81); beta-porphyranase (EC 3.2.1.178),Glycoside Hydrolases,CAZY,Sulf-Polysachharides Backbone Cleavage
+,,,,
+K02000,proV; glycine betaine/proline transport system ATP-binding protein [EC:3.6.3.32],Glycine betaine/proline transport system,,
+K02001,proW; glycine betaine/proline transport system permease protein,Glycine betaine/proline transport system,,
+K02002,proX; glycine betaine/proline transport system substrate-binding protein,Glycine betaine/proline transport system,,
+K00101,L-lactate dehydrogenase (cytochrome) [EC:1.1.2.3],SCFA  and alcohol conversions,SCFA  and alcohol conversions,
+K00121,alcohol dehydrogenase [EC:1.1.1.1],SCFA  and alcohol conversions,SCFA  and alcohol conversions,
+K00634,phosphate butyryltransferase [EC:2.3.1.19],SCFA  and alcohol conversions,SCFA  and alcohol conversions,
+K00929,butyrate kinase [EC:2.7.2.7],SCFA  and alcohol conversions,SCFA  and alcohol conversions,
+K01026,propionate CoA-transferase [EC:2.8.3.1],SCFA  and alcohol conversions,SCFA  and alcohol conversions,
+K01067,acetyl-CoA hydrolase [EC:3.1.2.1],SCFA  and alcohol conversions,SCFA  and alcohol conversions,
+K01896,medium-chain acyl-CoA synthetase [EC:6.2.1.2],SCFA  and alcohol conversions,SCFA  and alcohol conversions,
+K01905,"6.2.1.13, acetate---CoA ligase (ADP-forming) subunit alpha",SCFA  and alcohol conversions,SCFA  and alcohol conversions,
+K03777,D-lactate dehydrogenase (quinone) [EC:1.1.5.12],SCFA  and alcohol conversions,SCFA  and alcohol conversions,
+K04072,alcohol dehydrogenase [EC:1.1.1.1],SCFA  and alcohol conversions,SCFA  and alcohol conversions,
+K13951,alcohol dehydrogenase [EC:1.1.1.1],SCFA  and alcohol conversions,SCFA  and alcohol conversions,
+K13952,alcohol dehydrogenase [EC:1.1.1.1],SCFA  and alcohol conversions,SCFA  and alcohol conversions,
+K13953,alcohol dehydrogenase [EC:1.1.1.1],SCFA  and alcohol conversions,SCFA  and alcohol conversions,
+K13980,alcohol dehydrogenase [EC:1.1.1.1],SCFA  and alcohol conversions,SCFA  and alcohol conversions,
+K18857,alcohol dehydrogenase [EC:1.1.1.1],SCFA  and alcohol conversions,SCFA  and alcohol conversions,
+K19697,propionate kinase [EC:2.7.2.15],SCFA  and alcohol conversions,SCFA  and alcohol conversions,
+,,,,
+K00108,choline dehydrogenase [EC:1.1.99.1] [RN:R01025 R08557 R08558],"Betaine biosynthesis, choline => betaine",,
+K00130,betaine-aldehyde dehydrogenase [EC:1.2.1.8] [R02565 R02566],"Betaine biosynthesis, choline => betaine",,
+K11440,choline dehydrogenase [EC:1.1.99.1] [RN:R01025 R08557 R08558],"Betaine biosynthesis, choline => betaine",,
+K17755,choline oxidase [EC:1.1.3.17] [R01022 R08211],"Betaine biosynthesis, choline => betaine",,
