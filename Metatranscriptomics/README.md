@@ -56,4 +56,8 @@ Name sort bam files
 	
 	samtools sort -n -o <sampleid>_bowtie.reformat97_sorted.bam <sampleid>_bowtie.reformat97.bam -@ 30 
 
-### Counting and filtering
+### Counting and filtering  
+
+Feature counts 
+
+	featureCounts -T 20 -t CDS -g ID -s 2 -p -a /home/projects-wrighton-2/GROWdb/USAfocus_FinalBins110121/all_bins/dRep_v2.6.2/dereplicated_genomes/merged_annotations_drep_bins/genes_no_rna_fix.gff -o metaT_output_feature_counts_revstranded_070722_97perc.out *_MT_bowtie.reformat97_sorted.bam
