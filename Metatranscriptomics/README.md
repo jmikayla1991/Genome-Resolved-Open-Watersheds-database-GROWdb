@@ -83,6 +83,9 @@ Output
 
 	/home/projects-wrighton-2/GROWdb/USAfocus_FinalBins110121/dereplicated_bin_analyses/metaT_mapping/bowtie_mapping_final/USA/geTMM_tables/geTMM_norm.counts.rpk_edger_genes_nofilter_092122.csv  
 	
+	
+	
+	
 	geTMM_norm.counts.rpk_edger_genes_nofilter_092122.csv.zip
 
 **2. USA only metaT gene table transformed to geTMM filtered to genes in 3 or more samples** 
