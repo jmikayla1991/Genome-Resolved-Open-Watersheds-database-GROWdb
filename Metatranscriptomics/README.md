@@ -99,7 +99,10 @@ Filter feature count output to genes that are in 3 or more samples
 
 Server location of filtered feature counts output metaT_output_feature_counts_revstranded_07192022_97perc_sample_filterd.csv (41829 lines)
 
-	/home/projects-wrighton-2/GROWdb/USAfocus_FinalBins110121/dereplicated_bin_analyses/metaT_mapping/bowtie_mapping_final/USA/metaT_output_feature_counts_revstranded_07192022_97perc_sample_filterd.csv
+	/home/projects-wrighton-2/GROWdb/USAfocus_FinalBins110121/dereplicated_bin_analyses/metaT_mapping/bowtie_mapping_final/USA/metaT_output_feature_counts_revstranded_07192022_97perc_sample_filterd.csv 
+	
+	
+	metaT_output_feature_counts_revstranded_07192022_97perc_sample_filterd.csv.zip
 
 Remove first line of file before putting into R 
 
