@@ -73,9 +73,15 @@ Server location of feature counts output metaT_output_feature_counts_revstranded
 
 Remove first line of file before putting into R 
 
-	sed -i '1d' metaT_output_feature_counts_revstranded_070722_97perc.out
+	sed -i '1d' metaT_output_feature_counts_revstranded_07192022_97perc.out 
+
+Now metaT_output_feature_counts_revstranded_07192022_97perc.out is 3991705 lines
 
 Run R script 01_metaT_counts_to_geTMM.R to obtain geTMMs
+
+Output
+
+	/home/projects-wrighton-2/GROWdb/USAfocus_FinalBins110121/dereplicated_bin_analyses/metaT_mapping/bowtie_mapping_final/USA/geTMM_tables/geTMM_norm.counts.rpk_edger_genes_nofilter_092122.csv
 
 **2. USA only metaT gene table transformed to geTMM filtered to genes in 3 or more samples** 
 
