@@ -81,7 +81,9 @@ Run R script 01_metaT_counts_to_geTMM.R to obtain geTMMs
 
 Output
 
-	/home/projects-wrighton-2/GROWdb/USAfocus_FinalBins110121/dereplicated_bin_analyses/metaT_mapping/bowtie_mapping_final/USA/geTMM_tables/geTMM_norm.counts.rpk_edger_genes_nofilter_092122.csv
+	/home/projects-wrighton-2/GROWdb/USAfocus_FinalBins110121/dereplicated_bin_analyses/metaT_mapping/bowtie_mapping_final/USA/geTMM_tables/geTMM_norm.counts.rpk_edger_genes_nofilter_092122.csv  
+	
+	geTMM_norm.counts.rpk_edger_genes_nofilter_092122.csv.zip
 
 **2. USA only metaT gene table transformed to geTMM filtered to genes in 3 or more samples** 
 
@@ -100,9 +102,6 @@ Filter feature count output to genes that are in 3 or more samples
 Server location of filtered feature counts output metaT_output_feature_counts_revstranded_07192022_97perc_sample_filterd.csv (41829 lines)
 
 	/home/projects-wrighton-2/GROWdb/USAfocus_FinalBins110121/dereplicated_bin_analyses/metaT_mapping/bowtie_mapping_final/USA/metaT_output_feature_counts_revstranded_07192022_97perc_sample_filterd.csv 
-	
-	
-	metaT_output_feature_counts_revstranded_07192022_97perc_sample_filterd.csv.zip
 
 Remove first line of file before putting into R 
 
