@@ -1,8 +1,10 @@
 # Mapping for GROWdb surface water USA
 
-## Samples- there are 158 samples with metagenomes 
+### Samples- there are 158 samples with metagenomes 
 
 	List_of_samples.txt
+
+### Mapping 
 
 Build bowtie database
 
