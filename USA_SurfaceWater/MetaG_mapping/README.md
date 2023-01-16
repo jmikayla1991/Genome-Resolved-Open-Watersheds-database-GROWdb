@@ -23,4 +23,13 @@ Mapping all 158 metaG (sickle trimmed read sets) with bowtie to the scaffolds de
 	samtools sort -T <sample name>.sorted -o <sample name>_bowtie.sorted.bam <sample name>_bowtie.bam -@ 30
 
 	reformat.sh in=<sample name>_bowtie.sorted.bam out=<sample name>_bowtie.sorted.reformat97.bam minidfilter=0.97 primaryonly=t pairedonly=t 
+	
+Calculate relative abundance with coverM
+	
+	#reads_per_base
+	coverm genome --proper-pairs-only --genome-fasta-extension fa --genome-fasta-directory /home/projects-wrighton-2/GROWdb/USAfocus_FinalBins110121/dereplicated_bin_analyses/DRAM_renamed_bins --bam-files *.sorted.reformat97.bam --threads 15 --min-read-percent-identity-pair 0.97 -m reads_per_base --output-file bowtie_mapping97id_2093MAGs_readsperbase_output &> bowtie_mapping97id_2093MAGs_readsperbase.txt
+	#% MAG covered
+	coverm genome --proper-pairs-only --genome-fasta-extension fa --genome-fasta-directory /home/projects-wrighton-2/GROWdb/USAfocus_FinalBins110121/dereplicated_bin_analyses/DRAM_renamed_bins --bam-files *.sorted.reformat97.bam --threads 15 --min-read-percent-identity-pair 0.97 --min-covered-fraction 0.75 --output-file bowtie_mapping97id_2093MAGs_MAGcovered_output &> bowtie_mapping97id_2093MAGs_MAGcovered.txt
+	#trimmed mean
+	coverm genome --proper-pairs-only --genome-fasta-extension fa --genome-asta-directory /home/projects-wrighton-2/GROWdb/USAfocus_FinalBins110121/dereplicated_bin_analyses/DRAM_renamed_bins --bam-files *.sorted.reformat97.bam --threads 15 --min-read-percent-identity-pair 0.97 -m trimmed_mean --output-file bowtie_mapping97id_2093MAGs_trimmedmean_output &> bowtie_mapping97id_2093MAGs_trimmedmean.txt
 
