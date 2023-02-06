@@ -31,3 +31,11 @@ log here:
 ```
 /home/projects-wrighton-2/GROWdb/USAfocus_FinalBins110121/dereplicated_bin_analyses/metaT_mapping/bowtie_mapping_final/USA/carbon_analyses/slurm-57468.out
 ```
+
+ran R script XX to reformat annotations file with fasta = bam
+> note, remove "X" from first column, remove "NA" in CAMPER_bitScore column first
+
+distilled new annotations file to get distillate by site
+```
+DRAM.py distill -i 41827genes_58bams_annotations.tsv -o distilled_by_BAM
+```
