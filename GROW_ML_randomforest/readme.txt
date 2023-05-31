@@ -3,6 +3,34 @@ Ikaia Leleiwi, May 31st 2023
 
 Directory Structure
 wd = GROW_ML_randomforest
+├── data
+│   ├── SOMfiles
+│   │   ├── GROW_SuppFile1.xlsx
+│   │   └── GROW_SuppFile2.xlsx
+│   ├── SOMfiles.zip
+│   ├── metag
+│   │   ├── GROWdb_with_vars_20220715_115_metaG.csv
+│   │   ├── GROWdb_with_vars_20220715_142_metaG.csv
+│   │   ├── GROWdb_with_vars_20220715_50_metaG.csv
+│   │   ├── strict_mapping_table_95id_3x_60%cov_relabundance_115.csv
+│   │   ├── strict_mapping_table_95id_3x_60%cov_relabundance_142.csv
+│   │   └── strict_mapping_table_95id_3x_60%cov_relabundance_50.csv
+│   ├── metat
+│   │   ├── corrplot_mergedtable_43.csv
+│   │   ├── corrplot_mergedtable_52.csv
+│   │   ├── geTMM_norm.counts.rpk_edger_genes.csv
+│   │   ├── geTMM_norm.counts.rpk_edger_genome_relabund_43.csv
+│   │   └── geTMM_norm.counts.rpk_edger_genome_relabund_52.csv
+│   ├── metat_metag.csv
+│   ├── ml_input_scaled.csv
+│   ├── ml_input_taxa.csv
+│   ├── rawfiles
+│   │   ├── geTMM_norm.counts.rpk_edger_genes.csv
+│   │   ├── geTMM_norm.counts.rpk_edger_genome_relabund.csv
+│   │   └── strict_mapping_table_95id_3x_60%cov_relabundance.csv
+│   ├── rf_taxa_byClass_df.csv
+│   ├── rf_taxa_overall_stats_df.csv
+│   └── rf_taxa_varimp_df.csv
 ├── figures  #####only produced figures for successful models
 │   ├── rf_MAGrichness_varimp.svg
 │   ├── rf_generichness_varimp.svg
