@@ -1,0 +1,119 @@
+## ---------------------------
+##
+## Script: GROW_ML_randomforest_taxa_figs
+##
+## Purpose: Make figs for random forest models that predict taxa from landuse
+##
+## Author: Ikaia Leleiwi
+##
+## Date Created: May 26th 2023
+##
+## Copyright (c) Ikaia Leleiwi, 2023
+## Email: ileleiwi@gmail.com
+##
+## ---------------------------
+##
+## Notes: ran the random forest Class model 1000x with diff splits of the data
+##   
+##
+## ---------------------------
+
+## set working directory
+
+setwd(paste0("/Users/ikaialeleiwi/Desktop/Lab/GROW_ML"))
+
+## ---------------------------
+
+##Libraries
+
+library(tidyverse)
+library(ComplexHeatmap)
+
+##Data
+vimp <- read_csv("data/rf_taxa_varimp_df.csv")
+byclass <- read_csv("data/rf_taxa_byClass_df.csv")
+overall <- read_csv("data/rf_taxa_overall_stats_df.csv")
+
+
+##Explore data
+#most important variable for each model
+vimp_most <- vimp %>%
+  group_by(model_name) %>%
+  arrange(-Overall) %>%
+  slice(1)
+
+vimp_most %>%
+  group_by(var) %>%
+  summarise(n = n())
+
+#vector to order models by accuracy
+acc_order <- overall %>%
+  arrange(desc(Accuracy)) %>%
+  pull(model_name)
+
+#get max values for each var
+overall %>%
+  select(model_name, Accuracy, Kappa) %>%
+  left_join(vimp_most,
+            by = "model_name") %>%
+  pivot_longer(cols = c("Accuracy", "Kappa"),
+               values_to = "value",
+               names_to = "metric") %>%
+  group_by(var) %>% 
+  summarise(max_val = max(value))
+
+overall_plot <- overall %>%
+  select(model_name, Accuracy, Kappa) %>%
+  left_join(vimp_most,
+            by = "model_name") %>% #add most important variable for each model to df
+  pivot_longer(cols = c("Accuracy", "Kappa"),
+               values_to = "value",
+               names_to = "metric") %>%
+  mutate(model_name = factor(model_name, levels = acc_order),
+         label = case_when(var == "PctDecid2016Ws" & round(value, 3) == 0.754 & round(Overall, 1) == 19.3 ~ "n=790",
+                           var == "PctHay2016Ws"  & round(value, 3) == 0.746 & round(Overall, 1) == 17.0 ~ "n=201",
+                           var == "PctHbWet2016Ws"  & round(value, 3) == 0.678 ~ "n=5",
+                           var == "PctOw2016Ws"  & round(value, 3) == 0.686 ~ "n=4")) #make column with number of models with each most important variable
+
+
+#make matrix for variable importance heatmap
+heatmap_df <- vimp %>%
+  pivot_wider(names_from = "model_name",
+              values_from = "Overall",
+              values_fill = 0) %>%
+  column_to_rownames(var = "var")
+
+
+
+##Plot
+#line plot of Accuracies and Kappas for all 1000 models faceted by the most important variable in each model
+svg("figures/rf_taxa_model_accuracy_by_most_imp_var.svg", height = 10, width = 10)
+overall_plot %>%
+  ggplot(aes(x = model_name, y = value, group = metric)) +
+  geom_line(aes(color = metric)) +
+  geom_point(aes(x = model_name, y = value), color = "black", size = 0.01) +
+  geom_text(aes(x = 900, y = 0.7, label = label)) +
+  labs(x = "Model") +
+  theme(axis.text.x = element_blank()) +
+  facet_wrap(~var)
+dev.off()
+
+#boxplots of accuracy metrics
+overall_plot %>%
+  ggplot(aes(x = metric, y = value)) +
+  geom_boxplot() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
+
+#variable importance heatmap
+svg("figures/rf_taxa_varimp_heatmap.svg", height = 10, width = 10)
+Heatmap(as.matrix(heatmap_df),
+        border = TRUE,
+        cluster_rows = TRUE,
+        cluster_columns = TRUE,
+        cluster_column_slices = FALSE,
+        cluster_row_slices = FALSE,
+        show_column_names = FALSE,
+        row_names_side = "left", 
+        row_dend_side = "right",
+        clustering_method_rows = "complete")
+dev.off()

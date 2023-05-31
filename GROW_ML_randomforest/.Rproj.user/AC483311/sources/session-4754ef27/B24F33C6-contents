@@ -1,0 +1,104 @@
+## ---------------------------
+##
+## Script: MetaG_random_forest_Fig
+##
+## Purpose: make fig for random forest important vars
+##
+## Author: Ikaia Leleiwi
+##
+## Date Created: December 21st, 2022
+##
+## Copyright (c) Ikaia Leleiwi, 2022
+## Email: ileleiwi@gmail.com
+##
+## ---------------------------
+##
+## Notes:
+##   
+##
+## ---------------------------
+
+## set working directory
+
+setwd(paste0("/Users/ikaialeleiwi/Desktop/Lab/Salmonella_NIH/",
+             "Lactobacillus/Omics/Metagenome/RDirectory_MetaG2"))
+
+## ---------------------------
+
+##Libraries
+
+library(tidyverse)
+library(RColorBrewer)
+
+##Data
+
+impvars <- read_tsv("data/random_forest_variable_importance.tsv") %>%
+  rename("importance" = "Overall") %>%
+  mutate(category = case_when(str_detect(var, "Methan") ~ "Methanogenesis and methanotrophy",
+                              str_detect(var, "Complex") ~ "ETC Complexes",
+                              str_detect(var, "CAZy") ~ "Carbohydrates",
+                              str_detect(var, "Nitrogen.metabolism") ~ "Nitrogen Metabolism",
+                              str_detect(var, "Other.Reductases") ~ "Other Reductases",
+                              str_detect(var, "SCFA") ~ "SCFA and Alcohol Conversions",
+                              str_detect(var, "Sulfur.metabolism") ~ "Sulfur Metabolism",
+                              var == "mean_bin_count" ~ "Genome abundance",
+                              T ~ "Energy"),
+         var = str_remove(var, "Methanogenesis.and.methanotrophy..|Sulfur.metabolism..|SCFA.and.alcohol.conversions..|Other.Reductases..|Nitrogen.metabolism..|CAZy.."))
+
+var_fact <- impvars %>%
+  arrange((importance)) %>%
+  pull(var) %>%
+  unique()
+
+cat_fact <- impvars %>%
+  pull(category) %>%
+  unique()
+
+
+impvars <- impvars %>%
+  mutate(var = factor(var, levels = var_fact),
+         category = factor(category, levels = cat_fact))
+
+#plot 
+impvars %>%
+  ggplot(aes(x = var, y = importance)) +
+  geom_bar(aes(fill = category),
+           stat = "identity") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1)) +
+  facet_wrap(~category, scales = "free_x",nrow = 1)
+
+
+
+Energy <- "#a03b96"
+Methanogenesis <- "#e4a063"
+SCFA <- "#3b4550"
+ETC <- "#cb7080"
+Carbo <- brewer.pal(n=8, "Dark2")[5]
+Nitro <- brewer.pal(n=8, "Dark2")[6]
+Other <- brewer.pal(n=8, "Dark2")[7]
+Sulfur <- brewer.pal(n=8, "Dark2")[1]
+        
+cat_pal <- c(Energy, Methanogenesis, ETC, Carbo, Nitro, Other, SCFA, Sulfur) 
+pal <- brewer.pal(n=8, "Dark2")
+
+pdf("figures/bar_chart_random_forest/impvars_barchart_randomforest.pdf", height = 7, width = 5)
+impvars %>%
+  filter(importance > 0) %>%
+  ggplot(aes(x = importance, y = var)) +
+  geom_bar(aes(fill = category),
+           stat = "identity") +
+  scale_fill_manual(values = cat_pal) +
+  theme_minimal() +
+  theme(legend.position = "none")
+dev.off()
+  
+pdf("figures/bar_chart_random_forest/legend_impvars_barchart_randomforest.pdf", height = 7, width = 5)
+impvars %>%
+  filter(importance > 0) %>%
+  ggplot(aes(x = importance, y = var)) +
+  geom_bar(aes(fill = category),
+           stat = "identity") +
+  scale_fill_manual(values = cat_pal) +
+  theme_minimal()
+dev.off()

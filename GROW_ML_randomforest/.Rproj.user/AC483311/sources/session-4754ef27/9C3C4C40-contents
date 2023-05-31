@@ -1,0 +1,171 @@
+## ---------------------------
+##
+## Script: MetaG_logistic_regression_fig
+##
+## Purpose: make fig for logistic regression runs and coeficcient importance
+##
+## Author: Ikaia Leleiwi
+##
+## Date Created: December 19th, 2022
+##
+## Copyright (c) Ikaia Leleiwi, 2022
+## Email: ileleiwi@gmail.com
+##
+## ---------------------------
+##
+## Notes:
+##   
+##
+## ---------------------------
+
+## set working directory
+
+setwd(paste0("/Users/ikaialeleiwi/Desktop/Lab/Salmonella_NIH/",
+             "Lactobacillus/Omics/Metagenome/RDirectory_MetaG2"))
+
+## ---------------------------
+
+##Libraries
+
+library(tidyverse)
+library(viridis)
+library(ComplexHeatmap)
+library(RColorBrewer)
+library(circlize)
+
+##Data
+# #dram categories
+# Energy
+# ETC Complexes
+# Carbohydrates
+# Nitrogen metabolism
+# Sulfur metabolism
+# Other Reductases
+# Methanogenesis and methanotrophy
+# SCFA and alcohol conversions
+
+coefs <- read_tsv("data/log_reg_coefs.tsv") %>%
+  filter(!str_detect(var, "Intercept")) %>%
+  mutate(category = case_when(str_detect(var, "Methan") ~ "Methanogenesis and methanotrophy",
+                              str_detect(var, "Complex") ~ "ETC Complexes",
+                              str_detect(var, "CAZy") ~ "Carbohydrates",
+                              str_detect(var, "Nitrogen.metabolism") ~ "Nitrogen Metabolism",
+                              str_detect(var, "Other.Reductases") ~ "Other Reductases",
+                              str_detect(var, "SCFA") ~ "SCFA and Alcohol Conversions",
+                              str_detect(var, "Sulfur.metabolism") ~ "Sulfur Metabolism",
+                              var == "mean_bin_count" ~ "Genome abundance",
+                              T ~ "Energy"),
+         var = str_remove(var, "Methanogenesis.and.methanotrophy..|Sulfur.metabolism..|SCFA.and.alcohol.conversions..|Other.Reductases..|Nitrogen.metabolism..|CAZy.."))
+
+c_wide <- coefs %>%
+  group_by(model, var) %>%
+  summarise(mean_coef = mean(exp(coef))) %>%
+  pivot_wider(names_from = "model",
+              values_from = "mean_coef",
+              values_fill = 0) %>%
+  column_to_rownames(var = "var")
+
+metrics <- read_tsv("data/log_reg_accuracy_metrics.tsv")
+colnames(metrics) <- c("model", "metric", "value")
+
+
+
+pull_cats_factor <- function(df=metrics,df2=coefs,cat){
+  
+  out <- df %>%
+    filter(metric == {{cat}}) %>%
+    arrange(desc(value))
+  
+  fact <- out %>%
+    pull(model) %>%
+    unique()
+  
+  out <- out %>%
+    left_join(df2, by = "model") %>%
+    mutate(model = factor(model, levels = fact))
+
+  assign(cat, out, envir = .GlobalEnv)
+}
+
+
+map(unique(metrics$metric), ~pull_cats_factor(cat = .x))
+
+accurate_models <- Accuracy %>%
+  filter(value > 0.65) %>%
+  pull(model) %>%
+  as.character() %>%
+  unique()
+
+#plots
+Kappa %>%
+  filter(coef != "Intercept") %>%
+  ggplot(aes(x = model, y = value)) +
+  geom_point(aes(fill = model), shape = 21) +
+  scale_fill_viridis(discrete = TRUE) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1),
+        legend.position = "none")
+
+Kappa %>%
+  #filter(coef != 0) %>% 
+  ggplot(aes(x = var, y = coef)) +
+  geom_point(aes(fill = model), shape = 21) +
+  scale_fill_viridis(discrete = TRUE) +
+  theme_minimal() +
+  theme(legend.position = "none",
+        axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1)) +
+  facet_wrap(~category, scales = "free_x", nrow = 1)
+  
+
+#heatmap
+
+heatmap_df <- c_wide %>%
+  mutate(total = rowSums(.)) %>%
+  filter(total > sd(rowSums(c_wide)) | total < -sd(rowSums(c_wide))) %>%
+  select(-total) %>%
+  select(all_of(accurate_models))
+
+
+
+hm <- Heatmap(as.matrix(heatmap_df),
+        border = TRUE,
+        cluster_rows = TRUE,
+        cluster_columns = TRUE,
+        cluster_column_slices = FALSE,
+        cluster_row_slices = FALSE,
+        show_column_names = FALSE,
+        row_names_side = "left", 
+        row_dend_side = "right",
+        clustering_method_rows = "complete")
+
+hm_cat_Annotations <- coefs %>%
+  group_by(var, category) %>%
+  summarise(n = n()) %>%
+  select(var, category) %>%
+  filter(var %in% rownames(heatmap_df)) 
+
+hm_cat_Annotations <- hm_cat_Annotations[order(row_order(hm)),]
+
+an_cols_4 <- as.list(brewer.pal(n=4, "Dark2"))
+
+names(an_cols_4) <- hm_cat_Annotations$category %>% unique()
+
+cat_an <- rowAnnotation(category = hm_cat_Annotations$category[order(row_order(hm))], col = an_cols_4)
+
+
+col_fun = colorRamp2(c(1, 0, 4), c("cadetblue","white", "darkred")) # this keeps scale at max 4 but range(hetamap_df) is (1, 20) so need to change scale on fig to say 4+
+
+#pdf("figures/heatmap_log_reg/important_functions_log_reg_heatmap.pdf", height = 7, width = 7.5)
+Heatmap(as.matrix(heatmap_df),
+        border = TRUE,
+        cluster_rows = TRUE,
+        cluster_columns = TRUE,
+        cluster_column_slices = FALSE,
+        cluster_row_slices = FALSE,
+        show_column_names = FALSE,
+        row_names_side = "left", 
+        #row_dend_side = "right",
+        show_row_dend = FALSE,
+        clustering_method_rows = "complete",
+        col = col_fun,
+        right_annotation = cat_an)
+#dev.off()
