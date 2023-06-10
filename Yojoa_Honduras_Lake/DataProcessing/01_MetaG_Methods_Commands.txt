@@ -1,0 +1,97 @@
+### Methods
+Three assembly types were performed on each set of fastq files and binned separately: (1) Read trimming with sickle (v1.33), assembly with megahit (v1.2.9), and binning with metabat2 (2.12.1) (2) Read trimming with sickle (v1.33), random filtering to 25% of reads, assembly with idba-ud (1.1.0), and binning with metabat2 (2.12.1) (3) Bins derived from the JGI-IMG pipeline were downloaded. All resulting bins were assessed for quality using checkM (v1.1.2) and medium and high-quality MAGs with >50% completion and <10% contamination were retained. 
+For paired June 2021 and January 2022 metagenomes, subassemblies were also performed. Specifically trimmed reads from 12 samples were individually mapped to medium and high-quality MAGs derived from the three assembly types described above using bbmap (perfectmode=t) (Bushnell 2014). Unmapped reads for each sample were then assembled with idba-ud (1.1.0) (Peng et l. 2012) and binned with metabat2 (2.12.1) (Kang et al. 2019). These bins were also assessed for quality using checkM (v1.1.2) (Parks et al. 2015) and MAGs with >50% completion and <10% contamination were retained in the database. 
+
+### Commands for each assembly type are below
+
+(1) sickle, megahit, metabat2 
+
+# Read trimming with sickle:
+
+sickle pe -f <forward untrimmed reads>  -r <reverse untrimmed reads>   -t <sequencing platform> -o <sample_name>_R1_trimmed.fastq -p <sample_name>_R2_trimmed.fastq -s discared_R1R2.fastq
+
+# Assembly with megahit:
+
+megahit -1 <sample_name>_R1_trimmed.fastq -2 <sample_name>_R2_trimmed.fastq --k-min 31 --k-max 121 --k-step 10 -m <max memory in byte, for W2 cluster, generally do 0.4, 40% of machines total mem>  -t <number of threads>
+
+# Binning with metabat2:
+
+pullseq.py -i <assembly fasta> -m 2500 -o <sample_name>_assembly_2500.fa
+
+bbmap.sh -Xmx48G threads=<number of threads> minid=85 overwrite=t ref=<sample_name>_assembly_2500.fa in1=<sample_name>_R1_trimmed.fastq in2=<sample_name>_R2_trimmed.fastq out= <sample_name>_mapped.sam
+
+samtools view -@ <number of threads> -bS <sample_name>_mapped.sam > <sample_name>_mapped.bam
+
+samtools sort -T <sample_name> 2500.sorted -o =<sample_name>_2500.sorted.bam <sample_name>_mapped.bam -@ <number of threads>
+
+runMetaBat.sh <sample_name>_assembly_2500.fa <sample_name> 2500.sorted.bam
+
+(2) sickle, 25% idba_ud, metabat2 
+
+# Read trimming with sickle:
+
+sickle pe -f <forward untrimmed reads>  -r <reverse untrimmed reads>   -t <sequencing platform> -o <sample_name>_R1_trimmed.fastq -p <sample_name>_R2_trimmed.fastq -s discared_R1R2.fastq
+
+# Assembly with idba-ud:
+
+reformat.sh in1=<forward trimmed reads> in2=<reverse trimmed reads> out1=<forward trimmed reads>_25pcnt.fastq out2=<reverse trimmed reads>_25pcnt.fastq samplerate=0.25 -sampleseed=1234
+
+fq2fa --merge --filter <forward trimmed reads>_25pcnt.fastq <reverse trimmed reads>_25pcnt.fastq R1R2_ALL_trimmed_25pcnt.fa
+
+idba_ud -r R1R2_ALL_trimmed_25pcnt.fa -o idba_assembled_output_25pcnt --num_threads 20
+
+# Binning with metabat2:
+
+pullseq.py -i <assembly fasta> -m 2500 -o <sample_name>_assembly_2500.fa
+
+bbmap.sh -Xmx48G threads=<number of threads> minid=85 overwrite=t ref=<sample_name>_assembly_2500.fa in1=<sample_name>_R1_trimmed.fastq in2=<sample_name>_R2_trimmed.fastq out= <sample_name>_mapped.sam
+
+samtools view -@ <number of threads> -bS <sample_name>_mapped.sam > <sample_name>_mapped.bam
+
+samtools sort -T <sample_name> 2500.sorted -o =<sample_name>_2500.sorted.bam <sample_name>_mapped.bam -@ <number of threads>
+
+runMetaBat.sh <sample_name>_assembly_2500.fa <sample_name> 2500.sorted.bam
+
+(3) JGI-IMG pipeline - these MAGs were downloaded directly from JGI 
+
+(4) Subassembly with idba_ud
+# map to 1538 med/high quality bins 
+bbmap.sh -Xmx300G threads=40 overwrite=t ref=Yojoa_1538_bins.fa in=<sample_name>_interleaved.fastq outu1=<sample_name>_unmapped_R1.fastq outu2=<sample_name>_unmapped_R2.fastq perfectmode=t	
+
+# idba_ud assembly
+fq2fa --merge --filter <sample_name>_unmapped_R1.fastq <sample_name>_unmapped_R2.fastq <sample_name>_R1R2_ALL_trimmed.fa
+
+idba_ud -r <sample_name>_R1R2_ALL_trimmed.fa -o <sample_name>_idba_assembled_output --num_threads 20
+
+# bin subassembly
+
+pullseq.py -i scaffold.fa -m 2500 -o <sample_name>_K_2500.fa
+
+bbmap.sh -Xmx48G threads=30 minid=85 overwrite=t ref=<sample_name>_K_2500.fa in1=.<sample_name>_unmapped_R1.fastq in2=<sample_name>_unmapped_R2.fastq out=<sample_name>_K_mapped.sam
+
+samtools view -@ 30 -bS <sample_name>_K_mapped.sam > <sample_name>_K_mapped.bam
+
+samtools sort -T <sample_name>.sorted -o <sample_name>_K_mapped.sorted.bam <sample_name>_K_mapped.bam -@ 30
+ 
+runMetaBat.sh <sample_name>_K_2500.fa <sample_name>_K_mapped.sorted.bam
+
+
+### Other commands for quality, annotation, and taxonomy assignment 
+
+# checkM
+checkm lineage_wf -t 5  -x fa . ./checkM  
+checkm qa checkM/lineage.ms checkM -o 1 -f analyze_bins.txt --tab_table
+
+# GTDB-Tk
+gtdbtk classify_wf --extension fa --genome_dir . --out_dir ./gtdb_v2.0.0_output --cpus 20
+
+# dRep
+dRep dereplicate dRep_v2.6.2 -p 20 -comp 50 -con 10 -g ./*fa
+
+# DRAM
+DRAM.py annotate -i <MAG>.fa -o  <MAG>_DRAM --min_contig_size 2500 --threads 20
+
+
+
+
+
