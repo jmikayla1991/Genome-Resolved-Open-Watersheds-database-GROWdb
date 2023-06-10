@@ -1,0 +1,28 @@
+### build bowtie database
+# input scaffolds.fna from DRAM output of 572 drep MAGs
+bowtie2-build scaffolds.fna 572_DRAM_DB --threads 20
+
+### map metatranscriptomic reads to dereplicated MAG database
+#!/bin/bash
+
+#$1 list of names of the paired reads to be mapped
+
+for element in $(<$1)
+do
+
+deinterleave_fastq.sh < ../trimmed_reads/"$element"_MT_trimmed.fastq "$element"_MT_trimmed_R1.fastq "$element"_MT_trimmed_R2.fastq
+bowtie2 -D 10 -R 2 -N 1 -L 22 -i S,0,2.50 -p 30 -x 572_DRAM_DB -S "$element"_bowtie.sam -1 "$element"_MT_trimmed_R1.fastq -2 "$element"_MT_trimmed_R2.fastq
+
+samtools view -@ 30 -bS "$element"_bowtie.sam > "$element"_bowtie.bam
+
+reformat.sh in="$element"_bowtie.bam out="$element"_bowtie.reformat97.bam minidfilter=0.97 primaryonly=t pairedonly=f
+
+samtools sort -n -o "$element"_bowtie.reformat97_sorted.bam "$element"_bowtie.reformat97.bam -@ 30 
+
+done
+echo "reads have been successfully mapped"
+
+### feature counts to obtain counts per gene per sample
+# input genes.gff is from DRAM output of 572 drep MAGs
+
+featureCounts -T 20 -t CDS -g ID -s 2 -p -a genes.gff -o metaT_output_feature_counts_revstranded_07202022_97perc.out *_bowtie.reformat97_sorted.bam
