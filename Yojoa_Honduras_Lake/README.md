@@ -3,7 +3,7 @@ This repo contains scripts and commands used for data processing, analyses, and 
 
 J. M. FADUM, M. A. BORTON, R. A. DALY, K. C. WRIGHTON, and E. K. HALL
 
-### Data availability
+## Data availability
 Raw reads and metagenome assembled genomes for this project can be found on NCBI under BioProject XXX. 
 
 Metagenome assembled genomes along with all metadata for this project can found here on Zenodo. 
