@@ -4,7 +4,7 @@ This repo contains scripts and commands used for data processing and figure gene
 J. M. FADUM, M. A. BORTON, R. A. DALY, K. C. WRIGHTON, and E. K. HALL
 
 ## Data availability
-Raw reads and metagenome assembled genomes for this project can be found on NCBI under BioProject XXX. 
+Raw reads and metagenome assembled genomes for this project can be found on NCBI under BioProject PRJNA982405. 
 
 Metagenome assembled genomes along with all metadata for this project can found here on Zenodo. 
 
