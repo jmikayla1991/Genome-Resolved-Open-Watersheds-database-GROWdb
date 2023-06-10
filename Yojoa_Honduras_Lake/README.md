@@ -1,5 +1,5 @@
 ## Description
-This repo contains scripts and commands used for data processing, analyses, and figure generation in *Microbiome membership and associated dominant nitrogen metabolisms of a large, tropical, monomictic lake identified using genome resolved metatranscriptomics*
+This repo contains scripts and commands used for data processing and figure generation in *Microbiome membership and associated dominant nitrogen metabolisms of a large, tropical, monomictic lake identified using genome resolved metatranscriptomics*
 
 J. M. FADUM, M. A. BORTON, R. A. DALY, K. C. WRIGHTON, and E. K. HALL
 
