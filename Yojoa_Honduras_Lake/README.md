@@ -1,0 +1,15 @@
+## Description
+This repo contains scripts and commands used for data processing, analyses, and figure generation in Microbiome membership and associated dominant nitrogen metabolisms of a large, tropical, monomictic lake identified using genome resolved metatranscriptomics
+
+J. M. FADUM, M. A. BORTON, R. A. DALY, K. C. WRIGHTON, and E. K. HALL
+
+### Data availability
+Raw reads and metagenome assembled genomes for this project can be found on NCBI under BioProject XXX. 
+
+Metagenome assembled genomes along with all metadata for this project can found here on Zenodo. 
+
+## Abstract 
+
+Reactive nitrogen (N) is one of the principal drivers of primary productivity across aquatic ecosystems. However, N cycling in tropical inland waters is less well understood relative to temperate ecosystems. In particular, N cycling in monomictic tropical lakes may be distinct from that of their temperate counterparts due to the warm (>20 °C) temperatures of their anoxic hypolimnions (deepest portion of a stratified water column). These warm anoxic conditions have the potential to dramatically alter ecosystem biogeochemistry by releasing anaerobic metabolic pathways from temperature limitations that are present in anoxic strata of lake ecosystems at higher latitudes. To explore dominant N transformation pathways under warm anoxic conditions, we combined measurements of geochemistry and water column thermophysical structure with genome resolved metatranscriptomic analyses of the water column microbiome in Lake Yojoa, Honduras. Lake Yojoa is characterized by a pronounced accumulation of ammonium in the hypolimnions during stratification, beginning in May, and an annual mixing event that releases reactive N to the photic zone, in November. We sampled Lake Yojoa both above (1m) and below (16m) the thermocline at three locations, in June 2021, when the water column was stratified, and again at the same depths and locations in January 2022, when the water column was mixed. We identified 335 different lineages and significantly different microbiome membership between seasons and, in June, between depths. Expression of genes associated with N metabolic pathways was highest in June below the thermocline. In particular, we found nrfA, along with other respiratory NO2- reductases, was upregulated relative to other N metabolism genes in the June hypolimnions, suggesting that dissimilatory nitrate reduction to ammonium (DNRA) was partially responsible for the previously observed ammonium accumulation. DNRA is infrequently identified as a dominant N transformation pathway in natural aquatic ecosystems. This work highlights the need to better define N biogeochemistry in the poorly understood warm anoxic hypolimnions of tropical lake ecosystems. Defining the dominant anaerobic pathways when temperature is not limiting is one key to providing a more complete understanding of how rapidly occurring global change is altering tropical inland waters.![image](https://github.com/jmikayla1991/Genome-Resolved-Open-Watersheds-database-GROWdb/assets/83423146/d9083c16-3794-435a-aea7-f79b5a9c4c81)
+
+
