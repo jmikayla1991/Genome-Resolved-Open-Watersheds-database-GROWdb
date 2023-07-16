@@ -1,0 +1,1361 @@
+---
+title: "Yojoa- MetaT: Figure Gen Code"
+author: "J Fadum"
+date: "8/30/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Questions?
+### Please contact Jemma: jfadum@carnegiescience.edu 
+Packages:
+```{r warning=FALSE, message=FALSE, error=FALSE}
+#load packages
+library(ggplot2)
+library(vegan)
+library(RColorBrewer)
+library(dplyr)
+library(tidyr)
+library(tidyverse)
+library(ggthemes)
+library(corrplot)
+library(gridExtra)
+library(ggrepel)
+library(gridExtra)
+library(pheatmap)
+library(readr)
+library(lubridate)
+library(GGally)
+library(ggpattern)
+
+#library(BiodiversityR) #Has some issues after last R update. May require older version.
+#Package used for rank abundance calculations
+
+```
+
+
+
+```{r warning=FALSE, message=FALSE, error=FALSE}
+#geochem data (load early to use as a tool to assign treatments)
+chem = read.csv('geochem_NMDS.csv', sep = ',', header = TRUE, check.names = T)
+rownames(chem)=chem[,1]
+chem = chem[,-1]
+
+#make depths and months categorical
+chem$z_m<-as.character(chem$z_m)
+chem$month<-as.character(chem$month)
+
+#Samples in columns and bins in rows
+#These are the EXPRESSED MAGs (n=552) - called 'genome' throughout the code though
+genome <- read_csv("norm.counts.rpk_edger.bins_mean.csv")
+genome<-as.data.frame(genome)
+rownames(genome)<-genome[,1]
+genome<- genome[,-1]
+genome<-t(genome)
+genome<-as.data.frame(genome)
+
+#GTDB classification
+tax <- read_csv("genus_summary.csv")
+ 
+# colorblind pal...
+palette <- c("#9ecae1", "#3182bd", "#bcbddc", "#756bb1", "#fdae6b", "#e6550d")
+#order... B epi, B hypo, E epi, E hypi, R epi, R hypo
+```
+
+# Preliminary
+
+```{r warning=FALSE, message=FALSE, error=FALSE}
+#First we need to fix the homologs
+
+#The full N gene expression file calls nxr AND nar as "nxr." 
+#Here we need to remove the old calls for "nxr" and replace them with the tree calls
+
+N_genes1<-read_csv("566_Ngenes_expression1.csv") 
+
+#Remove nar/nxr - this pulls out 12 rows that could be either nar or nxr
+N_genes_trim <- N_genes1 %>% 
+  filter(KO == "K00371"| #nar/nxr
+         KO == "K00370",  #nar/nxr
+         ) %>%  
+  rename(Bin= rn)
+
+#The new calls that split nxr and nar
+calls <- read_csv("gene_tree_calls.csv")
+
+#Replace the original 'nxr' description with gene call description and rearrange df so that it can be joined with larger N pathway expression file
+N_gene_replace<- left_join(N_genes_trim, calls, by= "Bin") %>%
+  rename(Old_call= Description,
+         Description= Tree_call,
+         rn= Bin) 
+
+#clunky way to do this but it works 
+rn_KO<- N_gene_replace[,1:2]
+Description<- N_gene_replace[,42]
+samples<- N_gene_replace[,4:39]
+                                      
+N_gene_replace<-cbind(rn_KO,Description,samples)%>% 
+  unique()
+
+#Remove the 12 rows we just fixed the gene call for
+N_genes_trim <- N_genes1 %>% 
+  filter(KO != "K00371", #nar/nxr
+         KO != "K00370")  #nar/nxr 
+
+#combine trimmed dataset with 12 lines of corrected description and rename so previous code works
+
+N_genes1<- rbind(N_genes_trim, N_gene_replace)
+
+rowSums<-(rowSums(N_genes1[,4:39], na.rm=TRUE))
+
+#Can check work b/c final df should have the same number of observations less the amoa that was removed. 
+N_genes1<- N_genes1 %>% 
+  filter(rowSums >0) %>% 
+  mutate(user_genome=rn) %>% 
+  filter(Description != "ammonia monooxygenase [EC:1.14.99.39] [RN:R00148]") %>% #all homologs are pmoa
+  unique()
+
+
+#For looking at individual treatments... 
+N_genes_IDs<- N_genes1[,1:3] # rn, KO and description
+N_genesJanEpiB<- N_genes1[,4:6] #Jan epi B
+N_genesJanHypoB<- N_genes1[,7:9] #Jan hypo B
+N_genesJanEpiE<- N_genes1[,10:12] #Jan epi E
+N_genesJanHypoE<- N_genes1[,13:15] #Jan hypo E
+N_genesJanEpiR<- N_genes1[,16:18] #Jan epi R
+N_genesJanHypoR<- N_genes1[,19:21] #Jan hypo R
+N_genesJuneEpiB<- N_genes1[,22:24] #June epi B
+N_genesJuneHypoB<- N_genes1[,25:27] #June hypo B
+N_genesJuneEpiE<- N_genes1[,28:30] #June epi E
+N_genesJuneHypoE<- N_genes1[,31:33] #June hypo E
+N_genesJuneEpiR<- N_genes1[,34:36] #June epi R
+N_genesJuneHypoR<- N_genes1[,37:39] #June hypo R
+
+
+
+Jan_EPI_N_genes<-cbind(N_genes_IDs, N_genesJanEpiB, N_genesJanEpiE, N_genesJanEpiR)
+
+Jan_HYPO_N_genes<-cbind(N_genes_IDs, N_genesJanHypoB, N_genesJanHypoE, N_genesJanHypoR )
+
+June_EPI_N_genes<-cbind(N_genes_IDs, N_genesJuneEpiB, N_genesJuneEpiE, N_genesJuneEpiR )
+
+June_HYPO_N_genes<-cbind(N_genes_IDs, N_genesJuneHypoB, N_genesJuneHypoE, N_genesJuneHypoR )
+
+
+```
+
+# IN TEXT FIGURES
+
+### **Figure 1.** Data collection conceptual figure identifying the three pelagic sampling locations (North, Central and South) and the types of samples collected (geochemical, thermophysical structure, and metatranscriptome- in triplicate) followed by extraction, sequencing, genome assembly and metatranscriptomic mapping to assembled genome. - *no data * 
+
+### **Figure 2.** Nutrient concentrations in Lake Yojoa at 1 and 16 m across three sampling locations, mean ± SD, in January 2022 (A-D) and June 2021 (E-H). - *individual panels were created in R then combined in post editing*
+
+```{r warning=FALSE, message=FALSE, error=FALSE}
+geochem <- read_csv("geochem_data.csv") 
+
+geochem$date<-mdy(geochem$date)
+geochem<- geochem %>%
+  mutate(month= month(date)) 
+
+geochem$month<- as.character(geochem$month)
+
+#Use to calculate  values referenced in text
+#adjust months/depths to calculate for different 'treatments'/ by location 
+
+stat<-geochem %>% 
+   dplyr::filter(
+  #   z== "epi",
+     month== 6
+   ) %>% 
+  mutate(obs =1,) %>% 
+   group_by(location,z) %>% 
+  summarise(mean= mean(nh4_uM),
+            sd= sd(nh4_uM),
+            n= sum(obs)) %>% 
+  mutate(se= sd/ sqrt(n)) 
+
+#Figure panels
+
+january<- geochem %>% 
+  filter(month==1) %>%  #to create june panels, change month to ==6
+  group_by(ID, z) %>% 
+  summarise(nh4_mean= mean(nh4_uM),
+            nh4_sd= sd(nh4_uM),
+            no3_mean= mean(no3_uM),
+            no3_sd= sd(no3_uM),
+            doc_mean= mean(doc_uM),
+            doc_sd= sd(doc_uM),
+            tp_mean=mean(tp_uM),
+            tp_sd= sd(tp_uM))
+
+means<- january %>% 
+  select(ID, nh4_mean, no3_mean, doc_mean, tp_mean)
+
+sds<- january %>% 
+  select(ID, nh4_sd, no3_sd, doc_sd, tp_sd)
+
+means_long <-means %>% 
+  pivot_longer(!ID, names_to = "parameter", values_to = "mean")
+
+sds_long <-sds %>% 
+  pivot_longer(!ID, names_to = "parameter", values_to = "sd")
+
+sd<- sds_long$sd
+
+sd<- as.data.frame(sd)
+
+bar_data<- cbind(means_long, sd) 
+
+data<- bar_data %>% 
+  filter(parameter =="tp_mean") #change per plot
+
+location<- c("South", "South", "Central", "Central", "North", "North")
+location<- as.data.frame(location)
+z<- c("epi", "hypo", "epi", "hypo", "epi", "hypo")
+z<- as.data.frame(z)
+
+data<-cbind(data, location, z)
+
+limits <- aes(ymax = data$mean + data$sd,
+              ymin = data$mean - data$sd)
+
+plot<- data %>% 
+  ggplot(aes(fill= ID, y=mean, x=location, pattern= z)) +
+  geom_bar_pattern(width= .7, position = position_dodge(width=0.8), stat='identity',
+                   color = "black", 
+                   pattern_fill = "black",
+                   pattern_angle = 45,
+                   pattern_density = 0.3,
+                   pattern_spacing = 0.025,
+                   pattern_key_scale_factor = 0.6)+
+  scale_fill_manual(values=c( "#9ecae1", "#3182bd", "#bcbddc", "#756bb1", "#fdae6b", "#e6550d"))+
+  geom_errorbar(limits, width= .7, position = position_dodge(width=0.8), stat='identity') +
+  scale_y_continuous(labels = function(x) format(x, scientific = TRUE),
+                     expand = c(.1,0))+
+  ylab(" ")+
+  xlab(" ")+
+  ggtitle("   ")+
+  theme_minimal() +
+  theme(legend.position="none",
+        legend.title = element_blank())+
+  theme(text = element_text(size = 40)) +
+  theme(axis.line = element_line(color="black"),
+        axis.ticks = element_line(color="black"),
+        panel.border = element_blank(),
+        axis.text.x=element_text(angle=45, hjust=0.9))+
+  scale_y_continuous(expand = c(0,0))
+
+
+plot
+
+```
+
+
+### **Figure 3** (A) Diversity of phyla among samples, with dominant phyla (Cyanobacteria and Proteobacteria) removed to more clearly reflect community differences between depths and across seasons. (B) Due to highly diverse community assemblages, ordination analysis of membership has been separated into January samples, June epilimnetic samples and June hypolimnetic samples. 
+
+```{r warning=FALSE, message=FALSE, error=FALSE}
+#NMDS of full genome (not just N metabolism genes of interest)
+#Samples in columns and bins in rows
+genome <- read_csv("norm.counts.rpk_edger.bins_mean.csv")
+genome<-as.data.frame(genome)
+rownames(genome)<-genome[,1]
+genome<- genome[,-1]
+genome<-t(genome)
+genome<-as.data.frame(genome)
+
+genome1<- genome
+
+
+#Since we have 'sub-treatments' (locations) in triplicate, within larger 'treatment groups', we pull top ranks from each site then combine for figures. 
+
+#Ultimately, we want to visualize the triplicates as individual bars in Fig 3A
+
+#This is clunky b/c it predates my ability to write a loop. cest la vie.
+
+# #Jan Epi B----
+january_EPI_B<- genome1[1,]
+
+EPI1_rankB<-as.data.frame(rankabundance(january_EPI_B))
+
+user_genome<- rownames(EPI1_rankB)
+
+EPI1_rankB_full<- cbind(user_genome, EPI1_rankB)
+
+EPI1B_top_g1<- full_join(EPI1_rankB_full, tax, by="user_genome") %>%
+ filter(abundance>0)%>%
+  mutate(ID = "Jan epi",
+         location = "B",
+         sample= "1")
+
+january_EPI_B<- genome1[2,]
+
+EPI1_rankB<-as.data.frame(rankabundance(january_EPI_B))
+
+user_genome<- rownames(EPI1_rankB)
+
+EPI1_rankB_full<- cbind(user_genome, EPI1_rankB)
+
+EPI1B_top_g2<- full_join(EPI1_rankB_full, tax, by="user_genome") %>%
+#  drop_na() %>%
+ filter(abundance>0)%>%
+  mutate(ID = "Jan epi",
+         location = "B",
+         sample= "2")
+
+january_EPI_B<- genome1[3,]
+
+EPI1_rankB<-as.data.frame(rankabundance(january_EPI_B))
+
+user_genome<- rownames(EPI1_rankB)
+
+EPI1_rankB_full<- cbind(user_genome, EPI1_rankB)
+
+EPI1B_top_g3<- full_join(EPI1_rankB_full, tax, by="user_genome") %>%
+#  drop_na() %>%
+ filter(abundance>0)%>%
+  mutate(ID = "Jan epi",
+         location = "B",
+         sample= "3")
+# 
+# #Jan Epi E----
+# 
+january_EPI_E<- genome1[7,]
+
+EPI1_rankE<-as.data.frame(rankabundance(january_EPI_E))
+
+user_genome<- rownames(EPI1_rankE)
+
+EPI1_rankE_full<- cbind(user_genome, EPI1_rankE)
+
+EPI1E_top_g1<- full_join(EPI1_rankE_full, tax, by="user_genome") %>%
+#  drop_na() %>%
+ filter(abundance>0)%>%
+  mutate(ID = "Jan epi",
+         location = "E",
+         sample= "1")
+
+january_EPI_E<- genome1[8,]
+
+EPI1_rankE<-as.data.frame(rankabundance(january_EPI_E))
+
+user_genome<- rownames(EPI1_rankE)
+
+EPI1_rankE_full<- cbind(user_genome, EPI1_rankE)
+
+EPI1E_top_g2<- full_join(EPI1_rankE_full, tax, by="user_genome") %>%
+#  drop_na() %>%
+ filter(abundance>0)%>%
+  mutate(ID = "Jan epi",
+         location = "E",
+         sample= "2")
+
+january_EPI_E<- genome1[9,]
+
+EPI1_rankE<-as.data.frame(rankabundance(january_EPI_E))
+
+user_genome<- rownames(EPI1_rankE)
+
+EPI1_rankE_full<- cbind(user_genome, EPI1_rankE)
+
+EPI1E_top_g3<- full_join(EPI1_rankE_full, tax, by="user_genome") %>%
+# drop_na() %>%
+ filter(abundance>0)%>%
+  mutate(ID = "Jan epi",
+         location = "E",
+         sample= "3")
+
+# 
+# #Jan Epi R----
+# 
+january_EPI_R<- genome1[13,]
+
+EPI1_rankR<-as.data.frame(rankabundance(january_EPI_R))
+
+user_genome<- rownames(EPI1_rankR)
+
+EPI1_rankR_full<- cbind(user_genome, EPI1_rankR)
+
+EPI1R_top_g1<- full_join(EPI1_rankR_full, tax, by="user_genome") %>%
+#  drop_na() %>%
+ filter(abundance>0)%>%
+  mutate(ID = "Jan epi",
+         location = "R",
+         sample= "1")
+
+january_EPI_R<- genome1[14,]
+
+EPI1_rankR<-as.data.frame(rankabundance(january_EPI_R))
+
+user_genome<- rownames(EPI1_rankR)
+
+EPI1_rankR_full<- cbind(user_genome, EPI1_rankR)
+
+EPI1R_top_g2<- full_join(EPI1_rankR_full, tax, by="user_genome") %>%
+#  drop_na() %>%
+ filter(abundance>0)%>%
+  mutate(ID = "Jan epi",
+         location = "R",
+         sample= "2")
+
+january_EPI_R<- genome1[15,]
+
+EPI1_rankR<-as.data.frame(rankabundance(january_EPI_R))
+
+user_genome<- rownames(EPI1_rankR)
+
+EPI1_rankR_full<- cbind(user_genome, EPI1_rankR)
+
+EPI1R_top_g3<- full_join(EPI1_rankR_full, tax, by="user_genome") %>%
+#  drop_na() %>%
+ filter(abundance>0)%>%
+  mutate(ID = "Jan epi",
+         location = "R",
+         sample= "3")
+# 
+# #Jan Hypo B----
+# 
+january_HYPO_B<- genome1[4,]
+
+HYPO1_rankB<-as.data.frame(rankabundance(january_HYPO_B))
+
+user_genome<- rownames(HYPO1_rankB)
+
+HYPO1_rankB_full<- cbind(user_genome, HYPO1_rankB)
+
+HYPO1B_top_g1<- full_join(HYPO1_rankB_full, tax, by="user_genome") %>%
+#  drop_na() %>%
+ filter(abundance>0)%>%
+  mutate(ID = "Jan hypo",
+         location = "B",
+         sample= "1")
+
+january_HYPO_B<- genome1[5,]
+
+HYPO1_rankB<-as.data.frame(rankabundance(january_HYPO_B))
+
+user_genome<- rownames(HYPO1_rankB)
+
+HYPO1_rankB_full<- cbind(user_genome, HYPO1_rankB)
+
+HYPO1B_top_g2<- full_join(HYPO1_rankB_full, tax, by="user_genome") %>%
+ # drop_na() %>%
+ filter(abundance>0)%>%
+  mutate(ID = "Jan hypo",
+         location = "B",
+         sample= "2")
+
+january_HYPO_B<- genome1[6,]
+
+HYPO1_rankB<-as.data.frame(rankabundance(january_HYPO_B))
+
+user_genome<- rownames(HYPO1_rankB)
+
+HYPO1_rankB_full<- cbind(user_genome, HYPO1_rankB)
+
+HYPO1B_top_g3<- full_join(HYPO1_rankB_full, tax, by="user_genome") %>%
+#  drop_na() %>%
+ filter(abundance>0)%>%
+  mutate(ID = "Jan hypo",
+         location = "B",
+         sample= "3")
+
+# 
+# #Jan Hypo E----
+# 
+january_HYPO_E<- genome1[10,]
+
+HYPO1_rankE<-as.data.frame(rankabundance(january_HYPO_E))
+
+user_genome<- rownames(HYPO1_rankE)
+
+HYPO1_rankE_full<- cbind(user_genome, HYPO1_rankE)
+
+HYPO1E_top_g1<- full_join(HYPO1_rankE_full, tax, by="user_genome") %>%
+#  drop_na() %>%
+ filter(abundance>0)%>%
+  mutate(ID = "Jan hypo",
+         location = "E",
+         sample= "1")
+
+january_HYPO_E<- genome1[11,]
+
+HYPO1_rankE<-as.data.frame(rankabundance(january_HYPO_E))
+
+user_genome<- rownames(HYPO1_rankE)
+
+HYPO1_rankE_full<- cbind(user_genome, HYPO1_rankE)
+
+HYPO1E_top_g2<- full_join(HYPO1_rankE_full, tax, by="user_genome") %>%
+#  drop_na() %>%
+ filter(abundance>0)%>%
+  mutate(ID = "Jan hypo",
+         location = "E",
+         sample= "2")
+
+january_HYPO_E<- genome1[12,]
+
+HYPO1_rankE<-as.data.frame(rankabundance(january_HYPO_E))
+
+user_genome<- rownames(HYPO1_rankE)
+
+HYPO1_rankE_full<- cbind(user_genome, HYPO1_rankE)
+
+HYPO1E_top_g3<- full_join(HYPO1_rankE_full, tax, by="user_genome") %>%
+#  drop_na() %>%
+ filter(abundance>0)%>%
+  mutate(ID = "Jan hypo",
+         location = "E",
+         sample= "3")
+# 
+# #Jan Hypo R----
+# 
+january_HYPO_R<- genome1[16,]
+
+HYPO1_rankR<-as.data.frame(rankabundance(january_HYPO_R))
+
+user_genome<- rownames(HYPO1_rankR)
+
+HYPO1_rankR_full<- cbind(user_genome, HYPO1_rankR)
+
+HYPO1R_top_g1<- full_join(HYPO1_rankR_full, tax, by="user_genome") %>%
+#  drop_na() %>%
+ filter(abundance>0)%>%
+  mutate(ID = "Jan hypo",
+         location = "R",
+         sample= "1")
+
+january_HYPO_R<- genome1[17,]
+
+HYPO1_rankR<-as.data.frame(rankabundance(january_HYPO_R))
+
+user_genome<- rownames(HYPO1_rankR)
+
+HYPO1_rankR_full<- cbind(user_genome, HYPO1_rankR)
+
+HYPO1R_top_g2<- full_join(HYPO1_rankR_full, tax, by="user_genome") %>%
+ # drop_na() %>%
+ filter(abundance>0)%>%
+  mutate(ID = "Jan hypo",
+         location = "R",
+         sample= "2")
+
+january_HYPO_R<- genome1[18,]
+
+HYPO1_rankR<-as.data.frame(rankabundance(january_HYPO_R))
+
+user_genome<- rownames(HYPO1_rankR)
+
+HYPO1_rankR_full<- cbind(user_genome, HYPO1_rankR)
+
+HYPO1R_top_g3<- full_join(HYPO1_rankR_full, tax, by="user_genome") %>%
+ # drop_na() %>%
+ filter(abundance>0)%>%
+  mutate(ID = "Jan hypo",
+         location = "R",
+         sample= "3")
+# 
+# #June Epi B----
+# 
+june_EPI_B<- genome1[19,]
+
+EPI6_rankB<-as.data.frame(rankabundance(june_EPI_B))
+
+user_genome<- rownames(EPI6_rankB)
+
+EPI6_rankB_full<- cbind(user_genome, EPI6_rankB)
+
+EPI6B_top_g1<- full_join(EPI6_rankB_full, tax, by="user_genome") %>%
+#  drop_na() %>%
+ filter(abundance>0)%>%
+  mutate(ID = "June epi",
+         location = "B",
+         sample= "1")
+
+june_EPI_B<- genome1[20,]
+
+EPI6_rankB<-as.data.frame(rankabundance(june_EPI_B))
+
+user_genome<- rownames(EPI6_rankB)
+
+EPI6_rankB_full<- cbind(user_genome, EPI6_rankB)
+
+EPI6B_top_g2<- full_join(EPI6_rankB_full, tax, by="user_genome") %>%
+#  drop_na() %>%
+ filter(abundance>0)%>%
+  mutate(ID = "June epi",
+         location = "B",
+         sample= "2")
+
+june_EPI_B<- genome1[21,]
+
+EPI6_rankB<-as.data.frame(rankabundance(june_EPI_B))
+
+user_genome<- rownames(EPI6_rankB)
+
+EPI6_rankB_full<- cbind(user_genome, EPI6_rankB)
+
+EPI6B_top_g3<- full_join(EPI6_rankB_full, tax, by="user_genome") %>%
+ # drop_na() %>%
+ filter(abundance>0)%>%
+  mutate(ID = "June epi",
+         location = "B",
+         sample= "3")
+
+# 
+# #June Epi E----
+# 
+june_EPI_E<- genome1[25,]
+
+EPI6_rankE<-as.data.frame(rankabundance(june_EPI_E))
+
+user_genome<- rownames(EPI6_rankE)
+
+EPI6_rankE_full<- cbind(user_genome, EPI6_rankE)
+
+EPI6E_top_g1<- full_join(EPI6_rankE_full, tax, by="user_genome") %>%
+#  drop_na() %>%
+ filter(abundance>0)%>%
+  mutate(ID = "June epi",
+         location = "E",
+         sample= "1")
+
+june_EPI_E<- genome1[26,]
+
+EPI6_rankE<-as.data.frame(rankabundance(june_EPI_E))
+
+user_genome<- rownames(EPI6_rankE)
+
+EPI6_rankE_full<- cbind(user_genome, EPI6_rankE)
+
+EPI6E_top_g2<- full_join(EPI6_rankE_full, tax, by="user_genome") %>%
+#  drop_na() %>%
+ filter(abundance>0)%>%
+  mutate(ID = "June epi",
+         location = "E",
+         sample= "2")
+
+june_EPI_E<- genome1[27,]
+
+EPI6_rankE<-as.data.frame(rankabundance(june_EPI_E))
+
+user_genome<- rownames(EPI6_rankE)
+
+EPI6_rankE_full<- cbind(user_genome, EPI6_rankE)
+
+EPI6E_top_g3<- full_join(EPI6_rankE_full, tax, by="user_genome") %>%
+#  drop_na() %>%
+ filter(abundance>0)%>%
+  mutate(ID = "June epi",
+         location = "E",
+         sample= "3")
+# 
+# #June Epi R----
+# 
+june_EPI_R<- genome1[31,]
+
+june_EPI_genome<- rbind(june_EPI_B, june_EPI_E, june_EPI_R)
+
+EPI6_rank<-as.data.frame(rankabundance(june_EPI_genome))
+
+user_genome<- rownames(EPI6_rank)
+
+EPI6_rank_full<- cbind(user_genome, EPI6_rank)
+
+EPI6R_top_g1<- full_join(EPI6_rank_full, tax, by="user_genome") %>%
+ # drop_na() %>%
+ filter(abundance>0)%>%
+  mutate(ID = "June epi",
+         location = "R",
+         sample= "1")
+
+june_EPI_R<- genome1[32,]
+
+june_EPI_genome<- rbind(june_EPI_B, june_EPI_E, june_EPI_R)
+
+EPI6_rank<-as.data.frame(rankabundance(june_EPI_genome))
+
+user_genome<- rownames(EPI6_rank)
+
+EPI6_rank_full<- cbind(user_genome, EPI6_rank)
+
+EPI6R_top_g2<- full_join(EPI6_rank_full, tax, by="user_genome") %>%
+ # drop_na() %>%
+ filter(abundance>0)%>%
+  mutate(ID = "June epi",
+         location = "R",
+         sample= "2")
+
+june_EPI_R<- genome1[33,]
+
+june_EPI_genome<- rbind(june_EPI_B, june_EPI_E, june_EPI_R)
+
+EPI6_rank<-as.data.frame(rankabundance(june_EPI_genome))
+
+user_genome<- rownames(EPI6_rank)
+
+EPI6_rank_full<- cbind(user_genome, EPI6_rank)
+
+EPI6R_top_g3<- full_join(EPI6_rank_full, tax, by="user_genome") %>%
+#  drop_na() %>%
+ filter(abundance>0)%>%
+  mutate(ID = "June epi",
+         location = "R",
+         sample= "3")
+# 
+# #June Hypo B----
+# 
+june_HYPO_B<- genome1[22,]
+
+HYPO6_rankB<-as.data.frame(rankabundance(june_HYPO_B))
+
+user_genome<- rownames(HYPO6_rankB)
+
+HYPO6_rankB_full<- cbind(user_genome, HYPO6_rankB)
+
+HYPO6B_top_g1<- full_join(HYPO6_rankB_full, tax, by="user_genome") %>%
+ # drop_na() %>%
+ filter(abundance>0)%>%
+  mutate(ID = "June hypo",
+         location = "B",
+         sample= "1")
+
+june_HYPO_B<- genome1[23,]
+
+HYPO6_rankB<-as.data.frame(rankabundance(june_HYPO_B))
+
+user_genome<- rownames(HYPO6_rankB)
+
+HYPO6_rankB_full<- cbind(user_genome, HYPO6_rankB)
+
+HYPO6B_top_g2<- full_join(HYPO6_rankB_full, tax, by="user_genome") %>%
+#  drop_na() %>%
+ filter(abundance>0)%>%
+  mutate(ID = "June hypo",
+         location = "B",
+         sample= "2")
+
+june_HYPO_B<- genome1[24,]
+
+HYPO6_rankB<-as.data.frame(rankabundance(june_HYPO_B))
+
+user_genome<- rownames(HYPO6_rankB)
+
+HYPO6_rankB_full<- cbind(user_genome, HYPO6_rankB)
+
+HYPO6B_top_g3<- full_join(HYPO6_rankB_full, tax, by="user_genome") %>%
+#  drop_na() %>%
+ filter(abundance>0)%>%
+  mutate(ID = "June hypo",
+         location = "B",
+         sample= "3")
+
+# 
+# #June Hypo E----
+# 
+june_HYPO_E<- genome1[28,]
+
+HYPO6_rankE<-as.data.frame(rankabundance(june_HYPO_E))
+
+user_genome<- rownames(HYPO6_rankE)
+
+HYPO6_rankE_full<- cbind(user_genome, HYPO6_rankE)
+
+HYPO6E_top_g1<- full_join(HYPO6_rankE_full, tax, by="user_genome") %>%
+#  drop_na() %>%
+ filter(abundance>0)%>%
+  mutate(ID = "June hypo",
+         location = "E",
+         sample= "1")
+
+june_HYPO_E<- genome1[29,]
+
+HYPO6_rankE<-as.data.frame(rankabundance(june_HYPO_E))
+
+user_genome<- rownames(HYPO6_rankE)
+
+HYPO6_rankE_full<- cbind(user_genome, HYPO6_rankE)
+
+HYPO6E_top_g2<- full_join(HYPO6_rankE_full, tax, by="user_genome") %>%
+ # drop_na() %>%
+ filter(abundance>0)%>%
+  mutate(ID = "June hypo",
+         location = "E",
+         sample= "2")
+
+june_HYPO_E<- genome1[30,]
+
+HYPO6_rankE<-as.data.frame(rankabundance(june_HYPO_E))
+
+user_genome<- rownames(HYPO6_rankE)
+
+HYPO6_rankE_full<- cbind(user_genome, HYPO6_rankE)
+
+HYPO6E_top_g3<- full_join(HYPO6_rankE_full, tax, by="user_genome") %>%
+ # drop_na() %>%
+ filter(abundance>0)%>%
+  mutate(ID = "June hypo",
+         location = "E",
+         sample= "3")
+# 
+# #June Hypo R----
+# 
+june_HYPO_R<- genome1[34,]
+
+HYPO6_rankR<-as.data.frame(rankabundance(june_HYPO_R))
+
+user_genome<- rownames(HYPO6_rankR)
+
+HYPO6_rankR_full<- cbind(user_genome, HYPO6_rankR)
+
+HYPO6R_top_g1<- full_join(HYPO6_rankR_full, tax, by="user_genome") %>%
+ # drop_na() %>%
+ filter(abundance>0)%>%
+  mutate(ID = "June hypo",
+         location = "R",
+         sample= "1")
+
+june_HYPO_R<- genome1[35,]
+
+HYPO6_rankR<-as.data.frame(rankabundance(june_HYPO_R))
+
+user_genome<- rownames(HYPO6_rankR)
+
+HYPO6_rankR_full<- cbind(user_genome, HYPO6_rankR)
+
+HYPO6R_top_g2<- full_join(HYPO6_rankR_full, tax, by="user_genome") %>%
+#  drop_na() %>%
+ filter(abundance>0)%>%
+  mutate(ID = "June hypo",
+         location = "R",
+         sample= "2")
+
+june_HYPO_R<- genome1[36,]
+
+HYPO6_rankR<-as.data.frame(rankabundance(june_HYPO_R))
+
+user_genome<- rownames(HYPO6_rankR)
+
+HYPO6_rankR_full<- cbind(user_genome, HYPO6_rankR)
+
+HYPO6R_top_g3<- full_join(HYPO6_rankR_full, tax, by="user_genome") %>%
+#  drop_na() %>%
+ filter(abundance>0)%>%
+  mutate(ID = "June hypo",
+         location = "R",
+         sample= "")
+
+# 
+# #Combining----
+# 
+
+way_through<- rbind(EPI1B_top_g1, EPI1E_top_g1, EPI1R_top_g1,
+                    EPI1B_top_g2, EPI1E_top_g2, EPI1R_top_g2,
+                    EPI1B_top_g3, EPI1E_top_g3, EPI1R_top_g3,
+                    HYPO1B_top_g1, HYPO1E_top_g1, HYPO1R_top_g1,
+                    HYPO1B_top_g2, HYPO1E_top_g2, HYPO1R_top_g2,
+                    HYPO1B_top_g3, HYPO1E_top_g3, HYPO1R_top_g3,
+                    EPI6B_top_g1, EPI6E_top_g1, EPI6R_top_g1,
+                    EPI6B_top_g2, EPI6E_top_g2, EPI6R_top_g2,
+                    EPI6B_top_g3, EPI6E_top_g3, EPI6R_top_g3,
+                    HYPO6B_top_g1, HYPO6E_top_g1, HYPO6R_top_g1,
+                    HYPO6B_top_g2, HYPO6E_top_g2, HYPO6R_top_g2,
+                    HYPO6B_top_g3, HYPO6E_top_g3, HYPO6R_top_g3)
+
+
+way_through<-way_through %>% 
+  select(abundance, d, p, c, o, f, ID, location, sample) %>% 
+  drop_na() %>% 
+   filter(p!= "p__Cyanobacteria",  #We are removing these two top groups cause they 
+          p!= "p__Proteobacteria") #mask seasonal differences. 
+
+
+## FIG 3A
+ggplot(way_through, aes(fill=p, y=abundance, x= sample)) + 
+    geom_bar(position="fill", stat="identity")+
+  facet_wrap(vars(ID, location), nrow= 1)+
+  theme_few()+
+  ggtitle("Cyanobacteria and Proteobacteria removed")+
+  scale_fill_hue(l=40)
+ #  theme(legend.position="none")
+
+
+## FIG 3B
+
+#NMDS of full genomes (not just N metabolism genes of interest)
+
+genome <- read_csv("norm.counts.rpk_edger.bins_mean.csv")
+genome1<- as.data.frame(genome[,3:38])
+genome1<-t(genome1)
+genome1<- as.data.frame(genome1)
+str(genome1)
+
+rel_vals<- genome1 %>%  
+  mutate(across()/rowSums(across())) 
+
+rel_vals<-t(rel_vals)
+rel_vals<-as.data.frame(rel_vals)
+rel_vals<- rel_vals%>% 
+   mutate(total=rowSums(across()))
+
+rel_vals<-rel_vals[,1:36]
+rel_vals<-t(rel_vals)
+rel_vals<-as.data.frame(rel_vals)
+
+#write.csv(rel_vals,"Ab_val_genome.csv", row.names = FALSE)
+
+NMDS_Bray_genome <-metaMDS(rel_vals, distance = "bray", k =2,
+                           noshare = 0.1, trace = 1, trymax = 50, autotransform=T)
+
+
+
+ord.scrs = as.data.frame(scores((NMDS_Bray_genome), display="sites"))
+ord.scrs$sampleid=row.names(ord.scrs)
+ 
+genome_data<- cbind(chem, ord.scrs)
+
+genome_data$z_m <- as.character(genome_data$z_m)
+
+genome_plot<- ggplot(genome_data)+
+  geom_point(mapping = aes(x = NMDS1, y = NMDS2,
+                           color= ID,
+                           shape= z_m),
+                           size=8)+
+  scale_color_manual(values=c("#9ecae1", "#3182bd", "#bcbddc", "#756bb1", "#fdae6b", "#e6550d"))+
+  theme_few()+
+  ggtitle('All genomes')+
+  theme(plot.title = element_text(hjust = 0.5))+
+   theme_minimal()+
+  theme(text = element_text(size = 20))
+
+
+genome_plot  #this is why we have to separate things  out
+
+
+january<- genome_data %>% 
+  filter(month == "1")
+
+jan_plot<- ggplot(january)+
+  geom_point(mapping = aes(x = NMDS1, y = NMDS2,
+                           color= ID,
+                           shape= z_m),
+                           size=8)+
+  scale_color_manual(values=c("#9ecae1", "#3182bd", "#bcbddc", "#756bb1", "#fdae6b", "#e6550d"))+
+  theme_few()+
+  ggtitle('January')+
+  theme(plot.title = element_text(hjust = 0.5))+
+     theme_minimal()+
+  theme(text = element_text(size = 20))
+
+
+jan_plot
+
+
+
+june_epi<- genome_data %>% 
+  filter(month==6,
+         strata =="epi")
+
+june_epi_plot<- ggplot(june_epi)+
+  geom_point(mapping = aes(x = NMDS1, y = NMDS2,
+                           color= ID),
+                           size=8)+
+  scale_color_manual(values=c("#9ecae1", "#bcbddc", "#fdae6b"))+
+  theme_few()+
+  ggtitle('June Epi')+
+  theme(plot.title = element_text(hjust = 0.5))+
+   theme_minimal()+
+  theme(text = element_text(size = 20))
+
+
+june_epi_plot
+
+june_hypo<- genome_data %>% 
+  filter(month==6,
+         strata =="hypo")
+
+june_hypo_plot<- ggplot(june_hypo)+
+  geom_point(mapping = aes(x = NMDS1, y = NMDS2,
+                           color= ID),
+                           size=8,
+                            shape= 17)+
+  scale_color_manual(values=c("#3182bd",  "#756bb1",  "#e6550d"))+
+  theme_few()+
+  ggtitle('June Hypo')+
+  theme(plot.title = element_text(hjust = 0.5))+
+   theme_minimal()+
+  theme(text = element_text(size = 20))
+
+
+june_hypo_plot
+
+```
+
+
+### **Figure 4** (A) N metabolism gene expression (relative abundance across all samples with summed triplicates), grouped by function, across locations, depths and season. (B) N cycling pathways assessed in panels D-G, putative transformations. note:differentiation between nar and nxr expression was not always possible. (C) Heatmap of gene expression of nitrite transformation pathways. (D-G) Conceptual diagram of dominant N transformation pathways across seasons and 1 m and 16 m, shown in arrows weighted by expression. Relative abundance data from panel A has been summed by treatment group. Unfilled arrows represent the complete absence of gene expression. *-similar to the geochem panels, panels for 4A were combined in post editing*
+
+```{r warning=FALSE, message=FALSE, error=FALSE}
+#Here we will pull values that are used to make the weighted arrows figures
+
+#Bring in gene call corrected file
+N_genes<-N_genes1 
+
+Description<-N_genes$Description
+
+N_genes<- N_genes[,4:39]
+
+N_genes_rel_vals<- N_genes %>%  
+  mutate(across()/rowSums(across())) 
+
+N_genes_rel_vals<-t(N_genes_rel_vals)
+
+N_genes_rel_vals<-as.data.frame(N_genes_rel_vals)
+
+colnames(N_genes_rel_vals) <- Description
+
+chem1<- chem %>% 
+  mutate(Full_ID= paste(ID, month))
+
+N_genes_rel_vals$ID<- chem1$Full_ID
+
+N_genes_rel_vals$ID
+
+N_genes_long<- N_genes_rel_vals %>% 
+    pivot_longer(
+    cols = !ID,
+    names_to = "gene",
+    values_to = "rel_val"
+  )
+
+N_genes_long$location = str_sub(N_genes_long$ID,1,1) 
+N_genes_long$month = str_sub(N_genes_long$ID,-2) 
+N_genes_long$z <- str_sub(N_genes_long$ID,1,7)
+N_genes_long$z_sub <- str_sub(N_genes_long$z,-2)
+
+ 
+#combine assim no3 and resp. no2 
+
+N_genes_long$gene[N_genes_long$gene == "assimilatory nitrate reductase [EC:1.7.7.2] [RN:R00791]" |
+             N_genes_long$gene == "assimilatory nitrate reductase [EC:1.7.99.-] [RN:R00798]" ] <- "assimilatory NO3 reductase"
+
+N_genes_long$gene[N_genes_long$gene == "respiratory nitrite reductase [EC:1.7.1.15] [RN:R00787]" |
+             N_genes_long$gene == "respiratory nitrite reductase [EC:1.7.2.2] [RN:R05712]"] <- "respiratory NO2 reductase"
+
+
+N_genes_long<- N_genes_long %>% 
+  filter(gene != "NRT; MFS transporter, NNP family, nitrate/nitrite transporter") 
+
+Fig4A<-ggplot(N_genes_long, aes(fill=gene, y=rel_val, x=z)) +
+     geom_bar(position="stack", stat="identity")+
+     facet_wrap(~ month + location, nrow= 2)+
+     theme_few()+
+     ggtitle("") +
+     theme(legend.position="none")+
+  scale_fill_hue(l=40) 
+  
+ 
+ggsave("Fig4A.jpg", Fig4A, dpi = 600) 
+  
+
+#For making weighted figures... 
+count<- N_genes_long %>% 
+  drop_na() %>% 
+  select(gene, rel_val, month, z_sub) %>% 
+  group_by(gene, z_sub, month) %>% 
+  summarise(total= sum(rel_val)) %>% 
+  filter(total> 0)
+
+
+#write.csv(count, "count_new calls.csv") #USE THIS TO MAKE WEIGHTED ARROWS
+```
+
+
+### **Figure 5.** Organic nitrogen mineralization expression in Lake Yojoa. Heatmap shows the expression of peptidases (at the family level, top 50 shown), transporters, amino acid transformations, and urease. Expression is scaled within row and ordered by average transcription across all samples within each category, as depicted by side bar plot.  Top stacked bar plot shows the summed expression within each sample, with bars colored by category of organic nitrogen shown on the left side of heatmap. - *figure generated by MB. See separate file for code*
+
+# SUPPLEMENTARY TABLES
+
+### **Table S1.** Mean ± standard error of geochemical parameters across the three sampling locations. 
+
+```{r warning=FALSE, message=FALSE, error=FALSE}
+stat<-geochem %>% 
+   dplyr::filter(
+     month== 6  #change to 1 for January 
+   ) %>% 
+  mutate(obs =1,) %>% 
+   group_by(z) %>% 
+  summarise(mean= mean(nh4_uM), #change parameter to calc for NO3, TP and DOC
+            sd= sd(nh4_uM),
+            n= sum(obs)) %>% 
+  mutate(se= sd/ sqrt(n)) 
+```
+
+
+### **Table S2.** Nitrogen metabolism genes considered in this analysis. - **no data**
+
+# SUPPLEMENTARY FIGURES
+
+#### **Figure S1.** Thermophysical structure in Lake Yojoa. (A) Dissolved oxygen at 2 m intervals in January 2022 and June 2021. (B) Temperature at 2 m intervals in January 2022 and June 2021.
+
+```{r warning=FALSE, message=FALSE, error=FALSE}
+prof<- read_csv("profile_data_Yojoa.csv")
+prof$date<-mdy(prof$date)
+
+do_prof <- ggplot(prof,aes(x=do_mgl,y=depth, color=site, shape= site)) +  
+  geom_point(size=5, show.legend = FALSE)+
+  scale_color_manual(values=c("#3182bd", "#756bb1", "#e6550d"))+
+  theme_few() +
+  labs( x='DO (mg/L)', y= 'Depth (m)')+
+#  scale_x_continuous( position = "top", limits=c(0,11), expand = c(0,0))+ #
+  scale_y_reverse(expand = c(0.015,0))+
+  facet_wrap(~date)+
+  theme(text = element_text(size = 30))  
+
+do_prof
+
+temp_prof <- ggplot(prof,aes(x=temp_C,y=depth, color=site, shape= site)) +  
+  geom_point(size=5, show.legend = FALSE)+
+  scale_color_manual(values=c("#3182bd", "#756bb1", "#e6550d"))+
+  theme_few() +
+  labs( x='temp', y= 'Depth (m)')+
+ # scale_x_continuous( position = "top", limits=c(0,11), expand = c(0,0))+ #
+  scale_y_reverse(expand = c(0.015,0))+
+  facet_wrap(~date)+
+  theme(text = element_text(size = 30))  
+
+temp_prof
+
+
+#Use to calculate  values referenced in text
+#adjust months/depths to calculate for different 'treatments'
+
+stat<-prof %>% 
+  mutate(month=month(date)) %>% 
+  dplyr::filter(
+                depth>12,
+                month== 1
+                ) %>% 
+  mutate(obs =1) %>% 
+ # group_by(month) %>% 
+  summarise(mean= mean(temp_C),
+            sd= sd(temp_C),
+            n= sum(obs)) %>% 
+  mutate(se= sd/ sqrt(n)) 
+
+stat<-prof %>% 
+  mutate(month=month(date)) %>% 
+  dplyr::filter(
+    depth<12,
+    month== 1
+  ) %>% 
+  mutate(obs =1) %>% 
+  # group_by(month) %>% 
+  summarise(mean= mean(do_mgl),
+            sd= sd(do_mgl),
+            n= sum(obs)) %>% 
+  mutate(se= sd/ sqrt(n)) 
+
+```
+
+
+### **Figure S2.** MAG relative expression heatmap with hierarchical clustering. 
+
+```{r warning=FALSE, message=FALSE, error=FALSE}
+hm<- t(rel_vals)
+hm<- as.data.frame(hm)
+
+
+hmMatrix=as.matrix(hm)
+p<-pheatmap(hmMatrix,fontsize=10,color=colorRampPalette(rev(brewer.pal(n=5, name="PuOr")))(100),border_color="black",cluster_cols=T, cluster_rows=F,treeheight_row=20, scale="column")
+```
+
+
+### **Figure S3.** Taxonomic level (Domain, Phylum, Class, Order, Family) assigned by GTDB-tk to genomes expressing N metabolism genes of interest (Table S1) in January (n= 20) and June (n=17). - *figure generated using RAWgraphs - https://www.rawgraphs.io/ * 
+
+
+### **Figure S4.** Lineages of genomes expressing genes related to respiratory nitrite reduction (Table S1)
+
+```{r warning=FALSE, message=FALSE, error=FALSE}
+
+June_HYPO_N_genes<- June_HYPO_N_genes %>% 
+  rename(user_genome=rn)
+
+resp_no2_red_tax<- left_join(June_HYPO_N_genes, tax, by= "user_genome") %>% 
+  filter(Description == "respiratory nitrite reductase [EC:1.7.2.2] [RN:R05712]"|
+   Description == "respiratory nitrite reductase [EC:1.7.1.15] [RN:R00787]") %>% 
+  mutate(total=rowSums (across(Yojoa_06_2021_B_hypo_A_bowtie.reformat97_sorted.bam:Yojoa_06_2021_R_hypo_C_bowtie.reformat97_sorted.bam))) %>% 
+  filter(total>0) %>% 
+  select(o, f, total) %>% 
+  unique() 
+
+resp_no2_red_tax[c('o', 'order')] <- str_split_fixed(resp_no2_red_tax$o, '__', 2)
+resp_no2_red_tax[c('f', 'family')] <- str_split_fixed(resp_no2_red_tax$f, '__', 2) 
+
+library("viridis")   
+resp_plot<- resp_no2_red_tax %>% 
+  ggplot(aes(fill= family, y=total, x=reorder(order, -total)), color ="black") +
+  geom_bar(width= .7, position = position_dodge(width=0.8), stat='identity')+
+  scale_y_continuous(labels = function(x) format(x, scientific = TRUE),
+                     expand = c(.1,0))+
+  ylab(" ")+
+  xlab(" ")+
+  ggtitle("   ")+
+  theme_minimal() +
+  theme(legend.position="bottom",
+        legend.title = element_blank())+
+  theme(text = element_text(size = 20)) +
+  theme(axis.line = element_line(color="black"),
+        axis.ticks = element_line(color="black"),
+        panel.border = element_blank(),
+        axis.text.x=element_text(angle=45, hjust=0.9))+
+  scale_y_continuous(expand = c(0,0))+
+    scale_fill_manual(values= c("antiquewhite3", "aquamarine3", "azure3", "blueviolet", "darkslategrey",
+                    "brown4","cadetblue4", "chartreuse4", "darkgoldenrod1", "darkkhaki",
+                    "darkgreen", "darksalmon", "cyan3", "darkseagreen","darkorange",
+                    "deeppink4", "deeppink", "chocolate", "coral4", "darkmagenta"))
+
+  scale_fill_manual(values= c("antiquewhite3", "aquamarine3", "azure3", "blueviolet",
+                    "brown4","cadetblue4", "chartreuse4", "darkgoldenrod1", 
+                    "darkgreen", "darksalmon", "cyan3", "darkseagreen"))
+
+
+resp_plot
+
+#ggsave("FigS4.jpg", resp_plot, dpi = 400, width = 14, height = 6)
+
+```
+
+
+### **Figure S5.** Lineage of genomes expressing nrfA in the June hypolimnion
+
+```{r warning=FALSE, message=FALSE, error=FALSE}
+
+DNRA_tax<- left_join(June_HYPO_N_genes, tax, by= "user_genome") %>% 
+  filter(KO == "K03385") %>% 
+  mutate(total=rowSums (across(Yojoa_06_2021_B_hypo_A_bowtie.reformat97_sorted.bam:Yojoa_06_2021_R_hypo_C_bowtie.reformat97_sorted.bam))) %>% 
+  filter(total>0) %>% 
+  select(o, f, total) %>% 
+  unique() 
+
+DNRA_tax[c('o', 'order')] <- str_split_fixed(DNRA_tax$o, '__', 2)
+DNRA_tax[c('f', 'family')] <- str_split_fixed(DNRA_tax$f, '__', 2) 
+
+   
+dnra_plot<- DNRA_tax %>% 
+  ggplot(aes(fill= family, y=total, x=reorder(order, -total)), color ="black") +
+  geom_bar(width= .7, position = position_dodge(width=0.8), stat='identity')+
+  scale_y_continuous(labels = function(x) format(x, scientific = TRUE),
+                     expand = c(.1,0))+
+  ylab(" ")+
+  xlab(" ")+
+  ggtitle("   ")+
+  theme_minimal() +
+  theme(legend.position="bottom",
+        legend.title = element_blank())+
+  theme(text = element_text(size = 20)) +
+  theme(axis.line = element_line(color="black"),
+        axis.ticks = element_line(color="black"),
+        panel.border = element_blank(),
+        axis.text.x=element_text(angle=45, hjust=0.9))+
+  scale_y_continuous(expand = c(0,0))+
+    scale_fill_manual(values= c("antiquewhite3", "aquamarine3", "azure3", "blueviolet", "darkslategrey",
+                    "brown4","cadetblue4", "chartreuse4", "darkgoldenrod1", "darkkhaki",
+                    "darkgreen", "darksalmon", "cyan3", "darkseagreen","darkorange",
+                    "deeppink4", "deeppink", "chocolate", "coral4", "darkmagenta"))
+
+  scale_fill_manual(values= c("antiquewhite3", "aquamarine3", "azure3", "blueviolet",
+                    "brown4","cadetblue4", "chartreuse4", "darkgoldenrod1", 
+                    "darkgreen", "darksalmon", "cyan3", "darkseagreen"))
+
+
+dnra_plot
+
+ggsave("FigS5.jpg", dnra_plot, dpi = 400, width = 14, height = 6)
+```
+
+# OTHER CALCULATIONS
+
+### Taxa Counts
+
+```{r warning=FALSE, error=FALSE, message=FALSE}
+
+#This is an assessment of all the genome data (not just N metabolisms of interest)
+
+#fresh df
+genome1 <- read_csv("norm.counts.rpk_edger.bins_mean.csv") 
+genome1<-as.data.frame(genome1)
+genome1$user_genome<- genome1$rn
+
+#combine genome and tax data
+trim<- full_join(tax, genome1, by="user_genome") %>% 
+  drop_na()
+# we have 552 MAGs (de-repped)
+
+#pull column of interest for faster/easier analysis
+repped<- trim$GTDB_classification
+
+#How many distinct lineages? 
+lineages<- as.data.frame(repped) %>% 
+  mutate(count =1 ) %>% 
+  group_by(repped) %>% 
+  summarise(sum=sum(count))
+#335 lineages
+
+s<- trim$s
+species<- as.data.frame(s) %>% 
+  mutate(count =1 ) %>% 
+  group_by(s) %>% 
+  summarise(sum=sum(count))
+#478 novel at the species level
+478/552
+# 86.5% novel at species level
+
+g<- trim$g
+genus<- as.data.frame(g) %>% 
+  mutate(count =1 ) %>% 
+  group_by(g) %>% 
+  summarise(sum=sum(count))
+#306 novel at genus level
+117/552
+#21.1% 
+
+f<- trim$f
+family<- as.data.frame(f) %>% 
+  mutate(count =1 ) %>% 
+  group_by(f) %>% 
+  summarise(sum=sum(count))
+#67 novel at family level
+25/552
+#4.5% novel
+
+o<- trim$o
+order<- as.data.frame(o) %>% 
+  mutate(count =1 ) %>% 
+  group_by(o) %>% 
+  summarise(sum=sum(count))
+# 10 novel at the order level
+
+c<- trim$c
+class<- as.data.frame(c) %>% 
+  mutate(count =1 ) %>% 
+  group_by(c) %>% 
+  summarise(sum=sum(count))
+#76 classes
+
+p<- trim$p
+phyla<- as.data.frame(p) %>% 
+  mutate(count =1 ) %>% 
+  group_by(p) %>% 
+  summarise(sum=sum(count))
+#38 phyla
+
+
+```
+
+
+
+
+
+
+
+
