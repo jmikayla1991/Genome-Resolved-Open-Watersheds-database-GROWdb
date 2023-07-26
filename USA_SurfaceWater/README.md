@@ -1,6 +1,6 @@
-#This respository contains the scripts for data analysis and figure generation in "A functional microbiome catalog crowdsourced from North American rivers" currently on [BioArchive](https://www.biorxiv.org/content/10.1101/2023.07.22.550117v1). 
+# This respository contains the scripts for data analysis and figure generation in "A functional microbiome catalog crowdsourced from North American rivers" currently on [BioArchive](https://www.biorxiv.org/content/10.1101/2023.07.22.550117v1). 
 
-##Directories
+## Directories
 1. Figures- R scripts for data analysis and figure generation
 2. GenomeBasedCarbonAnalyses- R scripts and commands for assigning microbial genomes to carbon usage patterns, as shown in Fig. 5 of the manuscript
 3. MetaG_Mapping- commands used for mapping metagenomes to dereplicated MAG database
@@ -10,7 +10,7 @@
 Other relevant GitHub respositories: 
 - https://github.com/rossyndicate/GROWdb for Geospatial data mining for GROWdb
 
-##Data accessibility 
+## Data accessibility 
 The data underlying GROWdb are accessible across multiple platforms to ensure many levels of data use and structure are widely available. First, all reads and MAGs are publicly hosted on National Center for Biotechnology (NCBI) under Bioproject PRJNA946291. Second, all data presented in this manuscript including MAG annotations, phylogenetic tree files, antibiotic resistance gene database files, and expression data tables are available in Zenodo (https://doi.org/10.5281/zenodo.8173287). 
 
 Beyond the content listed above, our aim for GROWdb was to maximize data use by making the data available in searchable and interactive platforms including the National Microbiome Data Collaborative (NMDC)2,23 data portal, the Department of Energy’s Systems Biology Knowledgebase (KBase)3, and a GROW specific user interface released here, GROWdb Explorer. Each platform provides different ways to interact with data in the GROWdb: 
