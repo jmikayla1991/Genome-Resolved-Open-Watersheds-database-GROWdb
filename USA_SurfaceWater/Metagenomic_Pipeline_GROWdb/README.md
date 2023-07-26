@@ -40,10 +40,13 @@ runMetaBat.sh <sample_name>_assembly_2500.fa <sample_name> 2500.sorted.bam
 #### Pathway F: 
 
 Read trimming with sickle:
+
 ```
 sickle pe -f <forward untrimmed reads>  -r <reverse untrimmed reads>   -t <sequencing platform> -o <sample_name>_R1_trimmed.fastq -p <sample_name>_R2_trimmed.fastq -s discared_R1R2.fastq
 ```
+
 Assembly with idba-ud:
+
 ```
 reformat.sh in1=<forward trimmed reads> in2=<reverse trimmed reads> out1=<forward trimmed reads>_25pcnt.fastq out2=<reverse trimmed reads>_25pcnt.fastq samplerate=0.25 -sampleseed=1234
 
@@ -51,52 +54,65 @@ fq2fa --merge --filter <forward trimmed reads>_25pcnt.fastq <reverse trimmed rea
 
 idba_ud -r R1R2_ALL_trimmed_25pcnt.fa -o idba_assembled_output_25pcnt --num_threads 20
 ```
+
 Binning with metabat2:
 
-  pullseq.py -i <assembly fasta> -m 2500 -o <sample_name>_assembly_2500.fa
+```
+pullseq.py -i <assembly fasta> -m 2500 -o <sample_name>_assembly_2500.fa
 
-  bbmap.sh -Xmx48G threads=<number of threads> minid=85 overwrite=t ref=<sample_name>_assembly_2500.fa in1=<sample_name>_R1_trimmed.fastq in2=<sample_name>_R2_trimmed.fastq out= <sample_name>_mapped.sam
+bbmap.sh -Xmx48G threads=<number of threads> minid=85 overwrite=t ref=<sample_name>_assembly_2500.fa in1=<sample_name>_R1_trimmed.fastq in2=<sample_name>_R2_trimmed.fastq out= <sample_name>_mapped.sam
 
-  samtools view -@ <number of threads> -bS <sample_name>_mapped.sam > <sample_name>_mapped.bam
+samtools view -@ <number of threads> -bS <sample_name>_mapped.sam > <sample_name>_mapped.bam
 
-  samtools sort -T <sample_name> 2500.sorted -o =<sample_name>_2500.sorted.bam <sample_name>_mapped.bam -@ <number of threads>
+samtools sort -T <sample_name> 2500.sorted -o =<sample_name>_2500.sorted.bam <sample_name>_mapped.bam -@ <number of threads>
 
-  runMetaBat.sh <sample_name>_assembly_2500.fa <sample_name> 2500.sorted.bam
+runMetaBat.sh <sample_name>_assembly_2500.fa <sample_name> 2500.sorted.bam
+```
 
 #### Pathway A (Note this is the JGI pipeline): 
 
+
 Read trimming and filtering with rqc2filter:
 
-  rqcfilter2.sh jni=t in=<interleaved untrimmed reads>.fastq.gz path=filter  rqcfilterdata=/home/opt/RQCFilterData rna=f trimfragadapter=t qtrim=r trimq=0 maxns=3 maq=3 minlen=51 mlf=0.33 phix=t removehuman=t removedog=t removecat=t removemouse=t khist=t removemicrobes=t sketch kapa=t clumpify=t barcodefilter=f trimpolyg=5 usejni=f
+```
+rqcfilter2.sh jni=t in=<interleaved untrimmed reads>.fastq.gz path=filter  rqcfilterdata=/home/opt/RQCFilterData rna=f trimfragadapter=t qtrim=r trimq=0 maxns=3 maq=3 minlen=51 mlf=0.33 phix=t removehuman=t removedog=t removecat=t removemouse=t khist=t removemicrobes=t sketch kapa=t clumpify=t barcodefilter=f trimpolyg=5 usejni=f
+```
 
 Assembly with metaspades:
-  bbcms.sh mincount=2 highcountfraction=0.6 in=<interleaved trimmed and filtered reads>.fastq.gz out=<interleaved trimmed and filtered reads>_bbcms.fastq.gz
+```
+bbcms.sh mincount=2 highcountfraction=0.6 in=<interleaved trimmed and filtered reads>.fastq.gz out=<interleaved trimmed and filtered reads>_bbcms.fastq.gz
 
-  spades.py -o <sample name>_metaspades_assembly --only-assembler -k 33,55,77,99,127 --meta -t <number of threads> --12 <interleaved trimmed and filtered reads>_bbcms.fastq.gz
+spades.py -o <sample name>_metaspades_assembly --only-assembler -k 33,55,77,99,127 --meta -t <number of threads> --12 <interleaved trimmed and filtered reads>_bbcms.fastq.gz
+```
 
 Binning with metabat2:
 
-  pullseq.py -i <assembly fasta> -m 2500 -o <sample_name>_assembly_2500.fa
+```
+pullseq.py -i <assembly fasta> -m 2500 -o <sample_name>_assembly_2500.fa
 
-  bbmap.sh -Xmx48G threads=<number of threads> minid=85 overwrite=t ref=<sample_name>_assembly_2500.fa in1=<sample_name>_R1_trimmed.fastq in2=<sample_name>_R2_trimmed.fastq out= <sample_name>_mapped.sam
+bbmap.sh -Xmx48G threads=<number of threads> minid=85 overwrite=t ref=<sample_name>_assembly_2500.fa in1=<sample_name>_R1_trimmed.fastq in2=<sample_name>_R2_trimmed.fastq out= <sample_name>_mapped.sam
 
-  samtools view -@ <number of threads> -bS <sample_name>_mapped.sam > <sample_name>_mapped.bam
+samtools view -@ <number of threads> -bS <sample_name>_mapped.sam > <sample_name>_mapped.bam
 
-  samtools sort -T <sample_name> 2500.sorted -o =<sample_name>_2500.sorted.bam <sample_name>_mapped.bam -@ <number of threads>
+samtools sort -T <sample_name> 2500.sorted -o =<sample_name>_2500.sorted.bam <sample_name>_mapped.bam -@ <number of threads>
 
-  runMetaBat.sh <sample_name>_assembly_2500.fa <sample_name> 2500.sorted.bam
+runMetaBat.sh <sample_name>_assembly_2500.fa <sample_name> 2500.sorted.bam
+```
 
 #### Bin analyses
 
 Quality checking (checkM)
-
-  checkm lineage_wf -t <number of threads>  -x fa . ./checkM 
-  checkm qa checkM/lineage.ms checkM -o 1 -f analyze_bins.txt --tab_table
+```
+checkm lineage_wf -t <number of threads>  -x fa . ./checkM 
+checkm qa checkM/lineage.ms checkM -o 1 -f analyze_bins.txt --tab_table
+```
 
 Taxonomy assignment
-
-  gtdbtk classify_wf --extension fa --genome_dir <genome dir> --out_dir <genome dir>/gtdb --min_perc_aa 0 –cpus <number of threads>
+```
+gtdbtk classify_wf --extension fa --genome_dir <genome dir> --out_dir <genome dir>/gtdb --min_perc_aa 0 –cpus <number of threads>
+```
 
 Annotation
-
-  DRAM.py annotate -i <bins> -o <output dir name>  --min_contig_size 2500 --threads <number of threads>
+```
+DRAM.py annotate -i <bins> -o <output dir name>  --min_contig_size 2500 --threads <number of threads>
+```
