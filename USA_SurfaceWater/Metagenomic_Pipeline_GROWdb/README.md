@@ -1,6 +1,6 @@
 # GROWdb Metagenomic Pipeline for generating metagenome assembled genomes (MAGs) from raw reads
 
-![workflow](https://github.com/jmikayla1991/Genome-Resolved-Open-Watersheds-database-GROWdb/blob/main/USA_SurfaceWater/Metagenomic_Pipeline_GROWdb/Analysis_flowchart_v2.jpg | width=100)
+![workflow](https://github.com/jmikayla1991/Genome-Resolved-Open-Watersheds-database-GROWdb/blob/main/USA_SurfaceWater/Metagenomic_Pipeline_GROWdb/Analysis_flowchart_v2.jpg = 0.5X)
 
 For each set of metagenomic reads in the GROW database, 4 types of assemblies will be performed:
 
