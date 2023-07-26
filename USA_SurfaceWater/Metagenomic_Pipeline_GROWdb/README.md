@@ -1,3 +1,5 @@
+![workflow]()
+
 For each set of metagenomic reads in the GROW database, 4 types of assemblies will be performed:
 
 (1)	Reads trimmed with sickle (v1.33), assembled with megahit (v1.2.9), and binned with metabat2 (2.12.1)
