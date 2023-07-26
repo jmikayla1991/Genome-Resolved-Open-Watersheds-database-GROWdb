@@ -1,16 +1,14 @@
-![workflow](https://github.com/jmikayla1991/Genome-Resolved-Open-Watersheds-database-GROWdb/blob/main/USA_SurfaceWater/Metagenomic_Pipeline_GROWdb/Analysis_flowchart.jpg)
+# GROWdb Metagenomic Pipeline for generating metagenome assembled genomes (MAGs) from raw reads
+
+![workflow](https://github.com/jmikayla1991/Genome-Resolved-Open-Watersheds-database-GROWdb/blob/main/USA_SurfaceWater/Metagenomic_Pipeline_GROWdb/Analysis_flowchart_v2.jpg)
 
 For each set of metagenomic reads in the GROW database, 4 types of assemblies will be performed:
 
-(1)	Reads trimmed with sickle (v1.33), assembled with megahit (v1.2.9), and binned with metabat2 (2.12.1)
+1. Reads trimmed with sickle (v1.33), assembled with megahit (v1.2.9), and binned with metabat2 (2.12.1)
+2. Reads trimmed with sickle (v1.33), filtered randomly to 25%, assembled with idba-ud (1.1.0), and binned with metabat2 (2.12.1)
+3. Reads trimmed and filtered with rqc2filter, filtered using bbcms, assembled with metaspades (v3.13.0), and binned with metabat2 (2.12.1). ** Note this is the exact JGI pipeline. For samples sequenced at JGI, MAGs were downloaded directly from from JGI. rqc2filter and bbcms are under bbtools version 38.89.
 
-(2)	Reads trimmed with sickle (v1.33), filtered randomly to 25%, assembled with idba-ud (1.1.0), and binned with metabat2 (2.12.1)
-
-(3)	Reads trimmed and filtered with rqc2filter, filtered using bbcms, assembled with metaspades (v3.13.0), and binned with metabat2 (2.12.1). ** Note this is the exact JGI pipeline. For samples sequenced at JGI, this assembly and binning does not need to be done, just downloaded from JGI. rqc2filter and bbcms are under bbtools version 38.89.
-
-(4)	Once all reads have been assembled and binned for each pathway 1-3 in Figure 1 for a given river, the last set of assemblies can be performed. For each river, concatenate all porewater reads and surface water reads separately. Then map each concatenated read set to the medium and high-quality bins for that river. Assemble and bin the remaining unmapped reads using idba-ud (1.1.0) and metabat2 (2.12.1). Repeat mapping, assembly, and binning, adding new bins to the database each time until no new bins can be recovered. 
-
-Commands for each pathway can be found below. 
+### Commands for each pathway can be found below. 
 
 Pathway 1: 
 
