@@ -3,8 +3,8 @@
 ### Directories
 1. Figures- R scripts for data analysis and figure generation
 2. GenomeBasedCarbonAnalyses- R scripts and commands for assigning microbial genomes to carbon usage patterns, as shown in Fig. 5 of the manuscript
-3. MetaG_Mapping- commands used for mapping metagenomes to dereplicated MAG database
-4. MetaT_Mapping- commands used for mapping metatranscriptomes to dereplicated MAG database and R scripts for data normalization
+3. MetaG_mapping- commands used for mapping metagenomes to dereplicated MAG database
+4. MetaT_mapping- commands used for mapping metatranscriptomes to dereplicated MAG database and R scripts for data normalization
 5. Metagenomic_Pipeline_GROWdb- commands used for read trimming, assembly, and binning of GROWdb metagenome-assembled genomes
 
 Other relevant GitHub respositories: 
