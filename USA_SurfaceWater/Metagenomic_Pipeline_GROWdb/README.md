@@ -14,11 +14,11 @@ For each set of metagenomic reads in the GROW database, 4 types of assemblies wi
 
 Read trimming with sickle:
 
-  sickle pe -f <forward untrimmed reads>  -r <reverse untrimmed reads>   -t <sequencing platform> -o <sample_name>_R1_trimmed.fastq -p <sample_name>_R2_trimmed.fastq -s discared_R1R2.fastq
+  `sickle pe -f <forward untrimmed reads>  -r <reverse untrimmed reads>   -t <sequencing platform> -o <sample_name>_R1_trimmed.fastq -p <sample_name>_R2_trimmed.fastq -s discared_R1R2.fastq`
 
 Assembly with megahit:
 
-  megahit -1 <sample_name>_R1_trimmed.fastq -2 <sample_name>_R2_trimmed.fastq --k-min 31 --k-max 121 --k-step 10 -m <max memory in byte, for W2 cluster, generally do 0.4, 40% of machines total mem>  -t <number of threads>
+  `megahit -1 <sample_name>_R1_trimmed.fastq -2 <sample_name>_R2_trimmed.fastq --k-min 31 --k-max 121 --k-step 10 -m <max memory in byte, for W2 cluster, generally do 0.4, 40% of machines total mem>  -t <number of threads>`
 
 Binning with metabat2:
 
