@@ -6,5 +6,6 @@ GROWdb networks efforts across researchers to move beyond a small collection of 
 Please see [our authorship agreement](https://docs.google.com/document/d/1DcqMnlGiqw3wbqwjtb_i7M4XZdK47ZxN/edit?usp=sharing&ouid=107108008331383885871&rtpof=true&sd=true) for guidelines on using this data. 
 
 ### Directories
-1. USA_SurfaceWater- This contains the code and commands for "A functional microbiome catalog crowdsourced from North American rivers" currently on [BioArchive](https://www.biorxiv.org/content/10.1101/2023.07.22.550117v1). 
+1. USA_SurfaceWater- This contains the code and commands for "A functional microbiome catalog crowdsourced from North American rivers" currently on [BioArchive](https://www.biorxiv.org/content/10.1101/2023.07.22.550117v1).
+2. Yojoa_HondurasLake- This repo contains scripts and commands used for data processing and figure generation in Microbiome membership and associated dominant nitrogen metabolisms of a large, tropical, monomictic lake identified using genome resolved metatranscriptomics
 
