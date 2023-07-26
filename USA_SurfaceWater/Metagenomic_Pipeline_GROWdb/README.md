@@ -13,8 +13,9 @@ For each set of metagenomic reads in the GROW database, 4 types of assemblies wi
 #### Pathway B: 
 
 Read trimming with sickle:
-
-`sickle pe -f <forward untrimmed reads>  -r <reverse untrimmed reads>   -t <sequencing platform> -o <sample_name>_R1_trimmed.fastq -p <sample_name>_R2_trimmed.fastq -s discared_R1R2.fastq`
+```
+sickle pe -f <forward untrimmed reads>  -r <reverse untrimmed reads>   -t <sequencing platform> -o <sample_name>_R1_trimmed.fastq -p <sample_name>_R2_trimmed.fastq -s discared_R1R2.fastq
+```
 
 Assembly with megahit:
 
