@@ -8,7 +8,7 @@
 5. Metagenomic_Pipeline_GROWdb- commands used for read trimming, assembly, and binning of GROWdb metagenome-assembled genomes
 
 Other relevant GitHub respositories: 
-- https://github.com/rossyndicate/GROWdb for Geospatial data mining for GROWdb
+- https://github.com/rossyndicate/GROWdb for geospatial data mining for GROWdb
 
 ### Data accessibility 
 The data underlying GROWdb are accessible across multiple platforms to ensure many levels of data use and structure are widely available. First, all reads and MAGs are publicly hosted on National Center for Biotechnology (NCBI) under Bioproject PRJNA946291. Second, all data presented in this manuscript including MAG annotations, phylogenetic tree files, antibiotic resistance gene database files, and expression data tables are available in Zenodo (https://doi.org/10.5281/zenodo.8173287). 
