@@ -22,5 +22,5 @@ DRAM.py annotate_genes -i 41827_metaT_genes.faa -o DRAM_1.4.4_02062023 --use_cam
 DRAM.py distill -i 41827genes_58bams_annotations.tsv -o distilled_by_BAM
 ```
 
-5. run R script **02_XYZ.R** to curate annotations into microbial lifestyles, and generate Figure 5.
+5. run R script **02_GROWdb_Carbon_Curation.R** to curate annotations into microbial lifestyles, and generate Figure 5.
 
