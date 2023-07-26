@@ -56,7 +56,6 @@ idba_ud -r R1R2_ALL_trimmed_25pcnt.fa -o idba_assembled_output_25pcnt --num_thre
 ```
 
 Binning with metabat2:
-
 ```
 pullseq.py -i <assembly fasta> -m 2500 -o <sample_name>_assembly_2500.fa
 
