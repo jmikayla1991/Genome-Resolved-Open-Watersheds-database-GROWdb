@@ -16,37 +16,37 @@ Read trimming with sickle:
 ```
 sickle pe -f <forward untrimmed reads>  -r <reverse untrimmed reads>   -t <sequencing platform> -o <sample_name>_R1_trimmed.fastq -p <sample_name>_R2_trimmed.fastq -s discared_R1R2.fastq
 ```
-
 Assembly with megahit:
-
-`megahit -1 <sample_name>_R1_trimmed.fastq -2 <sample_name>_R2_trimmed.fastq --k-min 31 --k-max 121 --k-step 10 -m <max memory in byte, for W2 cluster, generally do 0.4, 40% of machines total mem>  -t <number of threads>`
-
+```
+megahit -1 <sample_name>_R1_trimmed.fastq -2 <sample_name>_R2_trimmed.fastq --k-min 31 --k-max 121 --k-step 10 -m <max memory in byte, for W2 cluster, generally do 0.4, 40% of machines total mem>  -t <number of threads>
+```
 Binning with metabat2:
+```
+pullseq.py -i <assembly fasta> -m 2500 -o <sample_name>_assembly_2500.fa
 
-  pullseq.py -i <assembly fasta> -m 2500 -o <sample_name>_assembly_2500.fa
+bbmap.sh -Xmx48G threads=<number of threads> minid=85 overwrite=t ref=<sample_name>_assembly_2500.fa in1=<sample_name>_R1_trimmed.fastq in2=<sample_name>_R2_trimmed.fastq out= <sample_name>_mapped.sam
 
-  bbmap.sh -Xmx48G threads=<number of threads> minid=85 overwrite=t ref=<sample_name>_assembly_2500.fa in1=<sample_name>_R1_trimmed.fastq in2=<sample_name>_R2_trimmed.fastq out= <sample_name>_mapped.sam
+samtools view -@ <number of threads> -bS <sample_name>_mapped.sam > <sample_name>_mapped.bam
 
-  samtools view -@ <number of threads> -bS <sample_name>_mapped.sam > <sample_name>_mapped.bam
+samtools sort -T <sample_name> 2500.sorted -o =<sample_name>_2500.sorted.bam <sample_name>_mapped.bam -@ <number of threads>
 
-  samtools sort -T <sample_name> 2500.sorted -o =<sample_name>_2500.sorted.bam <sample_name>_mapped.bam -@ <number of threads>
-
-  runMetaBat.sh <sample_name>_assembly_2500.fa <sample_name> 2500.sorted.bam
+runMetaBat.sh <sample_name>_assembly_2500.fa <sample_name> 2500.sorted.bam
+```
 
 #### Pathway F: 
 
 Read trimming with sickle:
-
-  sickle pe -f <forward untrimmed reads>  -r <reverse untrimmed reads>   -t <sequencing platform> -o <sample_name>_R1_trimmed.fastq -p <sample_name>_R2_trimmed.fastq -s discared_R1R2.fastq
-
+```
+sickle pe -f <forward untrimmed reads>  -r <reverse untrimmed reads>   -t <sequencing platform> -o <sample_name>_R1_trimmed.fastq -p <sample_name>_R2_trimmed.fastq -s discared_R1R2.fastq
+```
 Assembly with idba-ud:
-  reformat.sh in1=<forward trimmed reads> in2=<reverse trimmed reads> out1=<forward trimmed reads>_25pcnt.fastq out2=<reverse trimmed reads>_25pcnt.fastq samplerate=0.25 -sampleseed=1234
+```
+reformat.sh in1=<forward trimmed reads> in2=<reverse trimmed reads> out1=<forward trimmed reads>_25pcnt.fastq out2=<reverse trimmed reads>_25pcnt.fastq samplerate=0.25 -sampleseed=1234
 
+fq2fa --merge --filter <forward trimmed reads>_25pcnt.fastq <reverse trimmed reads>_25pcnt.fastq R1R2_ALL_trimmed_25pcnt.fa
 
-  fq2fa --merge --filter <forward trimmed reads>_25pcnt.fastq <reverse trimmed reads>_25pcnt.fastq R1R2_ALL_trimmed_25pcnt.fa
-
-  idba_ud -r R1R2_ALL_trimmed_25pcnt.fa -o idba_assembled_output_25pcnt --num_threads 20
-
+idba_ud -r R1R2_ALL_trimmed_25pcnt.fa -o idba_assembled_output_25pcnt --num_threads 20
+```
 Binning with metabat2:
 
   pullseq.py -i <assembly fasta> -m 2500 -o <sample_name>_assembly_2500.fa
