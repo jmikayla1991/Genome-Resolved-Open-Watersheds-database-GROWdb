@@ -12,4 +12,6 @@
 
 >> [Link to list of 5,336 MAGs used here.](https://github.com/jmikayla1991/Genome-Resolved-Open-Watersheds-database-GROWdb/blob/main/USA_SurfaceWater/GlobalComparison/Nayfach_GROWcompare_5336.csv) - Nayfach_GROWcompare_5336.csv
    
-4. [Garner, et al.](https://www.nature.com/articles/s41564-023-01435-6)
+4. [Garner, et al.](https://www.nature.com/articles/s41564-023-01435-6) - This large scale freshwater metagenome study of 308 Canadian lakes resulted in a catalog of 1,008 MAGs. In an interest to compare to other inland waterbodies, we have retained 1,008 MAGs for our global comparison.
+
+>> [Link to list of 1,008 MAGs used here.]() - Garner_GROWcompare_1008.csv
