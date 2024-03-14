@@ -1,0 +1,1009 @@
+﻿mag_id,coassembly_ecozone,completeness,contamination,strain_heterogeneity,genome_size_mbp,gc,n_genes,coding_density,n_contigs,n50,n_trna_genes,n_trna_aminoacids,n_16s_rrna_genes,n_23s_rrna_genes,n_5s_rrna_genes,mimag_quality,domain,phylum,class,order,family,genus,species,taxon
+AH_bin106,Atlantic Highlands,98.54,0,0,7.517473,41.60049527,5890,0.893622232,315,38324,47,20,1,0,0,high,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Saprospiraceae,M3007,NA,Bacteroidota
+AH_bin12,Atlantic Highlands,63.28,1.72,0,1.763615,64.68032989,1922,0.934034923,268,7891,25,14,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Chthoniobacterales,NA,NA,NA,Verrucomicrobiota/_A
+AH_bin13,Atlantic Highlands,54.44,0.47,0,0.628691,34.2778885,699,0.927703753,160,3913,13,7,0,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,UBA1997,SYAR01,NA,Alphaproteobacteria
+AH_bin152,Atlantic Highlands,66.52,0.27,0,2.403975,35.3806092,2499,0.908745723,539,4680,23,11,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Crocinitomicaceae,M2408,NA,Bacteroidota
+AH_bin165,Atlantic Highlands,72.19,0.68,0,4.074988,65.72627944,3923,0.91207925,759,5853,32,13,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Pedosphaerales,UBA9464,NA,NA,Verrucomicrobiota/_A
+AH_bin185,Atlantic Highlands,51.31,0.41,0,0.967401,63.0610264,1189,0.935034179,216,4793,9,7,0,0,0,medium,Bacteria,Cyanobacteria,Cyanobacteriia,PCC-6307,Cyanobiaceae,Cyanobium_A,NA,Cyanobacteria
+AH_bin22,Atlantic Highlands,53.08,1,0,1.690708,65.24728102,1893,0.922381038,372,4808,19,11,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Rhizobacter,NA,Gammaproteobacteria
+AH_bin23,Atlantic Highlands,74.29,2.11,9.09,3.213378,66.54116011,3339,0.913542073,570,6090,20,13,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Ga0077523,Ga0077526,NA,Gammaproteobacteria
+AH_bin243,Atlantic Highlands,63.43,0,0,2.334497,67.57832629,2497,0.916468087,282,10848,35,16,0,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Brevundimonas,NA,Alphaproteobacteria
+AH_bin248,Atlantic Highlands,93.21,2.06,0,4.099418,67.64335815,3195,0.900577838,485,10602,40,19,1,0,0,high,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Pedosphaerales,UBA9464,UBA6176,NA,Verrucomicrobiota/_A
+AH_bin25,Atlantic Highlands,77.89,0.81,0,2.909542,62.16961295,2849,0.920005623,458,7131,29,17,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,PHOS-HE28,PHOS-HE28,NA,Bacteroidota
+AH_bin284,Atlantic Highlands,64.08,0,0,0.640902,33.47968956,727,0.914326995,115,6359,36,17,1,1,0,medium,Bacteria,Patescibacteria,Paceibacteria,UBA9983,UBA9973,NA,NA,Patescibacteria
+AH_bin306,Atlantic Highlands,54.61,0,0,0.806551,61.960372,956,0.954868322,183,4634,11,8,0,0,1,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,Ilumatobacteraceae,NA,NA,Actinobacteriota
+AH_bin311,Atlantic Highlands,90.03,0,0,1.695803,37.52122151,1623,0.918195097,65,45140,31,18,0,0,0,high,Bacteria,Verrucomicrobiota_A,Chlamydiia,Parachlamydiales,NA,NA,NA,Verrucomicrobiota/_A
+AH_bin348,Atlantic Highlands,85.93,3.39,5.56,3.519156,62.81403837,3798,0.890521193,470,9400,37,18,0,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Hyphomonadaceae,UBA7672,NA,Alphaproteobacteria
+AH_bin361,Atlantic Highlands,98.51,1.24,0,4.319049,51.68114555,3569,0.912041285,128,51117,38,19,0,0,0,high,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Saprospiraceae,M3007,NA,Bacteroidota
+AH_bin373,Atlantic Highlands,87.12,2.13,0,1.939119,39.33513106,1882,0.913117761,256,9997,19,12,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,UBA1312,NA,Bacteroidota
+AH_bin399,Atlantic Highlands,50,0,0,2.10689,57.88413254,1945,0.893584857,535,3972,7,4,0,0,0,medium,Bacteria,Planctomycetota,Planctomycetes,Pirellulales,Pirellulaceae,Pirellula_B,NA,Planctomycetota
+AH_bin404,Atlantic Highlands,51.6,0.07,0,0.446424,33.62386431,546,0.916733867,86,5423,23,18,1,0,0,medium,Bacteria,Patescibacteria,Paceibacteria,UBA9983,Zambryskibacteraceae,NA,NA,Patescibacteria
+AH_bin41,Atlantic Highlands,63.79,0,0,3.625264,46.21845471,3504,0.903957891,783,4772,17,10,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Saprospiraceae,Haliscomenobacter,NA,Bacteroidota
+AH_bin419,Atlantic Highlands,96.96,2.7,0,2.665271,58.51828951,2735,0.938862877,212,18088,39,19,1,1,1,high,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Chthoniobacterales,Terrimicrobiaceae,QYQL01,NA,Verrucomicrobiota/_A
+AH_bin424,Atlantic Highlands,52.51,0,0,0.950821,62.65806077,1093,0.95996828,210,4827,4,4,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,S36-B12,UBA10649,NA,Actinobacteriota
+AH_bin429,Atlantic Highlands,57.38,0.03,0,1.394268,55.70887376,1529,0.921761813,302,4828,7,7,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,SYFN01,NA,Gammaproteobacteria
+AH_bin434,Atlantic Highlands,77.63,5.54,4.55,2.585344,68.70977324,2739,0.939754632,469,5958,38,19,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Steroidobacterales,Steroidobacteraceae,ZC4RG30,NA,Gammaproteobacteria
+AH_bin436,Atlantic Highlands,68.43,0,0,2.0913,31.42399464,2071,0.914996892,374,6055,16,14,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,AKYH767,NA,NA,NA,Bacteroidota
+AH_bin458,Atlantic Highlands,60.79,1.64,0,1.534157,34.25210067,1529,0.934227071,354,4412,15,9,0,0,0,medium,Bacteria,Bacteroidota,Kapabacteria,Kapabacteriales,UBA961,NA,NA,Bacteroidota
+AH_bin482,Atlantic Highlands,53.45,3.45,0,1.125416,44.50763096,1144,0.939791153,160,9136,13,7,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,Nanopelagicaceae,Planktophila,NA,Actinobacteriota
+AH_bin498,Atlantic Highlands,59.75,3.78,8.33,0.739185,33.61648302,874,0.906555193,122,7072,27,15,1,2,1,medium,Bacteria,Patescibacteria,Paceibacteria,UBA9983,UBA9973,UBA9973,NA,Patescibacteria
+AH_bin542,Atlantic Highlands,52.7,1.72,0,1.712608,42.966283,1551,0.953668323,255,8230,15,8,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UBA955,UBA955,UBA955 sp002347985,Bacteroidota
+AH_bin55,Atlantic Highlands,78.65,0,0,0.970632,43.12623116,832,0.913207065,26,59323,36,19,0,1,1,medium,Bacteria,Dependentiae,Babeliae,Babeliales,GCA-2401785,NA,NA,Dependentiae
+AH_bin553,Atlantic Highlands,78.8,2.49,0,2.872417,61.37186906,2751,0.940310547,306,12748,23,12,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Steroidobacterales,Steroidobacteraceae,NA,NA,Gammaproteobacteria
+AH_bin555,Atlantic Highlands,61.75,0,0,0.911949,58.79791523,1011,0.950343714,184,5155,15,11,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,Aurantimicrobium,NA,Actinobacteriota
+AH_bin580,Atlantic Highlands,98.85,1.35,0,6.117693,63.23859337,4963,0.885794367,342,28694,49,17,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Pedosphaerales,UBA9464,UBA6176,NA,Verrucomicrobiota/_A
+AH_bin601,Atlantic Highlands,53,1.66,0,0.969585,36.88990651,1145,0.902616068,241,3914,9,8,0,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,Rickettsiaceae,SXXS01,NA,Alphaproteobacteria
+AH_bin615,Atlantic Highlands,82.3,0.34,0,1.3358,43.58137446,1220,0.905147477,46,46066,33,19,0,0,0,medium,Bacteria,Verrucomicrobiota_A,Chlamydiia,2-12-FULL-49-11,NA,NA,NA,Verrucomicrobiota/_A
+AH_bin663,Atlantic Highlands,89.56,0.58,0,1.322694,60.24401713,1338,0.947148018,121,14572,35,19,1,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,Rhodoluna,NA,Actinobacteriota
+AH_bin680,Atlantic Highlands,66.36,1.25,0,3.880895,60.71024854,3883,0.908267294,824,4933,36,17,2,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,DEV007,V1-115,NA,Verrucomicrobiota/_A
+AH_bin698,Atlantic Highlands,96.55,0.99,0,2.43848,31.46406778,2136,0.937824792,75,46394,34,20,1,0,0,high,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,UBA8649,NA,NA,Bacteroidota
+AH_bin707,Atlantic Highlands,79.27,2.56,0,1.780379,55.71403617,1849,0.936258516,208,11213,38,19,0,1,1,medium,Bacteria,Actinobacteriota,Acidimicrobiia,NA,NA,NA,NA,Actinobacteriota
+AH_bin710,Atlantic Highlands,79.59,9.21,0,1.756006,41.07440407,1940,0.921728058,341,5469,22,13,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,Legionellaceae,DDPF01,NA,Gammaproteobacteria
+AH_bin711,Atlantic Highlands,77.93,5.37,7.41,2.621291,63.50141972,2832,0.943142139,390,8260,21,11,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Rhodoferax,NA,Gammaproteobacteria
+AH_bin717,Atlantic Highlands,52.95,0,0,0.732933,55.06274107,823,0.956915571,162,4657,13,9,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,Rhodoluna,NA,Actinobacteriota
+AH_bin721,Atlantic Highlands,72.34,0,0,2.694705,65.83099078,2449,0.87377134,464,6653,36,16,0,1,0,medium,Bacteria,Planctomycetota,Phycisphaerae,Phycisphaerales,SM1A02,UBA2402,NA,Planctomycetota
+AH_bin729,Atlantic Highlands,65.41,0,0,1.158663,66.38176933,1314,0.935096745,229,5219,16,10,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,UBA3065,UBA3065,NA,Gammaproteobacteria
+AH_bin73,Atlantic Highlands,61.21,0,0,0.846738,46.87943614,958,0.955749004,167,5299,14,10,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,Nanopelagicaceae,AAA044-D11,NA,Actinobacteriota
+AH_bin731,Atlantic Highlands,59.68,0.9,0,1.129774,40.31452308,1243,0.941048387,234,5052,24,17,0,0,0,medium,Bacteria,Verrucomicrobiota_A,Chlamydiia,Parachlamydiales,NA,NA,NA,Verrucomicrobiota/_A
+AH_bin738,Atlantic Highlands,83.4,0.74,0,3.294601,52.86828359,2791,0.930158462,169,30547,27,16,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,SXYR01,NA,Bacteroidota
+AH_bin748,Atlantic Highlands,56.03,0,0,0.929462,35.22349488,1026,0.914718407,212,4504,30,17,0,0,0,medium,Bacteria,Verrucomicrobiota_A,Chlamydiia,Parachlamydiales,Simkaniaceae,NA,NA,Verrucomicrobiota/_A
+AH_bin751,Atlantic Highlands,61.42,0.26,0,2.500303,66.26304892,2758,0.919849314,495,5464,25,17,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,S36-B12,NA,NA,Actinobacteriota
+AH_bin758,Atlantic Highlands,65.1,1.02,0,3.217446,59.07981051,3245,0.924138276,654,5192,20,12,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,Verrucomicrobiaceae,NA,NA,Verrucomicrobiota/_A
+AH_bin767,Atlantic Highlands,81.3,0.57,0,3.727924,70.56659417,3058,0.90919155,373,14664,45,18,1,2,1,medium,Bacteria,Planctomycetota,Planctomycetes,Pirellulales,UBA1268,NA,NA,Planctomycetota
+AH_bin794,Atlantic Highlands,71.14,0,0,3.45435,52.05584263,3058,0.91020713,731,4908,15,11,0,0,0,medium,Bacteria,Planctomycetota,Planctomycetes,Pirellulales,Pirellulaceae,Pirellula_B,NA,Planctomycetota
+AH_bin798,Atlantic Highlands,88.17,0.18,0,2.925785,44.0212114,2712,0.9175288,324,12091,20,12,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,UA16,UBA4660,NA,Bacteroidota
+AH_bin809,Atlantic Highlands,69.29,1.65,0,1.070087,31.77451927,1134,0.916602108,227,5151,17,13,0,1,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,UBA1997,SYAR01,NA,Alphaproteobacteria
+AH_bin822,Atlantic Highlands,62.48,2.42,0,2.87086,35.5891266,2949,0.928947075,624,4801,16,8,1,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UKL13-3,B1,NA,Bacteroidota
+AH_bin830,Atlantic Highlands,92.57,1.49,0,3.207218,54.63429676,3049,0.906432615,334,13503,44,17,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Pedosphaerales,Pedosphaeraceae,SCTL01,NA,Verrucomicrobiota/_A
+AH_bin844,Atlantic Highlands,60.29,2.04,0,2.180508,50.21417028,2375,0.937007798,457,5092,14,9,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,SCGC-AAA027-K21,NA,Gammaproteobacteria
+AH_bin85,Atlantic Highlands,89.66,6.95,4.55,10.168591,73.21763654,9249,0.927935935,1168,11095,76,19,0,0,0,medium,Bacteria,Myxococcota,Polyangia,Polyangiales,Ga0077539,NA,NA,Myxococcota
+AH_bin854,Atlantic Highlands,57.76,0,0,1.774646,40.98552613,1839,0.942202558,392,4825,12,8,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,UA16,UBA4660,NA,Bacteroidota
+AH_bin874,Atlantic Highlands,94.67,0.32,0,1.802613,57.49936342,1793,0.937982251,33,102453,38,18,0,0,2,high,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Rhodocyclaceae,Paddy-1,NA,Gammaproteobacteria
+AH_bin876,Atlantic Highlands,57.21,0.93,0,1.92821,57.29505604,2165,0.928487561,412,4935,25,15,0,0,0,medium,Bacteria,Armatimonadota,Fimbriimonadia,Fimbriimonadales,Fimbriimonadaceae,Fimbriimonas,NA,Armatimonadota
+AH_bin89,Atlantic Highlands,88.07,1.62,0,2.04167,40.84597413,1939,0.896070374,256,10496,38,18,0,0,0,medium,Bacteria,Verrucomicrobiota_A,Chlamydiia,Parachlamydiales,Rhabdochlamydiaceae,NA,NA,Verrucomicrobiota/_A
+AH_bin9,Atlantic Highlands,51.86,0.74,0,1.116833,40.20529479,1180,0.903214715,289,3891,5,5,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Ferruginibacter,NA,Bacteroidota
+AH_bin946,Atlantic Highlands,77.35,4.29,0,1.855755,41.28583784,2016,0.864940685,243,9553,38,20,1,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Caedimonadales,Caedimonadaceae,Caedimonas,Caedimonas varicaedens,Alphaproteobacteria
+AH_bin969,Atlantic Highlands,78.79,1.72,0,2.464648,36.06839597,2358,0.939571087,375,8133,17,10,1,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UKL13-3,B1,NA,Bacteroidota
+AH_bin971,Atlantic Highlands,78.73,0.3,0,2.022317,67.10263524,2061,0.956100849,267,9665,31,15,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Steroidobacterales,Steroidobacteraceae,UBA964,UBA964 sp002292945,Gammaproteobacteria
+AH_bin997,Atlantic Highlands,65.52,0,0,2.073878,44.60575791,1921,0.947430852,316,7724,11,9,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,SXYR01,NA,Bacteroidota
+AM_bin1046,Atlantic Maritime,75.85,1.52,0,2.633233,69.33890772,2753,0.945207659,416,7249,33,17,1,1,1,medium,Bacteria,Actinobacteriota,Actinomycetia,Mycobacteriales,Mycobacteriaceae,Mycobacterium,NA,Actinobacteriota
+AM_bin1072,Atlantic Maritime,97.44,1.28,0,1.715144,55.49988806,1707,0.937040855,135,17598,43,18,1,1,1,high,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,RAAP-2,NA,NA,Actinobacteriota
+AM_bin118,Atlantic Maritime,56.77,0.59,0,1.254261,49.32274861,1285,0.876847801,289,4323,17,11,0,0,0,medium,Bacteria,Bdellovibrionota_C,UBA2361,UBA2361,UBA2361,NA,NA,Bdellovibrionota/_C
+AM_bin135,Atlantic Maritime,55.62,0,0,1.410816,34.95806682,1519,0.887626026,352,3982,16,12,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,OLB11,NA,Bacteroidota
+AM_bin153,Atlantic Maritime,57.05,0,0,1.855453,36.34584115,1696,0.943089909,206,12158,6,5,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Sediminibacterium,NA,Bacteroidota
+AM_bin157,Atlantic Maritime,60.77,0,0,1.916584,61.31487062,2154,0.948158286,372,5744,25,16,0,0,0,medium,Bacteria,Eremiobacterota,Eremiobacteria,UBP12,UBA5184,Bog-1524,NA,Eremiobacterota
+AM_bin169,Atlantic Maritime,90.12,0,0,1.92259,40.15619555,1711,0.810521744,179,14472,35,18,0,0,0,high,Bacteria,Bdellovibrionota,Bdellovibrionia_A,UBA1018,NA,NA,NA,Bdellovibrionota/_C
+AM_bin173,Atlantic Maritime,94.62,0,0,1.164303,43.90463651,1141,0.912513323,109,15588,40,20,1,1,1,high,Bacteria,Proteobacteria,Alphaproteobacteria,UBA7879,UBA5542,NA,NA,Alphaproteobacteria
+AM_bin177,Atlantic Maritime,88.35,7.15,4.17,1.872735,43.75600392,1975,0.934322261,177,20542,25,13,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Methylophilaceae,Methylopumilus_A,NA,Gammaproteobacteria
+AM_bin184,Atlantic Maritime,94.14,0.44,0,4.042272,45.32913668,3922,0.820956136,331,16471,40,19,0,0,0,high,Bacteria,Cyanobacteria,Cyanobacteriia,Cyanobacteriales,Microcystaceae,NA,NA,Cyanobacteria
+AM_bin198,Atlantic Maritime,65.95,0,0,1.010233,44.79036024,1135,0.953806696,181,6038,21,12,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,Nanopelagicaceae,AAA044-D11,NA,Actinobacteriota
+AM_bin201,Atlantic Maritime,51.49,0,0,0.78829,62.25526139,829,0.962653338,141,6207,13,10,0,0,0,medium,Bacteria,Chloroflexota,Ellin6529,CSP1-4,UBA10416,UBA10416,NA,Chloroflexota
+AM_bin219,Atlantic Maritime,86.21,0,0,1.196342,60.25684963,1372,0.929328737,199,6988,31,18,1,1,1,medium,Bacteria,Actinobacteriota,Thermoleophilia,Ga0077560,Ga0077560,Ga0077560,NA,Actinobacteriota
+AM_bin220,Atlantic Maritime,50.47,0,0,1.985474,54.85783244,2224,0.939513184,362,5833,13,8,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Limnohabitans,NA,Gammaproteobacteria
+AM_bin231,Atlantic Maritime,76.55,1.72,0,1.637739,49.40408698,1604,0.91162267,231,8984,28,14,0,1,0,medium,Bacteria,Margulisbacteria,Marinamargulisbacteria,SXXA01,NA,NA,NA,Margulisbacteria
+AM_bin232,Atlantic Maritime,79.14,0,0,2.640705,35.5460379,2228,0.936215518,95,67877,30,16,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Sediminibacterium,NA,Bacteroidota
+AM_bin245,Atlantic Maritime,93.96,0.59,0,3.733334,47.47590224,3590,0.875457165,281,18734,30,16,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,SG8-41,UBA5216,NA,Gammaproteobacteria
+AM_bin257,Atlantic Maritime,66.55,0.43,0,2.196623,65.44837234,2428,0.923973299,437,5433,30,15,0,1,1,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,NA,NA,NA,Actinobacteriota
+AM_bin264,Atlantic Maritime,68.32,0,0,1.519052,35.97230378,1656,0.928348075,301,5498,19,14,2,1,0,medium,Bacteria,Cyanobacteria,Vampirovibrionia,Caenarcaniphilales,LMEP-6097,LMEP-6097,NA,Cyanobacteria
+AM_bin266,Atlantic Maritime,57.81,1.75,0,0.898861,47.17759476,1028,0.953547879,162,6222,21,13,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,Rhodoluna,NA,Actinobacteriota
+AM_bin320,Atlantic Maritime,51.21,0,0,2.411998,52.17002668,2603,0.94589838,417,6406,16,12,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,SCGC-AAA027-K21,NA,Gammaproteobacteria
+AM_bin361,Atlantic Maritime,52.59,0,0,1.773446,48.25841892,1899,0.9198893,345,5493,10,8,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Limnohabitans,NA,Gammaproteobacteria
+AM_bin367,Atlantic Maritime,51.72,0.86,0,1.518123,58.95398462,1832,0.927140291,376,4063,11,9,0,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Beijerinckiaceae,28-YEA-48,NA,Alphaproteobacteria
+AM_bin372,Atlantic Maritime,94.23,2.22,0,3.953316,45.08043374,3848,0.902547633,297,19865,28,13,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Flavipsychrobacter,NA,Bacteroidota
+AM_bin388,Atlantic Maritime,52.04,0,0,2.020957,58.00920059,2114,0.936051583,316,7693,19,12,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,FW305-bin1,NA,NA,Actinobacteriota
+AM_bin391,Atlantic Maritime,68.3,0,0,1.040774,44.18211831,1137,0.959245715,150,8510,20,12,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,Nanopelagicaceae,UBA7398,UBA7398 sp002470135,Actinobacteriota
+AM_bin40,Atlantic Maritime,86.05,0,0,0.746234,34.44643369,736,0.890519596,26,49907,40,20,1,1,1,medium,Bacteria,Patescibacteria,Paceibacteria,SW-4-49-11,SW-4-49-11,NA,NA,Patescibacteria
+AM_bin401,Atlantic Maritime,61.5,1.33,0,1.644444,40.6131799,1794,0.945348093,315,5722,9,6,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Polynucleobacter,NA,Gammaproteobacteria
+AM_bin420,Atlantic Maritime,92.73,1.94,0,1.675656,43.01688413,1528,0.920596471,102,28268,35,18,1,0,0,high,Bacteria,Proteobacteria,Gammaproteobacteria,Coxiellales,Coxiellaceae,2-12-FULL-42-15,NA,Gammaproteobacteria
+AM_bin423,Atlantic Maritime,66.81,0,0,0.783156,45.60994234,893,0.956908968,147,5718,13,7,1,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,Nanopelagicaceae,QYPT01,NA,Actinobacteriota
+AM_bin426,Atlantic Maritime,59.48,0,0,1.498885,62.30051005,1676,0.962173215,301,5217,14,9,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Steroidobacterales,Steroidobacteraceae,UBA964,NA,Gammaproteobacteria
+AM_bin435,Atlantic Maritime,63.89,0.99,0,1.52353,36.12977756,1523,0.882798501,354,4373,10,7,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,UBA10324,NA,NA,Bacteroidota
+AM_bin439,Atlantic Maritime,64.66,0,0,2.50845,50.01566705,2607,0.902058642,442,6026,14,9,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Limnohabitans,NA,Gammaproteobacteria
+AM_bin447,Atlantic Maritime,51.88,0,0,2.390016,34.8105201,2344,0.9315946,428,6330,11,10,0,0,1,medium,Bacteria,Bacteroidota,Bacteroidia,AKYH767-A,NA,NA,NA,Bacteroidota
+AM_bin451,Atlantic Maritime,52.28,0,0,2.918265,70.19646948,2748,0.932884436,641,4785,18,11,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Opitutales,Opitutaceae,Opitutus,NA,Verrucomicrobiota/_A
+AM_bin463,Atlantic Maritime,66.52,1.39,0,1.56202,59.67759696,1536,0.941663999,283,5965,22,13,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Opitutales,UBA953,UBA953,NA,Verrucomicrobiota/_A
+AM_bin464,Atlantic Maritime,51.93,1.84,0,1.022164,47.74869786,1161,0.948080739,201,5428,14,10,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,Nanopelagicaceae,PALSA-747,NA,Actinobacteriota
+AM_bin466,Atlantic Maritime,60.7,0.68,0,2.052798,59.2684229,2036,0.879580943,418,5182,17,12,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Pedosphaerales,Pedosphaeraceae,NA,NA,Verrucomicrobiota/_A
+AM_bin468,Atlantic Maritime,84.13,0.43,0,1.385651,60.98822864,1469,0.942252414,145,12969,31,18,0,0,0,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,RAAP-2,RAAP-2,NA,Actinobacteriota
+AM_bin469,Atlantic Maritime,63.78,0,0,1.132268,51.20201224,1171,0.94612053,188,7054,23,12,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Opitutales,UBA953,UBA953,NA,Verrucomicrobiota/_A
+AM_bin474,Atlantic Maritime,99.92,3.6,0,3.46553,63.32944744,3368,0.9224413,199,28430,47,19,1,1,1,high,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Chthoniobacterales,NA,NA,NA,Verrucomicrobiota/_A
+AM_bin481,Atlantic Maritime,95.68,0,0,2.09574,43.64897363,1997,0.961770544,176,16023,24,17,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Crocinitomicaceae,UBA952,NA,Bacteroidota
+AM_bin487,Atlantic Maritime,55.69,0.73,0,1.526589,46.17503467,1786,0.945081486,344,4467,8,8,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Limnohabitans,NA,Gammaproteobacteria
+AM_bin488,Atlantic Maritime,71.4,1.14,0,2.72815,52.51767681,2635,0.903822737,607,4569,26,16,0,0,0,medium,Bacteria,Planctomycetota,Planctomycetes,Gemmatales,Gemmataceae,SYLG01,NA,Planctomycetota
+AM_bin493,Atlantic Maritime,56.38,0,0,2.139892,67.82029187,2320,0.959954054,391,6153,15,9,1,0,0,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,Ilumatobacteraceae,UBA668,NA,Actinobacteriota
+AM_bin500,Atlantic Maritime,52.92,0.77,0,1.703167,67.21237553,1626,0.900165985,429,3954,17,12,1,0,0,medium,Bacteria,Planctomycetota,Phycisphaerae,Phycisphaerales,SM1A02,UBA2402,NA,Planctomycetota
+AM_bin504,Atlantic Maritime,66.14,0,0,2.13368,40.41838514,1944,0.930739849,267,9908,25,15,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Opitutales,Opitutaceae,NA,NA,Verrucomicrobiota/_A
+AM_bin509,Atlantic Maritime,92.75,1.97,0,2.832082,39.30189874,2635,0.904860452,224,19379,28,15,0,1,1,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Flavipsychrobacter,NA,Bacteroidota
+AM_bin540,Atlantic Maritime,77.41,1.1,0,2.016345,64.29772683,2038,0.946769526,388,5866,30,17,1,1,1,medium,Bacteria,Gemmatimonadota,Gemmatimonadetes,Gemmatimonadales,Gemmatimonadaceae,Fen-1231,NA,Gemmatimonadota
+AM_bin555,Atlantic Maritime,73.24,0.68,0,1.940228,54.08926167,1952,0.931247255,358,6124,27,16,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,Akkermansiaceae,UBA956,NA,Verrucomicrobiota/_A
+AM_bin57,Atlantic Maritime,55.01,0.37,0,1.809561,60.49085939,1942,0.926714822,389,4849,12,8,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudohongiellaceae,NA,NA,Gammaproteobacteria
+AM_bin575,Atlantic Maritime,59.25,0,0,1.407693,52.96779909,1530,0.960394774,214,8222,24,15,1,0,0,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,Ilumatobacteraceae,UBA2093,NA,Actinobacteriota
+AM_bin581,Atlantic Maritime,50.17,0,0,1.44727,41.26900993,1598,0.919475979,295,5149,9,8,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Methylophilaceae,Methylotenera_A,NA,Gammaproteobacteria
+AM_bin591,Atlantic Maritime,68.45,0,0,1.721074,44.96942026,1689,0.965361745,262,7564,10,8,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Crocinitomicaceae,UBA952,NA,Bacteroidota
+AM_bin599,Atlantic Maritime,68.41,0.25,0,1.465202,39.61365054,1490,0.907141131,307,4999,11,8,1,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,OLB11,NA,Bacteroidota
+AM_bin600,Atlantic Maritime,75.34,0,0,3.392336,70.42972748,3453,0.92093973,397,11305,41,15,1,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Rubrivivax,NA,Gammaproteobacteria
+AM_bin601,Atlantic Maritime,64.76,0,0,1.701944,33.44152334,1731,0.910552286,314,6092,11,8,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,NA,Bacteroidota
+AM_bin610,Atlantic Maritime,79.54,1.37,0,2.760558,64.26092116,2705,0.920284232,400,8074,32,16,1,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Opitutales,Opitutaceae,Palsa-1447,NA,Verrucomicrobiota/_A
+AM_bin611,Atlantic Maritime,70.73,2.25,0,0.842125,36.28618079,859,0.890474692,105,10128,25,16,1,0,0,medium,Bacteria,Dependentiae,Babeliae,Babeliales,GWF2-32-72,NA,NA,Dependentiae
+AM_bin638,Atlantic Maritime,92.1,1.38,0,3.04025,64.241888,3011,0.882800757,388,10178,41,18,0,0,1,high,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,NA,NA,Alphaproteobacteria
+AM_bin646,Atlantic Maritime,54.9,0,0,1.449143,54.89506557,1425,0.903791413,336,4403,8,7,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Chthoniobacterales,Chthoniobacteraceae,Chth-196,NA,Verrucomicrobiota/_A
+AM_bin649,Atlantic Maritime,93.61,0.16,0,1.99679,58.7871033,2030,0.91780708,29,118859,41,19,1,0,0,high,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,NA,NA,Alphaproteobacteria
+AM_bin655,Atlantic Maritime,63.89,0.93,0,0.790298,63.24677527,879,0.961886529,152,5560,18,11,0,0,0,medium,Bacteria,Chloroflexota,Ellin6529,CSP1-4,UBA10416,UBA10416,NA,Chloroflexota
+AM_bin656,Atlantic Maritime,77.73,2.11,0,1.314831,48.50197478,1390,0.950883422,161,10302,27,14,0,0,1,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,Nanopelagicaceae,PALSA-747,NA,Actinobacteriota
+AM_bin664,Atlantic Maritime,57.37,0,0,1.515845,62.24145609,1771,0.919237125,296,5355,21,10,0,1,1,medium,Bacteria,Proteobacteria,Alphaproteobacteria,UBA1301,UBA1301,UBA6038,NA,Alphaproteobacteria
+AM_bin671,Atlantic Maritime,61.21,0,0,1.555636,43.85383213,1759,0.93366443,288,5771,12,7,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Polynucleobacter,NA,Gammaproteobacteria
+AM_bin677,Atlantic Maritime,67.24,1.94,0,4.469861,70.25052904,4166,0.921908981,897,5235,40,16,0,0,0,medium,Bacteria,Myxococcota,UBA727,UBA727,GCA-2721815,NA,NA,Myxococcota
+AM_bin693,Atlantic Maritime,50,0,0,0.600857,50.56094878,695,0.954648111,127,4704,3,3,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,Nanopelagicaceae,PALSA-747,NA,Actinobacteriota
+AM_bin699,Atlantic Maritime,77.95,1.28,0,1.418024,61.28373004,1504,0.951634105,183,9337,34,16,0,0,1,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,RAAP-2,RAAP-2,NA,Actinobacteriota
+AM_bin713,Atlantic Maritime,58.79,1.88,0,1.483735,43.14719273,1535,0.963899214,306,4952,6,5,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,UA16,NA,NA,Bacteroidota
+AM_bin718,Atlantic Maritime,70.94,0,0,1.421827,60.29383322,1556,0.948280628,230,7436,26,15,0,0,1,medium,Bacteria,Actinobacteriota,Thermoleophilia,Solirubrobacterales,NA,NA,NA,Actinobacteriota
+AM_bin728,Atlantic Maritime,64.01,0,0,1.93323,55.77256715,2094,0.917913544,292,7510,21,13,0,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingorhabdus_B,NA,Alphaproteobacteria
+AM_bin73,Atlantic Maritime,94.29,0,0,2.005622,54.75822463,2005,0.893168304,134,21387,41,18,0,0,0,high,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,NA,NA,Gammaproteobacteria
+AM_bin746,Atlantic Maritime,95.95,2.03,0,1.765774,38.30682749,1541,0.920743538,18,215360,36,19,0,0,0,high,Bacteria,Verrucomicrobiota_A,Chlamydiia,Parachlamydiales,Rhabdochlamydiaceae,NA,NA,Verrucomicrobiota/_A
+AM_bin758,Atlantic Maritime,50,0,0,1.497525,36.89634564,1476,0.945379209,291,5711,5,5,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Cytophagales,Spirosomaceae,UBA6715,NA,Bacteroidota
+AM_bin782,Atlantic Maritime,71.71,1.12,0,0.663366,35.06993123,768,0.921972184,89,8864,38,19,1,1,0,medium,Bacteria,Patescibacteria,Saccharimonadia,Saccharimonadales,UBA4665,NA,NA,Patescibacteria
+AM_bin785,Atlantic Maritime,64.66,0,0,1.673752,33.32453075,1627,0.914000401,241,8382,15,12,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,NA,Bacteroidota
+AM_bin792,Atlantic Maritime,51.63,0.68,0,2.402965,68.1732776,2396,0.910811851,563,4307,22,14,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Pedosphaerales,UBA9464,SXXZ01,NA,Verrucomicrobiota/_A
+AM_bin8,Atlantic Maritime,93.72,0.55,0,2.365947,53.9474891,2080,0.960336812,148,22125,39,18,0,0,0,high,Bacteria,Bacteroidota,Kapabacteria,Kapabacteriales,Kapabacteriaceae,UBA10438,NA,Bacteroidota
+AM_bin814,Atlantic Maritime,50,0,0,0.877403,51.6736323,994,0.941660788,191,4799,22,11,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,UBA5976,UBA5976,NA,Actinobacteriota
+AM_bin835,Atlantic Maritime,82.03,1.72,0,0.720468,47.96257433,753,0.915063542,14,72469,38,20,2,1,1,medium,Bacteria,Patescibacteria,Paceibacteria,UBA9983,UBA11359_D,NA,NA,Patescibacteria
+AM_bin884,Atlantic Maritime,95.35,1.16,0,1.347228,37.60603254,1226,0.889732102,33,85382,38,19,0,0,0,high,Bacteria,Proteobacteria,Gammaproteobacteria,Diplorickettsiales,Diplorickettsiaceae,Rickettsiella,NA,Gammaproteobacteria
+AM_bin886,Atlantic Maritime,67.13,4.67,0,3.626662,64.74044176,3829,0.940149923,808,4773,35,15,0,0,0,medium,Bacteria,Myxococcota,UBA796,UBA796,SXON01,NA,NA,Myxococcota
+AM_bin894,Atlantic Maritime,56.24,0.95,0,1.156205,67.31012234,1252,0.926630658,268,4618,15,11,0,0,0,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,RAAP-2,Bog-756,NA,Actinobacteriota
+AM_bin901,Atlantic Maritime,59.15,0.26,0,1.273852,59.58101883,1425,0.955406908,256,5149,18,12,1,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,S36-B12,NA,NA,Actinobacteriota
+AM_bin907,Atlantic Maritime,55.17,0,0,1.382028,31.91650242,1426,0.922675228,280,4970,12,11,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,NA,Bacteroidota
+AM_bin909,Atlantic Maritime,53.92,0,0,0.610064,37.25363241,682,0.93946045,111,5739,21,13,1,1,1,medium,Bacteria,Patescibacteria,Saccharimonadia,Saccharimonadales,UBA4665,NA,NA,Patescibacteria
+AM_bin915,Atlantic Maritime,55.6,0,0,0.701768,46.06322887,805,0.95668654,155,4442,5,5,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,Nanopelagicaceae,PALSA-747,NA,Actinobacteriota
+AM_bin927,Atlantic Maritime,57.27,0.51,0,1.332673,39.97769896,1404,0.922717726,273,5069,9,7,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Flavipsychrobacter,NA,Bacteroidota
+AM_bin944,Atlantic Maritime,69.26,2.55,5.26,1.870347,54.75085639,2092,0.926261277,387,4981,18,12,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Methylococcales,Methylococcaceae,UBA6136,NA,Gammaproteobacteria
+AM_bin956,Atlantic Maritime,98.99,0.68,0,1.849082,54.64938818,1755,0.932678486,56,48499,42,19,1,0,0,high,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Chthoniobacterales,UBA6821,NA,NA,Verrucomicrobiota/_A
+AM_bin961,Atlantic Maritime,69.75,2.14,0,2.865066,68.58096812,3215,0.948447959,521,5933,35,15,0,0,0,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,Ilumatobacteraceae,UBA668,NA,Actinobacteriota
+AM_bin972,Atlantic Maritime,81.82,3.06,0,1.613179,32.6962476,1784,0.917838008,250,7546,28,18,1,1,1,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,UBA8987,UBA8987,NA,Alphaproteobacteria
+AM_bin973,Atlantic Maritime,70.74,0,0,1.644843,56.89746681,1694,0.95723604,231,8553,32,15,1,0,0,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,Ilumatobacteraceae,UBA2093,NA,Actinobacteriota
+AM_bin974,Atlantic Maritime,98.52,1.23,0,3.40869,47.69627041,3052,0.907881033,178,33878,36,18,0,1,1,high,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,SXYR01,NA,Bacteroidota
+AM_bin983,Atlantic Maritime,64.25,0.68,0,3.04297,60.68748624,3153,0.922622635,692,4446,22,10,0,0,1,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,DEV007,V1-115,NA,Verrucomicrobiota/_A
+AM_bin99,Atlantic Maritime,65.79,0,0,2.122307,62.68522886,1999,0.921979242,281,9384,34,16,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Opitutales,Opitutaceae,IMCC26134_A,NA,Verrucomicrobiota/_A
+AM_bin990,Atlantic Maritime,59.95,3.45,0,3.126504,53.10647292,3201,0.903003482,494,7364,12,8,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Limnohabitans,NA,Gammaproteobacteria
+BCTC_bin1003,Boreal/Taiga Cordilleras,67.07,1.35,0,1.244605,37.33216563,1370,0.918414276,260,5160,18,10,1,0,0,medium,Bacteria,Verrucomicrobiota_A,Chlamydiia,Parachlamydiales,NA,NA,NA,Verrucomicrobiota/_A
+BCTC_bin1009,Boreal/Taiga Cordilleras,97.3,0,0,2.363362,48.76472584,2091,0.912181883,139,27389,34,19,1,0,0,high,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,GCA-002722245,NA,NA,Bacteroidota
+BCTC_bin117,Boreal/Taiga Cordilleras,81.93,0.68,0,1.195451,36.39521821,1219,0.938777917,138,12038,32,18,0,0,0,medium,Bacteria,Verrucomicrobiota_A,Chlamydiia,Parachlamydiales,Rhabdochlamydiaceae,NA,NA,Verrucomicrobiota/_A
+BCTC_bin134,Boreal/Taiga Cordilleras,52.56,0,0,1.350854,35.91120876,1374,0.921722111,241,6089,11,7,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Sphingobacteriales,Sphingobacteriaceae,Pedobacter,NA,Bacteroidota
+BCTC_bin136,Boreal/Taiga Cordilleras,57.48,0,0,1.207496,43.61422315,1277,0.930988591,290,4275,10,9,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,AKYH767,NA,NA,NA,Bacteroidota
+BCTC_bin153,Boreal/Taiga Cordilleras,94.53,0.35,0,3.625396,41.73549593,3639,0.856441889,307,18133,43,19,0,0,0,high,Bacteria,Cyanobacteria,Cyanobacteriia,Pseudanabaenales,Pseudanabaenaceae,Pseudanabaena,NA,Cyanobacteria
+BCTC_bin156,Boreal/Taiga Cordilleras,58.01,0,0,0.792723,42.18081221,798,0.853846804,17,77089,40,20,1,1,0,medium,Bacteria,Patescibacteria,Paceibacteria,UBA9983,UBA5272,UBA11704,NA,Patescibacteria
+BCTC_bin163,Boreal/Taiga Cordilleras,71.01,0,0,1.609122,37.74667179,1573,0.928771715,306,5565,9,9,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UBA955,NA,NA,Bacteroidota
+BCTC_bin184,Boreal/Taiga Cordilleras,59.34,0,0,1.14818,55.66714278,1250,0.935095543,198,6547,19,11,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Chthoniobacterales,Terrimicrobiaceae,UBA967,NA,Verrucomicrobiota/_A
+BCTC_bin213,Boreal/Taiga Cordilleras,98.92,0.54,0,2.710181,33.96068381,2371,0.936212009,67,86094,29,18,0,0,0,high,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Crocinitomicaceae,M0103,NA,Bacteroidota
+BCTC_bin216,Boreal/Taiga Cordilleras,92.83,1.18,0,3.167514,33.36632451,3140,0.931532741,375,11052,36,20,1,0,0,high,Bacteria,Spirochaetota,Leptospirae,Leptospirales,Leptospiraceae,NA,NA,Spirochaetota
+BCTC_bin22,Boreal/Taiga Cordilleras,96.9,0,0,3.293713,35.28334132,2933,0.913344909,157,43950,33,19,1,1,1,high,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,NA,NA,NA,Bacteroidota
+BCTC_bin260,Boreal/Taiga Cordilleras,61.79,0,0,0.599966,34.14676832,625,0.915831897,63,14841,19,11,0,0,0,medium,Bacteria,Patescibacteria,Paceibacteria,SW-4-49-11,SW-4-49-11,NA,NA,Patescibacteria
+BCTC_bin274,Boreal/Taiga Cordilleras,65.75,0,0,1.587894,33.90553778,1608,0.915093829,290,5943,18,12,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,NA,Bacteroidota
+BCTC_bin32,Boreal/Taiga Cordilleras,74.37,0.27,0,1.017689,42.3648089,1113,0.958075601,114,12426,31,14,1,1,1,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,AcAMD-5,NA,NA,Actinobacteriota
+BCTC_bin336,Boreal/Taiga Cordilleras,51.72,0,0,1.899488,66.90818789,2045,0.921372496,370,5435,23,14,1,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,JOSHI-001,NA,Gammaproteobacteria
+BCTC_bin35,Boreal/Taiga Cordilleras,52.72,0,0,1.717753,66.04861118,1863,0.866376598,428,4026,31,16,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,NA,NA,Gammaproteobacteria
+BCTC_bin350,Boreal/Taiga Cordilleras,52.36,1.72,0,0.621853,48.33103643,689,0.910327682,77,9609,30,16,1,0,0,medium,Bacteria,Patescibacteria,Paceibacteria,UBA9983,GCA-2401445,NA,NA,Patescibacteria
+BCTC_bin382,Boreal/Taiga Cordilleras,72.57,0,0,1.796683,32.48118895,1785,0.913316372,239,9625,17,13,0,0,1,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,NA,Bacteroidota
+BCTC_bin391,Boreal/Taiga Cordilleras,61.4,0,0,1.847973,54.02438239,1903,0.867809216,364,5585,21,11,0,0,0,medium,Bacteria,Bdellovibrionota_C,UBA2361,UBA2361,UBA2361,NA,NA,Bdellovibrionota/_C
+BCTC_bin417,Boreal/Taiga Cordilleras,62.64,0.29,0,2.894645,70.74985015,2605,0.907843622,490,6714,36,16,1,0,0,medium,Bacteria,Planctomycetota,Planctomycetes,Pirellulales,UBA1268,QWPN01,NA,Planctomycetota
+BCTC_bin444,Boreal/Taiga Cordilleras,70.71,0,0,0.813575,55.12595643,920,0.952172818,171,5302,15,10,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,Rhodoluna,NA,Actinobacteriota
+BCTC_bin456,Boreal/Taiga Cordilleras,94.19,0,0,1.398813,39.29431597,1302,0.904011473,72,29580,37,19,0,0,0,high,Bacteria,Proteobacteria,Gammaproteobacteria,Diplorickettsiales,Diplorickettsiaceae,Rickettsiella,Rickettsiella sp002290645,Gammaproteobacteria
+BCTC_bin49,Boreal/Taiga Cordilleras,51.88,0.37,0,1.139984,31.82439403,1249,0.909159251,289,3883,14,12,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,OLB11,NA,Bacteroidota
+BCTC_bin497,Boreal/Taiga Cordilleras,75.44,1.36,0,2.5231,63.38393246,2713,0.942253577,446,6220,25,14,1,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,UBA4615,NA,Gammaproteobacteria
+BCTC_bin533,Boreal/Taiga Cordilleras,65.23,0,0,1.689497,58.18696334,1762,0.902181537,250,7583,30,16,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Chthoniobacterales,UBA6821,NA,NA,Verrucomicrobiota/_A
+BCTC_bin575,Boreal/Taiga Cordilleras,57.05,0,0,1.648935,40.10618975,1686,0.938272279,352,4662,16,12,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,UA16,UBA4660,NA,Bacteroidota
+BCTC_bin6,Boreal/Taiga Cordilleras,54.49,0.95,0,0.714752,33.58815365,816,0.892544547,180,3948,15,12,0,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,UBA1997,UBA2645,NA,Alphaproteobacteria
+BCTC_bin606,Boreal/Taiga Cordilleras,62.68,0.85,0,0.891783,54.19591986,1024,0.96498027,156,6619,14,7,0,0,0,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,Ilumatobacteraceae,UBA3006,NA,Actinobacteriota
+BCTC_bin617,Boreal/Taiga Cordilleras,67.24,0,0,2.192766,52.37553848,2254,0.920474415,223,13394,27,15,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,SCGC-AAA027-K21,NA,Gammaproteobacteria
+BCTC_bin635,Boreal/Taiga Cordilleras,62.28,0,0,0.700437,36.00123923,799,0.90091757,83,9714,21,16,0,1,1,medium,Bacteria,Dependentiae,Babeliae,Babeliales,GWF2-32-72,NA,NA,Dependentiae
+BCTC_bin651,Boreal/Taiga Cordilleras,97.17,0.54,0,2.485032,40.96514653,2284,0.954545052,164,24230,35,18,0,0,0,high,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Crocinitomicaceae,UBA952,NA,Bacteroidota
+BCTC_bin67,Boreal/Taiga Cordilleras,98.47,1.72,0,2.842235,33.59011482,2639,0.911762046,134,37832,33,18,1,0,0,high,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Crocinitomicaceae,M2408,NA,Bacteroidota
+BCTC_bin676,Boreal/Taiga Cordilleras,50,0,0,0.720916,51.02147823,772,0.956019841,115,7083,17,10,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,Rhodoluna,NA,Actinobacteriota
+BCTC_bin695,Boreal/Taiga Cordilleras,54.31,0,0,0.519802,42.09256602,593,0.959145983,111,4890,11,11,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,Nanopelagicaceae,Nanopelagicus,NA,Actinobacteriota
+BCTC_bin696,Boreal/Taiga Cordilleras,93.16,6.13,7.14,6.096116,48.02267542,5795,0.889530973,402,24440,47,20,0,2,1,high,Bacteria,Cyanobacteria,Vampirovibrionia,Obscuribacterales,Obscuribacteraceae,Ga0077546,NA,Cyanobacteria
+BCTC_bin711,Boreal/Taiga Cordilleras,93.06,0,0,0.980403,30.96073757,1063,0.960658015,32,74167,24,14,0,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Pelagibacterales,Pelagibacteraceae,IMCC9063,NA,Alphaproteobacteria
+BCTC_bin750,Boreal/Taiga Cordilleras,74.75,1.08,0,2.742549,59.96662229,2536,0.891861549,376,8603,43,19,1,1,0,medium,Bacteria,Planctomycetota,Phycisphaerae,Phycisphaerales,SM1A02,UBA2402,NA,Planctomycetota
+BCTC_bin755,Boreal/Taiga Cordilleras,87.18,1.28,0,1.626354,50.79300079,1778,0.95650332,169,12033,33,20,1,0,0,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,Ilumatobacteraceae,UBA2093,NA,Actinobacteriota
+BCTC_bin766,Boreal/Taiga Cordilleras,83.37,0,0,2.607246,68.38817664,2364,0.911169103,422,6945,32,15,0,0,0,medium,Bacteria,Planctomycetota,Phycisphaerae,Phycisphaerales,SM1A02,QWPT01,NA,Planctomycetota
+BCTC_bin773,Boreal/Taiga Cordilleras,59.33,0.47,0,0.748128,29.87095791,747,0.870654487,166,4519,13,10,1,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,Rickettsiaceae,NA,NA,Alphaproteobacteria
+BCTC_bin795,Boreal/Taiga Cordilleras,64.66,0,0,1.374317,35.9313026,1398,0.947711481,313,4506,10,8,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UBA955,NA,NA,Bacteroidota
+BCTC_bin819,Boreal/Taiga Cordilleras,77.73,0,0,0.753673,39.56968075,853,0.903452824,16,59994,36,20,2,1,1,medium,Bacteria,Patescibacteria,Paceibacteria,UBA9983,UBA11359,PALSA-1337,NA,Patescibacteria
+BCTC_bin836,Boreal/Taiga Cordilleras,80.69,0,0,1.083805,35.52059642,1078,0.917434409,64,24726,29,16,1,1,1,medium,Bacteria,Patescibacteria,Gracilibacteria,UBA1369,GCA-2718715,NA,NA,Patescibacteria
+BCTC_bin875,Boreal/Taiga Cordilleras,94.74,2.39,0,3.884022,63.78439669,4014,0.903382885,209,34367,44,18,0,1,1,high,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Hyphomonadaceae,NA,NA,Alphaproteobacteria
+BCTC_bin879,Boreal/Taiga Cordilleras,81.17,0,0,0.69441,37.41060757,727,0.890774902,37,30517,36,20,2,2,1,medium,Bacteria,Patescibacteria,Paceibacteria,UBA9983,UBA11359,PALSA-1337,NA,Patescibacteria
+BCTC_bin910,Boreal/Taiga Cordilleras,94.21,1.19,0,2.78998,36.56327286,2549,0.9282554,214,19856,24,16,0,0,1,medium,Bacteria,Bacteroidota,Bacteroidia,AKYH767,NA,NA,NA,Bacteroidota
+BCTC_bin918,Boreal/Taiga Cordilleras,60.21,0,0,0.862084,48.39853193,911,0.958447205,95,12735,21,13,0,0,1,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,Nanopelagicaceae,Planktophila,NA,Actinobacteriota
+BCTC_bin92,Boreal/Taiga Cordilleras,92.72,0.84,0,4.069116,44.02177279,3605,0.852893847,302,18550,37,18,0,0,0,high,Bacteria,Bdellovibrionota_C,UBA2361,UBA2361,UBA2361,NA,NA,Bdellovibrionota/_C
+BCTC_bin923,Boreal/Taiga Cordilleras,75,0,0,2.60233,52.75061195,2582,0.934125572,243,13786,31,17,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,SXZD01,NA,Gammaproteobacteria
+BCTC_bin929,Boreal/Taiga Cordilleras,51.07,0.48,0,1.211417,43.5362885,1340,0.95668461,272,4539,13,11,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,UBA7662,NA,NA,NA,Bacteroidota
+BCTC_bin973,Boreal/Taiga Cordilleras,57.69,0,0,1.937388,43.52179326,2010,0.862975821,438,4558,11,7,0,0,0,medium,Bacteria,Bdellovibrionota_C,UBA2361,UBA2361,UBA2361,NA,NA,Bdellovibrionota/_C
+BCTC_bin975,Boreal/Taiga Cordilleras,84.37,1.29,0,1.159009,48.45984803,1190,0.95129546,74,31349,36,16,1,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,Rhodoluna,NA,Actinobacteriota
+BP_bin1001,Boreal Plains,61.81,0,0,2.049401,54.50392578,2235,0.951449228,350,6743,29,17,0,0,0,medium,Bacteria,Armatimonadota,Fimbriimonadia,Fimbriimonadales,Fimbriimonadaceae,NA,NA,Armatimonadota
+BP_bin1012,Boreal Plains,92.69,0.74,0,2.699169,47.09634706,2493,0.925146591,221,20707,29,16,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Ferruginibacter,NA,Bacteroidota
+BP_bin1030,Boreal Plains,93.84,0.84,0,3.033311,59.23672185,2839,0.885826742,226,19659,43,20,1,0,0,high,Bacteria,Bdellovibrionota_C,UBA2361,UBA2361,UBA2361,NA,NA,Bdellovibrionota/_C
+BP_bin104,Boreal Plains,91.71,0.34,0,3.843994,56.57121213,3713,0.930839122,416,12142,43,17,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,Verrucomicrobiaceae,NA,NA,Verrucomicrobiota/_A
+BP_bin1046,Boreal Plains,77.59,1.72,0,2.621835,37.51574756,2450,0.901761553,206,18265,26,15,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UKL13-3,UKL13-3,UKL13-3 sp001602415,Bacteroidota
+BP_bin105,Boreal Plains,87.84,0.85,0,2.25713,66.94917882,2264,0.920243849,277,10985,43,19,1,1,1,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,UBA8139,NA,NA,Actinobacteriota
+BP_bin1072,Boreal Plains,69.85,3.65,0,4.400884,36.88056763,3593,0.940209285,574,9353,42,19,0,0,0,medium,Bacteria,Myxococcota,Bradimonadia,UBA7976,NA,NA,NA,Myxococcota
+BP_bin1087,Boreal Plains,62.93,0,0,2.458352,46.67293374,2662,0.889439348,534,4955,10,8,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Methylococcales,Methylomonadaceae,Methylomonas,NA,Gammaproteobacteria
+BP_bin1088,Boreal Plains,98.6,0.03,0,2.689822,43.52998079,2413,0.937621151,124,36091,38,19,0,0,0,high,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Flavihumibacter,NA,Bacteroidota
+BP_bin1090,Boreal Plains,52.2,0.49,0,1.308126,41.076089,1386,0.924598242,262,5327,17,12,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,LD1,Bog-950,NA,Bacteroidota
+BP_bin1114,Boreal Plains,75.26,0.18,0,2.313478,61.90627272,2274,0.922216248,415,6082,24,14,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,PHOS-HE28,PHOS-HE28,NA,Bacteroidota
+BP_bin1124,Boreal Plains,98.65,1.11,0,3.48453,34.88085911,2885,0.91138231,133,48106,30,18,1,1,1,high,Bacteria,Bacteroidota,Bacteroidia,AKYH767-A,NA,NA,NA,Bacteroidota
+BP_bin1144,Boreal Plains,65.2,0,0,1.31364,34.85117688,1346,0.87061676,134,12205,40,20,1,1,1,medium,Bacteria,UBP7,NA,NA,NA,NA,NA,UBP7
+BP_bin1190,Boreal Plains,86.16,1.48,0,2.920602,32.77464714,2738,0.896165585,321,12191,37,20,1,1,1,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,UBA1930,NA,Bacteroidota
+BP_bin1204,Boreal Plains,89.41,0.25,0,2.711598,40.48369264,2439,0.904847621,267,14132,31,18,1,1,1,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,OLB11,NA,Bacteroidota
+BP_bin1212,Boreal Plains,53.37,0,0,1.622014,44.90559268,1593,0.967219149,234,8482,10,8,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Crocinitomicaceae,UBA952,NA,Bacteroidota
+BP_bin1223,Boreal Plains,56.14,1.75,0,0.450409,37.65066861,469,0.960649099,79,6662,5,3,0,0,0,medium,Bacteria,Firmicutes,Bacilli,RFN20,CAG-826,UBA970,NA,Firmicutes/_A
+BP_bin1234,Boreal Plains,54.08,0,0,1.202121,43.61890359,1373,0.918148007,257,4762,9,7,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Methylophilaceae,Methylotenera,NA,Gammaproteobacteria
+BP_bin1273,Boreal Plains,54.66,0,0,2.323074,63.72465965,2499,0.928995374,433,5775,20,12,1,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,UBA4615,NA,Gammaproteobacteria
+BP_bin1286,Boreal Plains,98.29,1.28,0,2.397559,60.45177616,2414,0.946113943,129,32858,44,20,1,1,1,high,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,Ilumatobacteraceae,CSBr16-110,NA,Actinobacteriota
+BP_bin1321,Boreal Plains,81.58,0.55,0,0.836749,44.15171097,782,0.872714518,20,107048,36,20,2,2,1,medium,Bacteria,Bacteroidota,Bacteroidia,Cytophagales,Amoebophilaceae,UBA8403,NA,Bacteroidota
+BP_bin1324,Boreal Plains,58.01,0.91,0,0.861415,46.10449087,958,0.932789654,196,4454,14,12,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Thiomicrospirales,Thiomicrospiraceae,GCA-002282575,NA,Gammaproteobacteria
+BP_bin1331,Boreal Plains,68.07,0.54,0,1.765723,67.16738696,2127,0.911454968,324,5805,28,15,0,0,0,medium,Bacteria,Cyanobacteria,Cyanobacteriia,PCC-6307,Cyanobiaceae,Cyanobium_A,NA,Cyanobacteria
+BP_bin1356,Boreal Plains,74.65,1.36,0,3.50339,58.80264544,3427,0.917463086,641,6046,31,18,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,Verrucomicrobiaceae,NA,NA,Verrucomicrobiota/_A
+BP_bin1366,Boreal Plains,51.75,0,0,0.703838,61.68493318,783,0.957751642,134,5309,12,8,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,MWH-TA3,NA,Actinobacteriota
+BP_bin1372,Boreal Plains,86.81,0,0,1.336917,38.47000225,1321,0.915426313,151,11899,27,17,1,1,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,UBA1997,UBA2645,NA,Alphaproteobacteria
+BP_bin1383,Boreal Plains,82.53,0,0,1.47424,60.22906718,1435,0.964032315,108,18332,21,13,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Schleiferiaceae,TMED14,NA,Bacteroidota
+BP_bin1385,Boreal Plains,80.38,0.99,0,2.327212,31.56008133,2235,0.923768011,237,13827,20,15,0,1,1,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,LD1,NA,NA,Bacteroidota
+BP_bin1396,Boreal Plains,63.01,0,0,1.371558,50.22324976,1412,0.960954622,152,12132,16,9,0,0,0,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,Ilumatobacteraceae,UBA2093,NA,Actinobacteriota
+BP_bin1413,Boreal Plains,95.36,1.09,0,5.341496,47.72483214,4653,0.894961262,361,22018,39,19,0,0,2,high,Bacteria,Bacteroidota,Kapabacteria,Kapabacteriales,UBA4661,PH2015,NA,Bacteroidota
+BP_bin142,Boreal Plains,78.87,0.4,0,2.183966,34.48780796,2048,0.907899207,316,8111,25,15,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,AKYH767-A,NA,NA,NA,Bacteroidota
+BP_bin1420,Boreal Plains,53.01,0,0,2.2793,53.5119993,2272,0.916957399,482,4935,13,8,1,1,0,medium,Bacteria,Bdellovibrionota,Oligoflexia,Silvanigrellales,Silvanigrellaceae,NA,NA,Bdellovibrionota/_C
+BP_bin1424,Boreal Plains,77.19,0,0,1.092273,50.55476058,1165,0.960027392,102,17388,27,14,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,Aquiluna,NA,Actinobacteriota
+BP_bin1432,Boreal Plains,58.97,0,0,1.875923,53.1678539,1925,0.951336489,235,10387,15,9,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,SCGC-AAA027-K21,NA,Gammaproteobacteria
+BP_bin1442,Boreal Plains,65.15,0.19,0,1.422742,29.12509787,1297,0.83376466,146,13696,35,20,1,1,0,medium,Bacteria,UBP7,NA,NA,NA,NA,NA,UBP7
+BP_bin1443,Boreal Plains,76.52,0,0,3.175872,54.47867546,2927,0.935193862,544,6366,23,15,1,0,0,medium,Bacteria,Planctomycetota,Planctomycetes,Gemmatales,Gemmataceae,NA,NA,Planctomycetota
+BP_bin145,Boreal Plains,55.17,1.72,0,2.160927,35.85683366,2056,0.92993979,389,6475,6,6,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UBA955,NA,NA,Bacteroidota
+BP_bin1463,Boreal Plains,68.16,5.77,0,1.735436,32.69892984,1856,0.906234514,384,4702,19,11,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Polaribacter,NA,Bacteroidota
+BP_bin1466,Boreal Plains,57.89,0,0,0.782014,50.85919178,889,0.960796098,117,7273,24,14,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,Aquiluna,NA,Actinobacteriota
+BP_bin1474,Boreal Plains,65.52,0,0,2.106348,48.01775395,2248,0.892477881,427,5244,16,12,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Methylococcales,Methylomonadaceae,Methylomonas,Methylomonas sp002928965,Gammaproteobacteria
+BP_bin1493,Boreal Plains,62.07,1.72,0,1.620412,41.79597534,1572,0.941191499,270,6604,11,8,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UBA955,NA,NA,Bacteroidota
+BP_bin1507,Boreal Plains,63.16,0,0,0.738264,50.77059155,789,0.959797579,112,7903,16,10,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,Rhodoluna,NA,Actinobacteriota
+BP_bin1516,Boreal Plains,63.09,0,0,2.776082,32.85151519,2852,0.917948029,369,9479,23,15,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,NA,Bacteroidota
+BP_bin1527,Boreal Plains,58.66,0,0,0.459876,34.34295332,487,0.91300481,44,14534,22,15,2,1,1,medium,Bacteria,Patescibacteria,Paceibacteria,UBA9983,UBA9973,2-01-FULL-33-17,NA,Patescibacteria
+BP_bin1536,Boreal Plains,74.7,0.74,0,2.997721,46.5689769,2468,0.905432827,85,67833,31,17,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Saprospiraceae,M3007,NA,Bacteroidota
+BP_bin1554,Boreal Plains,78.71,0.53,0,1.237617,55.22952577,1236,0.95159892,58,38886,33,16,1,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,Nanopelagicaceae,MAG-120802,NA,Actinobacteriota
+BP_bin157,Boreal Plains,58.3,0,0,0.631967,37.72981817,696,0.895125853,46,21456,35,20,0,1,1,medium,Bacteria,Patescibacteria,Paceibacteria,UBA9983,UBA5272,NA,NA,Patescibacteria
+BP_bin1573,Boreal Plains,96.8,1,0,1.857384,41.52227003,1669,0.956891521,33,101164,36,19,0,1,1,high,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,JJ008,NA,Bacteroidota
+BP_bin1581,Boreal Plains,52.04,0,0,1.671905,34.57032547,1645,0.939352415,215,10513,11,8,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Sediminibacterium,NA,Bacteroidota
+BP_bin1586,Boreal Plains,79.53,1.58,0,1.161567,44.35370495,1211,0.941578919,93,23896,32,18,1,0,1,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,Nanopelagicaceae,MAG-120802,NA,Actinobacteriota
+BP_bin173,Boreal Plains,77.19,1.75,0,3.423167,68.22956636,2918,0.913287316,169,32849,46,17,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Opitutales,Opitutaceae,IMCC26134_A,NA,Verrucomicrobiota/_A
+BP_bin232,Boreal Plains,74.08,0.68,0,2.584185,68.08235479,2488,0.919506924,392,8009,37,16,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Opitutales,Opitutaceae,IMCC26134_A,NA,Verrucomicrobiota/_A
+BP_bin262,Boreal Plains,53.59,0,0,1.241613,59.26371583,1366,0.921527883,296,4291,16,13,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudohongiellaceae,UBA5078,NA,Gammaproteobacteria
+BP_bin306,Boreal Plains,69.94,0,0,3.084977,63.11265854,2811,0.894027411,639,5158,22,13,0,1,1,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Opitutales,Opitutaceae,Tous-C4FEB,NA,Verrucomicrobiota/_A
+BP_bin31,Boreal Plains,56.77,0,0,1.951246,59.07819926,2279,0.922484402,405,5219,14,12,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,SG8-41,Ga0077527,NA,Gammaproteobacteria
+BP_bin372,Boreal Plains,55.67,0,0,1.655254,37.44905616,1745,0.909023026,392,4224,12,9,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Saprospiraceae,Saprospira,NA,Bacteroidota
+BP_bin377,Boreal Plains,85.18,0.85,0,1.869927,57.14688327,1673,0.879493157,77,38326,44,20,0,0,0,medium,Bacteria,Cyanobacteria,Vampirovibrionia,Vampirovibrionales,NA,NA,NA,Cyanobacteria
+BP_bin381,Boreal Plains,81.12,1.14,0,1.088127,71.24637106,1172,0.934659281,202,6078,28,16,1,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nitriliruptorales,Nitriliruptoraceae,CSBr16-57R1,NA,Actinobacteriota
+BP_bin399,Boreal Plains,58.93,0,0,2.476217,69.36835504,2326,0.908257233,416,6814,34,15,0,1,0,medium,Bacteria,Planctomycetota,Phycisphaerae,Phycisphaerales,SM1A02,QWPT01,NA,Planctomycetota
+BP_bin407,Boreal Plains,72.77,1.18,0,4.200379,50.77784648,3699,0.909447933,679,7366,27,17,1,0,0,medium,Bacteria,Planctomycetota,Planctomycetes,Pirellulales,Pirellulaceae,Pirellula_B,NA,Planctomycetota
+BP_bin415,Boreal Plains,55.94,0,0,0.981923,35.39910971,1029,0.946189263,202,4795,7,7,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,NA,NA,Bacteroidota
+BP_bin417,Boreal Plains,90.82,0.99,0,2.383995,34.95900788,2214,0.891759001,283,11043,23,12,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Ferruginibacter,NA,Bacteroidota
+BP_bin422,Boreal Plains,56.9,0,0,1.629313,32.57360618,1649,0.917286611,289,6248,24,15,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,Flavobacterium sp003242135,Bacteroidota
+BP_bin427,Boreal Plains,58.21,0,0,1.301428,70.08186392,1496,0.945941689,276,4700,19,12,1,0,0,medium,Bacteria,Actinobacteriota,Thermoleophilia,Gaiellales,F1-60-MAGs149,F1-60-MAGs149,NA,Actinobacteriota
+BP_bin44,Boreal Plains,67.59,0,0,1.232472,40.83370657,1183,0.924372318,11,181577,47,20,1,1,1,medium,Bacteria,Patescibacteria,Microgenomatia,UBA1400,PJMF01,NA,NA,Patescibacteria
+BP_bin45,Boreal Plains,51.92,1.12,0,0.452859,37.73006609,567,0.89552598,98,5196,20,13,0,0,0,medium,Bacteria,Patescibacteria,Paceibacteria,UBA9983,UBA11359_D,UBA11359,NA,Patescibacteria
+BP_bin459,Boreal Plains,92.54,0,0,2.452493,45.02284002,2239,0.932204903,145,28627,23,16,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Sediminibacterium,NA,Bacteroidota
+BP_bin484,Boreal Plains,65.52,0,0,1.563371,59.49470727,1661,0.891317544,253,6840,25,16,1,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,SHNJ01,NA,NA,NA,Alphaproteobacteria
+BP_bin487,Boreal Plains,65.13,0,0,2.262715,38.63226257,2410,0.882641429,367,7044,32,14,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Moraxellaceae,Acinetobacter,Acinetobacter junii,Gammaproteobacteria
+BP_bin489,Boreal Plains,61.77,0,0,1.116622,67.21424081,1174,0.947332222,250,4578,16,13,0,0,0,medium,Bacteria,Planctomycetota,Phycisphaerae,Phycisphaerales,SM1A02,SYAC01,NA,Planctomycetota
+BP_bin493,Boreal Plains,55.17,0,0,1.296515,43.33401465,1351,0.913941605,280,4857,15,11,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,OLB11,NA,Bacteroidota
+BP_bin494,Boreal Plains,86.22,0,0,3.081207,60.87172981,2926,0.926486276,302,13911,34,16,0,1,1,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,PHOS-HE28,PHOS-HE28,NA,Bacteroidota
+BP_bin497,Boreal Plains,50,0,0,1.070016,50.78241821,1122,0.961410857,182,7021,9,7,0,0,0,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,Ilumatobacteraceae,UBA2093,NA,Actinobacteriota
+BP_bin507,Boreal Plains,55.6,0,0,0.602469,40.41685132,700,0.963345832,109,6207,13,7,0,0,1,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,Nanopelagicaceae,Nanopelagicus,Nanopelagicus sp001437855,Actinobacteriota
+BP_bin526,Boreal Plains,68.1,0,0,1.21907,52.23219339,1348,0.962445963,218,6257,9,7,0,0,0,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,Ilumatobacteraceae,UBA2093,NA,Actinobacteriota
+BP_bin537,Boreal Plains,84.87,0.57,0,1.429435,45.24312053,1374,0.923825847,66,41067,35,18,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Francisellales,NA,NA,NA,Gammaproteobacteria
+BP_bin54,Boreal Plains,56.16,0.57,0,2.66842,67.95748046,2914,0.927036598,630,4374,27,15,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Rubrivivax,NA,Gammaproteobacteria
+BP_bin559,Boreal Plains,85.04,0.85,0,1.804441,47.03539767,1657,0.871209976,127,21724,36,18,0,0,1,medium,Bacteria,Cyanobacteria,Vampirovibrionia,Vampirovibrionales,NA,NA,NA,Cyanobacteria
+BP_bin565,Boreal Plains,83.33,1.28,0,1.983509,61.10095795,2149,0.954055162,247,9754,32,17,1,0,0,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,Ilumatobacteraceae,F1-20-MAGs119,NA,Actinobacteriota
+BP_bin572,Boreal Plains,97.16,1.9,0,1.556131,37.67986114,1524,0.932803858,86,29410,32,19,2,2,1,high,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,UBA1997,UBA2645,NA,Alphaproteobacteria
+BP_bin60,Boreal Plains,86.76,0,0,2.347182,43.2764907,2141,0.939332357,155,23824,25,16,1,1,1,medium,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UBA955,NA,NA,Bacteroidota
+BP_bin620,Boreal Plains,84.54,1.01,0,3.104697,46.09544828,3101,0.934777854,396,9171,18,13,0,1,1,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,SXYR01,NA,Bacteroidota
+BP_bin627,Boreal Plains,86.3,0.5,0,3.51755,46.43999375,2885,0.832494208,377,12500,30,16,0,1,1,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Saprospiraceae,NA,NA,Bacteroidota
+BP_bin630,Boreal Plains,96.22,0.25,0,2.104335,45.31811712,1929,0.932453721,125,24710,31,16,1,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Ferruginibacter,NA,Bacteroidota
+BP_bin632,Boreal Plains,93.71,2.21,9.09,4.132549,33.5566741,3815,0.877967085,326,21752,34,17,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,NA,Bacteroidota
+BP_bin633,Boreal Plains,57.3,1.79,0,1.671648,63.11986734,1913,0.940584381,328,5449,19,13,0,0,1,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Rhodoferax,NA,Gammaproteobacteria
+BP_bin635,Boreal Plains,92.94,0,0,2.060096,48.09343836,1957,0.93250897,181,16867,30,18,0,0,0,high,Bacteria,Bacteroidota,Bacteroidia,UBA7662,UBA7662,NA,NA,Bacteroidota
+BP_bin64,Boreal Plains,70.61,0,0,2.913923,36.26176807,2601,0.925019295,261,15666,20,14,0,1,1,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Crocinitomicaceae,M0103,NA,Bacteroidota
+BP_bin645,Boreal Plains,51.22,0.16,0,1.498027,35.31798826,1531,0.917991465,283,5643,21,13,0,0,1,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,NA,Bacteroidota
+BP_bin652,Boreal Plains,96.93,0.48,0,3.8163,33.75083196,3286,0.898110736,211,32057,30,17,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,AKYH767,B-17BO,UBA2475,NA,Bacteroidota
+BP_bin653,Boreal Plains,52.36,0,0,0.825365,61.0205182,918,0.941121807,161,5525,18,12,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Methylacidiphilales,UBA3015,UBA3015,NA,Verrucomicrobiota/_A
+BP_bin663,Boreal Plains,91.12,0.55,0,2.718333,43.12852767,2504,0.928653333,302,12050,26,14,1,1,1,medium,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UBA955,NA,NA,Bacteroidota
+BP_bin669,Boreal Plains,92.22,5,0,10.388675,56.14121146,8977,0.885605046,1181,11488,55,18,0,1,1,high,Bacteria,Chloroflexota,Anaerolineae,Caldilineales,Caldilineaceae,CFX5,NA,Chloroflexota
+BP_bin720,Boreal Plains,93.92,3.46,0,3.741358,63.22557211,3614,0.876594274,330,15942,41,18,1,1,1,high,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Chthoniobacterales,Chthoniobacteraceae,SXWH01,NA,Verrucomicrobiota/_A
+BP_bin726,Boreal Plains,70,0,0,1.156417,54.01788455,1345,0.955695048,222,5775,13,11,0,0,0,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,Ilumatobacteraceae,UBA2093,NA,Actinobacteriota
+BP_bin739,Boreal Plains,58.5,0,0,1.6726,50.8528638,1763,0.93616585,341,5126,12,9,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UBA955,NA,NA,Bacteroidota
+BP_bin745,Boreal Plains,89.03,2.3,0,1.955674,41.29364096,1691,0.862258229,193,13292,39,19,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Francisellales,NA,NA,NA,Gammaproteobacteria
+BP_bin755,Boreal Plains,89.55,1.04,0,2.228846,54.74842138,2236,0.922762721,141,28298,32,17,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Methylococcales,Methylococcaceae,UBA6136,NA,Gammaproteobacteria
+BP_bin757,Boreal Plains,96.47,1.23,0,3.263142,48.833854,2948,0.932083863,160,35444,25,13,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,SXYR01,NA,Bacteroidota
+BP_bin765,Boreal Plains,50,0,0,4.173681,74.53348735,3879,0.921637998,891,4917,35,16,0,0,0,medium,Bacteria,Myxococcota,UBA796,UBA796,UBA796,NA,NA,Myxococcota
+BP_bin772,Boreal Plains,69.04,0,0,1.589267,41.8598637,1687,0.956819716,331,4862,9,9,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,UA16,UBA4660,NA,Bacteroidota
+BP_bin777,Boreal Plains,86.98,1.28,0,4.029613,61.62477637,3303,0.883645154,344,18112,46,19,1,1,1,medium,Bacteria,Acidobacteriota,Blastocatellia,Pyrinomonadales,NA,NA,NA,Acidobacteriota
+BP_bin779,Boreal Plains,75.34,1.08,0,3.278151,67.98747221,3238,0.924564183,600,6074,28,15,0,1,1,medium,Bacteria,Myxococcota,Polyangia,Polyangiales,Polyangiaceae,NA,NA,Myxococcota
+BP_bin786,Boreal Plains,71.39,1.08,0,1.598624,30.95305713,1817,0.933695478,315,5426,15,11,0,0,0,medium,Bacteria,Campylobacterota,Campylobacteria,Campylobacterales,Arcobacteraceae,NA,NA,Campylobacterota
+BP_bin790,Boreal Plains,59.84,0,0,1.65962,34.60430701,1684,0.943737723,316,5889,8,7,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Crocinitomicaceae,UBA952,NA,Bacteroidota
+BP_bin795,Boreal Plains,83.48,1.28,0,1.453669,53.62486233,1600,0.960737967,193,9879,33,16,1,0,0,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,Ilumatobacteraceae,F1-20-MAGs119,NA,Actinobacteriota
+BP_bin797,Boreal Plains,97.96,1.19,9.09,7.38161,64.57404279,7144,0.871081783,506,20767,50,19,1,1,1,high,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Xanthobacteraceae,Bradyrhizobium,Bradyrhizobium sp003020075,Alphaproteobacteria
+BP_bin798,Boreal Plains,51.48,0.41,0,1.075442,39.37329954,1206,0.937024963,189,6280,10,6,0,0,1,medium,Bacteria,Campylobacterota,Campylobacteria,Campylobacterales,Sulfurimonadaceae,Sulfuricurvum,NA,Campylobacterota
+BP_bin846,Boreal Plains,86.68,2.7,0,1.306776,40.0451952,1337,0.913348577,163,9209,35,18,0,0,0,medium,Bacteria,Verrucomicrobiota_A,Chlamydiia,Parachlamydiales,Rhabdochlamydiaceae,NA,NA,Verrucomicrobiota/_A
+BP_bin856,Boreal Plains,79.99,1.97,0,1.880397,40.53973709,1879,0.925030193,299,7408,18,13,1,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,SXYR01,NA,Bacteroidota
+BP_bin864,Boreal Plains,70.35,0,0,1.24326,42.16937728,1383,0.925524026,201,7013,24,14,1,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Micavibrionales,GCA-2720935,NA,NA,Alphaproteobacteria
+BP_bin885,Boreal Plains,52.79,0,0,0.948238,55.17770855,1033,0.962006374,142,7956,25,13,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,Rhodoluna,NA,Actinobacteriota
+BP_bin890,Boreal Plains,81.18,0,0,1.215073,52.74176942,1350,0.918242772,179,8086,32,18,1,1,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,NA,NA,NA,NA,Alphaproteobacteria
+BP_bin892,Boreal Plains,75.3,0.89,0,2.38621,43.48225848,2691,0.932498397,319,9184,18,13,0,0,0,medium,Bacteria,Bdellovibrionota,Bacteriovoracia,Bacteriovoracales,Bacteriovoracaceae,UBA4096,NA,Bdellovibrionota/_C
+BP_bin902,Boreal Plains,94.3,1.28,0,1.893643,67.36697466,1959,0.941061752,188,15474,36,17,1,1,1,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,UBA8139,NA,NA,Actinobacteriota
+BP_bin916,Boreal Plains,92.72,0.41,0,1.884557,59.69217169,1950,0.944364644,199,13090,34,19,1,0,0,high,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,UBA2463,NA,Gammaproteobacteria
+BP_bin956,Boreal Plains,60.15,0.49,0,1.430754,38.19901954,1525,0.925408561,324,4737,9,8,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Ferruginibacter,NA,Bacteroidota
+BP_bin999,Boreal Plains,53.32,0,0,1.312845,40.41192982,1356,0.927485728,310,4340,14,11,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Crocinitomicaceae,UBA6165,NA,Bacteroidota
+BS_bin100,Boreal Shield,61.64,5.56,9.09,1.169679,56.7820744,1390,0.956688117,243,5275,21,10,0,0,0,medium,Bacteria,Chloroflexota,Ellin6529,CSP1-4,UBA10416,UBA10416,NA,Chloroflexota
+BS_bin117,Boreal Shield,64.83,0,0,1.520997,34.88606486,1527,0.932314791,211,8466,24,17,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,NA,Bacteroidota
+BS_bin130,Boreal Shield,95.81,1.58,0,1.319431,34.43279717,1246,0.914338075,46,66397,35,20,2,1,1,high,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,Rickettsiaceae,Phycorickettsia,NA,Alphaproteobacteria
+BS_bin132,Boreal Shield,97.43,0,0,2.960112,58.27154513,2993,0.903654321,128,45638,44,18,1,1,1,high,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Xanthobacteraceae,Afipia,NA,Alphaproteobacteria
+BS_bin165,Boreal Shield,63.36,2.14,0,1.156404,59.35053839,1305,0.948401251,231,5457,19,12,0,0,0,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,RAAP-2,RAAP-2,NA,Actinobacteriota
+BS_bin166,Boreal Shield,90.83,2.74,0,2.790508,58.74865795,2550,0.934524108,143,29928,35,16,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Steroidobacterales,Steroidobacteraceae,NA,NA,Gammaproteobacteria
+BS_bin178,Boreal Shield,64.47,0.16,0,3.333759,53.29842379,3395,0.922731967,642,5689,30,16,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,Verrucomicrobiaceae,Prosthecobacter,NA,Verrucomicrobiota/_A
+BS_bin188,Boreal Shield,65.5,0,0,1.046991,54.92138901,1171,0.941192427,204,5491,14,6,1,0,0,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,RAAP-2,NA,NA,Actinobacteriota
+BS_bin210,Boreal Shield,58.07,0,0,0.903964,46.57165551,1003,0.960304835,163,5884,11,8,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,Nanopelagicaceae,PALSA-747,NA,Actinobacteriota
+BS_bin243,Boreal Shield,58.62,0,0,3.50612,41.49852258,3442,0.891504284,254,19671,30,13,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Moraxellaceae,Acinetobacter,Acinetobacter proteolyticus,Gammaproteobacteria
+BS_bin246,Boreal Shield,97.23,0.25,0,4.7748,69.33287258,4684,0.917181662,303,23877,56,19,0,0,0,high,Bacteria,Proteobacteria,Alphaproteobacteria,Acetobacterales,Acetobacteraceae,Rhodopila,NA,Alphaproteobacteria
+BS_bin253,Boreal Shield,69.82,0,0,2.267572,67.80856352,2188,0.918659694,442,5560,23,14,1,0,0,medium,Bacteria,Planctomycetota,Planctomycetes,Pirellulales,UBA1268,NA,NA,Planctomycetota
+BS_bin254,Boreal Shield,92.11,0.56,0,2.833787,46.5966567,2668,0.925941858,102,45426,36,19,0,1,1,high,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,UBA6940,NA,NA,Gammaproteobacteria
+BS_bin259,Boreal Shield,68.26,2.59,0,3.21416,65.86759838,3401,0.926885407,571,6304,27,16,0,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Acetobacterales,Acetobacteraceae,70-18,NA,Alphaproteobacteria
+BS_bin262,Boreal Shield,60.28,0,0,1.063324,63.40654401,1185,0.943810165,248,4432,11,8,0,0,1,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,UBA8139,F1-20-MAGs160,NA,Actinobacteriota
+BS_bin275,Boreal Shield,55.31,0,0,1.086761,68.73995294,1411,0.934905651,244,4596,18,11,0,0,0,medium,Bacteria,Cyanobacteria,Cyanobacteriia,PCC-6307,Cyanobiaceae,Vulcanococcus,NA,Cyanobacteria
+BS_bin296,Boreal Shield,67.83,0.68,0,1.590819,62.66394857,1617,0.893012341,325,5142,27,15,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Opitutales,Opitutaceae,IMCC26134_A,NA,Verrucomicrobiota/_A
+BS_bin309,Boreal Shield,95.16,0,0,0.986704,43.8029034,991,0.898928149,65,25092,38,20,1,1,0,high,Bacteria,Proteobacteria,Alphaproteobacteria,UBA7879,UBA5542,NA,NA,Alphaproteobacteria
+BS_bin321,Boreal Shield,89.47,0.88,0,5.493913,59.68585596,5362,0.941661617,726,9504,45,19,0,0,0,medium,Bacteria,Acidobacteriota,Acidobacteriae,Bryobacterales,Bryobacteraceae,Bog-113,NA,Acidobacteriota
+BS_bin334,Boreal Shield,77.54,0.99,0,2.547435,54.97949899,2615,0.903606569,411,6994,15,8,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Limnohabitans,NA,Gammaproteobacteria
+BS_bin336,Boreal Shield,77.87,0,0,1.030556,46.07512838,1013,0.94781943,42,39843,33,19,1,1,1,medium,Bacteria,Acidobacteriota,Holophagae,Holophagales,Holophagaceae,UBA12189,NA,Acidobacteriota
+BS_bin337,Boreal Shield,56.2,0.68,0,2.154775,62.15117588,2222,0.914179903,546,3917,14,12,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,DEV007,Arctic95D-9,Arctic95D-9 sp002396885,Verrucomicrobiota/_A
+BS_bin359,Boreal Shield,88.85,4.11,0,2.071854,40.18391257,2002,0.947386254,260,9803,28,16,0,0,1,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,SXYR01,NA,Bacteroidota
+BS_bin38,Boreal Shield,74.27,0,0,1.199678,54.99033907,1188,0.949143854,89,26696,28,15,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,Rhodoluna,NA,Actinobacteriota
+BS_bin387,Boreal Shield,52.22,0.87,0,1.07838,35.42480387,1077,0.880913036,222,5376,16,10,1,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,UBA1997,UBA2645,NA,Alphaproteobacteria
+BS_bin392,Boreal Shield,98.68,0,0,3.653491,67.20227311,3441,0.900106227,60,115794,48,19,0,0,0,high,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,Sphingomonas sp003075315,Alphaproteobacteria
+BS_bin397,Boreal Shield,59.45,0.99,0,0.445801,37.05577152,514,0.936720644,79,6778,13,10,0,0,0,medium,Bacteria,Patescibacteria,Saccharimonadia,Saccharimonadales,UBA4665,NA,NA,Patescibacteria
+BS_bin402,Boreal Shield,69.81,1.29,0,3.838085,67.01829167,3736,0.936201257,669,6613,30,15,0,0,0,medium,Bacteria,Myxococcota,Polyangia,Polyangiales,Polyangiaceae,NA,NA,Myxococcota
+BS_bin408,Boreal Shield,83.05,3.51,0,1.829903,65.59058048,1968,0.955166476,206,12386,39,18,0,0,0,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,Ilumatobacteraceae,UBA2093,NA,Actinobacteriota
+BS_bin430,Boreal Shield,56.19,1.72,0,2.246718,42.8448074,2281,0.926539512,446,5283,23,16,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,AKYH767,Palsa-965,GCA-2737665,NA,Bacteroidota
+BS_bin447,Boreal Shield,69.12,0.43,0,1.940743,64.78580626,2057,0.903065991,404,5188,28,15,0,0,0,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,RAAP-2,Bog-756,NA,Actinobacteriota
+BS_bin45,Boreal Shield,89.23,0.89,0,2.770815,46.19012818,2749,0.944255751,186,23158,33,18,0,0,0,medium,Bacteria,Bdellovibrionota,Bdellovibrionia_A,UBA1018,NA,NA,NA,Bdellovibrionota/_C
+BS_bin459,Boreal Shield,94.36,3.55,0,1.755663,41.80061891,1690,0.883276574,92,26746,28,17,1,1,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,UBA6187,UBA6187,NA,Alphaproteobacteria
+BS_bin478,Boreal Shield,61.06,1.21,0,2.443093,36.33328735,2513,0.853985501,575,4317,15,13,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Cytophagales,Spirosomaceae,Arcicella,NA,Bacteroidota
+BS_bin507,Boreal Shield,66.28,1.22,0,1.755824,48.96823372,1788,0.946389843,329,5758,20,10,0,1,1,medium,Bacteria,Bacteroidota,Bacteroidia,AKYH767,NA,NA,NA,Bacteroidota
+BS_bin552,Boreal Shield,58.1,1.72,0,1.607271,45.719048,1742,0.945758369,235,8030,11,8,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Polynucleobacter,NA,Gammaproteobacteria
+BS_bin569,Boreal Shield,58.07,0,0,1.553972,37.51695655,1543,0.910022188,345,4537,16,13,1,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,LD1,NA,NA,Bacteroidota
+BS_bin605,Boreal Shield,88.85,0,0,1.218341,57.31162294,1360,0.940048804,205,7168,35,16,0,0,1,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,RAAP-2,NA,NA,Actinobacteriota
+BS_bin637,Boreal Shield,64.6,1.85,0,1.586511,32.67919353,1646,0.912878637,349,4763,17,14,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,OLB11,NA,Bacteroidota
+BS_bin666,Boreal Shield,67.07,0.79,0,2.005158,64.08163347,2145,0.961647411,359,6197,17,11,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Steroidobacterales,Steroidobacteraceae,UBA964,NA,Gammaproteobacteria
+BS_bin701,Boreal Shield,51.37,0,0,1.638953,61.69877965,1607,0.888603883,388,4474,19,14,0,1,1,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Opitutales,Opitutaceae,Tous-C4FEB,NA,Verrucomicrobiota/_A
+BS_bin704,Boreal Shield,50,0,0,1.661874,50.37704423,1778,0.909537667,361,4673,9,6,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Limnohabitans,NA,Gammaproteobacteria
+BS_bin708,Boreal Shield,69.68,1.02,0,2.950311,60.05682113,3094,0.915619404,618,5078,22,13,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,Verrucomicrobiaceae,Prosthecobacter,NA,Verrucomicrobiota/_A
+BS_bin727,Boreal Shield,90.57,0,0,2.492371,47.01980564,2245,0.926937844,51,72748,47,19,0,0,0,high,Bacteria,Bdellovibrionota,Bdellovibrionia_A,UBA1018,UBA1018,NA,NA,Bdellovibrionota/_C
+BS_bin800,Boreal Shield,55.28,0,0,0.996992,43.33144097,1116,0.942182084,166,7160,8,8,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Methylophilaceae,Methylopumilus_A,NA,Gammaproteobacteria
+BS_bin82,Boreal Shield,50,1.72,0,2.205227,59.78477499,2522,0.925222664,531,4154,13,9,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,SG8-41,PALSA-1004,NA,Gammaproteobacteria
+BS_bin850,Boreal Shield,93.08,0,0,1.897875,49.90655338,1960,0.911743924,115,25074,36,18,1,0,0,high,Bacteria,Proteobacteria,Alphaproteobacteria,Micavibrionales_A,NA,NA,NA,Alphaproteobacteria
+BS_bin874,Boreal Shield,70.11,0.68,0,1.365042,60.5645101,1349,0.880865937,260,5826,19,14,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Chthoniobacterales,UBA6821,NA,NA,Verrucomicrobiota/_A
+BS_bin890,Boreal Shield,59.66,1.35,0,1.64019,60.16723672,1614,0.894796335,338,5082,21,12,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Pedosphaerales,Pedosphaeraceae,UBA11358,NA,Verrucomicrobiota/_A
+MC_bin112,Montane Cordillera,90.12,0.38,0,2.731778,54.93114741,2661,0.893891817,242,16374,31,16,1,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,UKL13-2,UKL13-2,UKL13-2 sp001602455,Gammaproteobacteria
+MC_bin118,Montane Cordillera,63.79,0,0,1.603883,63.8391329,1722,0.936493497,353,4746,8,6,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,UBA4615,NA,Gammaproteobacteria
+MC_bin129,Montane Cordillera,93.93,4.31,5,1.040954,28.84757636,1043,0.897013701,126,10815,31,19,1,2,1,high,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,Rickettsiaceae,NA,NA,Alphaproteobacteria
+MC_bin134,Montane Cordillera,54.68,0,0,0.741854,59.58355687,786,0.960556929,124,6992,18,13,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,MWH-TA3,NA,Actinobacteriota
+MC_bin141,Montane Cordillera,99.51,0.25,0,3.358629,46.92804713,3050,0.921218747,86,81136,34,18,0,0,0,high,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,SXYR01,NA,Bacteroidota
+MC_bin152,Montane Cordillera,61.1,1.35,0,2.117534,56.31319261,2022,0.915346342,425,5321,14,11,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Chthoniobacterales,Chthoniobacteraceae,Chth-196,NA,Verrucomicrobiota/_A
+MC_bin205,Montane Cordillera,89.3,0,0,2.707702,33.14659442,2505,0.909536574,335,10884,19,14,1,0,1,medium,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UKL13-3,B1,NA,Bacteroidota
+MC_bin222,Montane Cordillera,74.88,2.2,0,1.242394,35.21403033,1264,0.90988688,200,7051,24,16,0,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,UBA1997,UBA2645,NA,Alphaproteobacteria
+MC_bin252,Montane Cordillera,82.53,0.71,0,3.732929,64.72587612,3181,0.90365019,540,8617,37,15,1,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Pedosphaerales,UBA9464,UBA6176,NA,Verrucomicrobiota/_A
+MC_bin265,Montane Cordillera,59.83,0,0,1.955009,51.91316255,2081,0.9424596,320,7159,18,9,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,SCGC-AAA027-K21,NA,Gammaproteobacteria
+MC_bin269,Montane Cordillera,70.69,0,0,2.156823,33.20137999,2093,0.897525666,298,8663,20,15,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,NA,Bacteroidota
+MC_bin283,Montane Cordillera,75.71,0,0,0.98532,34.46687371,975,0.919553039,27,88466,41,20,1,1,1,medium,Bacteria,Patescibacteria,WWE3,2-01-FULL-39-13,NA,NA,NA,Patescibacteria
+MC_bin293,Montane Cordillera,88.24,0.49,0,1.776782,37.43520589,1727,0.932432341,202,11551,24,15,0,0,1,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,UBA8649,NA,NA,Bacteroidota
+MC_bin320,Montane Cordillera,65.52,0,0,2.051705,36.88298269,2036,0.926004469,386,5963,19,14,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Cytophagales,Spirosomaceae,UBA6715,NA,Bacteroidota
+MC_bin338,Montane Cordillera,76.25,1.52,0,1.471573,41.60554726,1626,0.897638785,262,6254,18,12,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Methylophilaceae,Methylotenera_A,NA,Gammaproteobacteria
+MC_bin389,Montane Cordillera,98.64,1.36,0,5.243983,61.08778385,4220,0.926814789,76,129128,53,20,1,1,1,high,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,Verrucomicrobiaceae,NA,NA,Verrucomicrobiota/_A
+MC_bin407,Montane Cordillera,56.9,0,0,2.069949,35.07796569,2069,0.948561052,342,6739,14,9,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Crocinitomicaceae,UBA952,NA,Bacteroidota
+MC_bin424,Montane Cordillera,58.21,0,0,0.63848,56.93898008,706,0.962938542,122,5289,15,11,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,Rhodoluna,NA,Actinobacteriota
+MC_bin440,Montane Cordillera,70.81,0.85,0,1.515736,44.23791478,1450,0.846411908,279,5788,23,13,1,0,0,medium,Bacteria,Cyanobacteria,Vampirovibrionia,Vampirovibrionales,NA,NA,NA,Cyanobacteria
+MC_bin45,Montane Cordillera,64.9,0,0,3.969895,49.94912964,3656,0.892111,778,5454,22,11,1,0,0,medium,Bacteria,Planctomycetota,Planctomycetes,Pirellulales,Pirellulaceae,NA,NA,Planctomycetota
+MC_bin451,Montane Cordillera,71.24,0,0,2.270541,67.92658666,2135,0.909363011,396,6404,29,17,2,1,0,medium,Bacteria,Planctomycetota,Planctomycetes,Pirellulales,UBA1268,NA,NA,Planctomycetota
+MC_bin460,Montane Cordillera,50.66,0,0,1.851893,33.65145826,1744,0.939642301,246,9707,11,8,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Sediminibacterium,NA,Bacteroidota
+MC_bin468,Montane Cordillera,79.55,0,0,2.004655,60.45524043,1786,0.93971232,197,14502,32,15,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Opitutales,UBA953,UBA953,NA,Verrucomicrobiota/_A
+MC_bin475,Montane Cordillera,89.6,7.44,0,2.193051,30.46308545,2448,0.895806801,245,12749,31,17,1,1,1,medium,Bacteria,Cyanobacteria,Vampirovibrionia,Gastranaerophilales,Gastranaerophilaceae,NA,NA,Cyanobacteria
+MC_bin477,Montane Cordillera,60.9,0.49,0,1.608634,34.93622539,1720,0.905781551,332,4905,14,11,0,0,1,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,OLB11,NA,Bacteroidota
+MC_bin480,Montane Cordillera,54.2,0,0,3.18902,35.61968881,3096,0.876924259,608,5693,15,10,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Cytophagales,Spirosomaceae,Emticicia,NA,Bacteroidota
+MC_bin481,Montane Cordillera,97.57,0,0,2.329386,51.33988098,2168,0.891831581,80,54395,40,18,0,0,0,high,Bacteria,Bacteroidota,Chlorobia,Chlorobiales,Chlorobiaceae,Chlorobium,NA,Bacteroidota
+MC_bin96,Montane Cordillera,69.83,0,0,0.828822,41.5471597,914,0.958254004,139,6914,18,8,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,Nanopelagicaceae,Nanopelagicus,NA,Actinobacteriota
+MP_bin118,Mixedwood Plains,75.6,0,0,6.020441,70.59751935,5184,0.955479175,626,13457,46,18,0,0,0,medium,Bacteria,Myxococcota,Bradimonadia,UBA7976,UBA1532,NA,NA,Myxococcota
+MP_bin123,Mixedwood Plains,82.08,0.1,0,1.224157,52.23398633,1352,0.928469959,199,6640,21,13,1,1,1,medium,Bacteria,Proteobacteria,Alphaproteobacteria,SHNJ01,NA,NA,NA,Alphaproteobacteria
+MP_bin127,Mixedwood Plains,55.17,0,0,1.62184,53.22300597,1745,0.959803063,229,8381,22,10,0,0,0,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,Ilumatobacteraceae,UBA2093,NA,Actinobacteriota
+MP_bin15,Mixedwood Plains,60.63,0,0,2.142467,67.9606267,2373,0.9011364,475,4669,29,18,0,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Rubellimicrobium,NA,Alphaproteobacteria
+MP_bin196,Mixedwood Plains,65.68,1.1,0,0.993312,37.69611159,1050,0.926264859,206,4856,24,16,0,1,1,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,UBA1997,UBA2645,NA,Alphaproteobacteria
+MP_bin199,Mixedwood Plains,52.79,0,0,1.366829,61.00594881,1434,0.907074696,251,5770,18,12,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Chthoniobacterales,UBA6821,NA,NA,Verrucomicrobiota/_A
+MP_bin204,Mixedwood Plains,53.86,0,0,1.509351,37.15769228,1639,0.932121819,361,4216,16,12,1,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UKL13-3,NA,NA,Bacteroidota
+MP_bin218,Mixedwood Plains,76.93,0,0,2.657593,55.42556742,2616,0.874964677,377,8533,18,14,0,0,0,medium,Bacteria,Bdellovibrionota_C,UBA2361,UBA2361,UBA2361,NA,NA,Bdellovibrionota/_C
+MP_bin220,Mixedwood Plains,86.37,0.95,0,2.073316,63.35517596,2345,0.927490069,264,10929,31,16,0,0,0,medium,Bacteria,Cyanobacteria,Cyanobacteriia,PCC-6307,Cyanobiaceae,NA,NA,Cyanobacteria
+MP_bin222,Mixedwood Plains,52.59,0,0,0.965821,53.55298756,1124,0.956937155,193,5305,18,12,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,Nanopelagicaceae,GCA-2737595,NA,Actinobacteriota
+MP_bin227,Mixedwood Plains,54.53,0.07,0,2.911292,70.68466509,2614,0.90421057,583,5258,28,15,0,0,0,medium,Bacteria,Planctomycetota,Planctomycetes,Pirellulales,UBA1268,F1-20-MAGs016,F1-20-MAGs016 sp005791575,Planctomycetota
+MP_bin230,Mixedwood Plains,71.05,0.42,0,1.907807,49.21247275,1844,0.879933872,355,6035,14,9,0,0,0,medium,Bacteria,Bdellovibrionota_C,UBA2361,SZUA-149,NA,NA,NA,Bdellovibrionota/_C
+MP_bin234,Mixedwood Plains,74.69,0.76,0,1.739561,46.88711692,1785,0.861396065,255,8059,23,14,0,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Beijerinckiaceae,Methylocystis,NA,Alphaproteobacteria
+MP_bin285,Mixedwood Plains,61.63,0.72,0,1.986119,57.38633989,2044,0.915229651,449,4589,21,12,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,Akkermansiaceae,UBA956,NA,Verrucomicrobiota/_A
+MP_bin294,Mixedwood Plains,94.22,0.24,0,2.130935,37.43980929,1913,0.943981398,121,23302,31,19,0,0,0,high,Bacteria,Bacteroidota,Bacteroidia,AKYH767,B-17BO,NA,NA,Bacteroidota
+MP_bin306,Mixedwood Plains,83.72,6.78,6.06,3.093797,33.25690082,3341,0.912794214,593,5737,33,13,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,NA,Bacteroidota
+MP_bin314,Mixedwood Plains,98.03,1.23,0,3.011677,35.04110833,2774,0.880774731,177,36966,29,17,1,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,OLB11,NA,Bacteroidota
+MP_bin319,Mixedwood Plains,62.44,0.08,0,2.499408,44.41255689,2344,0.802877321,522,5261,29,16,0,0,0,medium,Bacteria,Cyanobacteria,Cyanobacteriia,Pseudanabaenales,Pseudanabaenaceae,NA,NA,Cyanobacteria
+MP_bin320,Mixedwood Plains,71.06,1.12,0,0.583388,37.55493771,609,0.89990538,24,35539,34,19,1,1,1,medium,Bacteria,Patescibacteria,Paceibacteria,UBA9983,CSBR16-119,CSBR16-119,NA,Patescibacteria
+MP_bin321,Mixedwood Plains,66.54,0.48,0,1.843113,32.21489947,1879,0.931095923,386,4969,13,10,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,AKYH767,NA,NA,NA,Bacteroidota
+MP_bin326,Mixedwood Plains,65.86,0,0,1.538051,37.005795,1629,0.94124187,319,5149,8,8,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Crocinitomicaceae,Fluviicola,NA,Bacteroidota
+MP_bin329,Mixedwood Plains,67.58,1.34,0,1.59778,40.020904,1666,0.964140245,331,5034,13,10,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,UA16,UBA4660,NA,Bacteroidota
+MP_bin336,Mixedwood Plains,60.63,0,0,0.747449,63.25060305,857,0.965176219,151,5389,21,13,1,0,0,medium,Bacteria,Chloroflexota,Ellin6529,CSP1-4,UBA10416,UBA10416,NA,Chloroflexota
+MP_bin345,Mixedwood Plains,91.26,0,0,2.410291,37.35424478,2251,0.931145243,269,11316,28,17,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,J057,NA,NA,NA,Bacteroidota
+MP_bin351,Mixedwood Plains,79.55,0.36,0,3.608167,50.9133585,3377,0.933234798,310,15403,34,17,0,0,0,medium,Bacteria,Chloroflexota,Anaerolineae,SBR1031,A4b,NA,NA,Chloroflexota
+MP_bin356,Mixedwood Plains,65.25,0,0,1.791541,38.21771313,2100,0.938396051,410,4437,10,9,0,0,0,medium,Bacteria,Bdellovibrionota,Bacteriovoracia,Bacteriovoracales,Bacteriovoracaceae,UBA4096,NA,Bdellovibrionota/_C
+MP_bin368,Mixedwood Plains,72.84,0,0,2.536098,68.81902829,2412,0.900918655,520,5304,28,15,1,1,1,medium,Bacteria,Planctomycetota,Phycisphaerae,Phycisphaerales,SM1A02,UBA2402,NA,Planctomycetota
+MP_bin370,Mixedwood Plains,79.66,0,0,2.369386,41.52463972,2023,0.947668299,141,28006,34,19,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UBA955,NA,NA,Bacteroidota
+MP_bin384,Mixedwood Plains,52.15,1.15,0,2.163078,69.31386663,2154,0.919179521,440,5213,25,14,1,0,0,medium,Bacteria,Planctomycetota,Planctomycetes,Pirellulales,UBA1268,NA,NA,Planctomycetota
+MP_bin437,Mixedwood Plains,76.22,0.68,0,2.625259,56.48616003,2521,0.906379904,385,8227,26,14,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,Akkermansiaceae,UBA1315,NA,Verrucomicrobiota/_A
+MP_bin444,Mixedwood Plains,61.69,1.72,0,2.199005,54.84512314,2160,0.881557795,399,6155,14,11,0,0,0,medium,Bacteria,Bdellovibrionota_C,UBA2361,UBA2361,UBA2361,NA,NA,Bdellovibrionota/_C
+MP_bin462,Mixedwood Plains,98.54,0.71,0,2.568188,39.37788044,2205,0.935676438,86,46626,28,16,1,1,1,medium,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UKL13-3,UKL13-3,NA,Bacteroidota
+MP_bin481,Mixedwood Plains,81.63,0.6,0,2.034506,42.86893231,2016,0.938015911,339,6582,19,16,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,AKYH767,NA,NA,NA,Bacteroidota
+MP_bin489,Mixedwood Plains,50.47,0,0,0.426739,38.94699102,492,0.951401208,98,4638,12,9,0,0,0,medium,Bacteria,Firmicutes,Bacilli,RFN20,CAG-826,UBA970,NA,Firmicutes/_A
+MP_bin50,Mixedwood Plains,65.05,0.68,0,2.45923,58.33370608,2378,0.911273041,512,5073,21,13,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Chthoniobacterales,Chthoniobacteraceae,Chth-196,NA,Verrucomicrobiota/_A
+MP_bin512,Mixedwood Plains,64.88,0,0,0.74722,37.00262306,833,0.914442868,124,6664,24,14,1,0,0,medium,Bacteria,Patescibacteria,Gracilibacteria,BD1-5,UBA2023,NA,NA,Patescibacteria
+MP_bin513,Mixedwood Plains,86.83,0.57,0,3.755655,69.14018993,3159,0.919348556,353,14796,41,17,0,0,0,medium,Bacteria,Planctomycetota,Planctomycetes,Pirellulales,UBA1268,NA,NA,Planctomycetota
+MP_bin517,Mixedwood Plains,51.88,0,0,0.731692,44.66141491,840,0.967360583,143,5367,3,2,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,Nanopelagicaceae,Planktophila,NA,Actinobacteriota
+MP_bin525,Mixedwood Plains,67.43,2.58,0,1.804686,64.51077916,1983,0.961040868,324,6025,22,12,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Steroidobacterales,Steroidobacteraceae,UBA964,NA,Gammaproteobacteria
+MP_bin535,Mixedwood Plains,54.38,0.45,0,2.40287,70.96646926,2346,0.913136791,538,4568,21,15,0,0,0,medium,Bacteria,Planctomycetota,UBA1135,UBA1135,GCA-002686595,SXXH01,NA,Planctomycetota
+MP_bin55,Mixedwood Plains,53.83,0.54,0,1.472718,40.17917891,1582,0.94244044,341,4635,4,4,0,0,1,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Crocinitomicaceae,M0103,NA,Bacteroidota
+MP_bin550,Mixedwood Plains,68.69,0.43,0,2.301399,68.72141684,2495,0.92432516,428,5914,31,16,0,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sandarakinorhabdus,NA,Alphaproteobacteria
+MP_bin577,Mixedwood Plains,59.1,0,0,2.072996,47.34196303,2067,0.86270837,423,5090,21,15,0,0,0,medium,Bacteria,Cyanobacteria,Cyanobacteriia,PCC-9006,Prochlorotrichaceae,NA,NA,Cyanobacteria
+MP_bin578,Mixedwood Plains,87.61,0.71,0,1.319154,63.25546525,1448,0.968275122,219,7088,23,13,1,1,1,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,UBA2463,NA,Gammaproteobacteria
+MP_bin579,Mixedwood Plains,61.83,0,0,1.275575,48.06836133,1399,0.953578582,191,7899,15,8,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Polynucleobacter,NA,Gammaproteobacteria
+MP_bin589,Mixedwood Plains,68.42,0,0,2.73596,68.58459188,2991,0.933559336,435,7474,29,18,1,0,0,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,Ilumatobacteraceae,VFMC01,NA,Actinobacteriota
+MP_bin614,Mixedwood Plains,71.38,8.31,0,1.51996,29.91433985,1575,0.931479118,338,4721,17,11,1,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,AKYH767,B-17BO,UBA2475,NA,Bacteroidota
+MP_bin623,Mixedwood Plains,53.44,0,0,0.624976,48.95003968,708,0.94348263,112,6224,17,12,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Opitutales,UBA953,UBA953,NA,Verrucomicrobiota/_A
+MP_bin636,Mixedwood Plains,66.72,2.82,0,3.531321,64.21778139,3437,0.917996976,745,4998,29,14,1,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Pedosphaerales,SXTU01,SXTU01,NA,Verrucomicrobiota/_A
+MP_bin660,Mixedwood Plains,63.03,1.28,0,2.719538,57.28355331,2458,0.892917106,579,4845,18,12,0,0,0,medium,Bacteria,Acidobacteriota,Blastocatellia,UBA7656,NA,NA,NA,Acidobacteriota
+MP_bin683,Mixedwood Plains,62.57,0,0,1.441544,37.73911861,1453,0.954795691,288,5408,8,6,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UBA955,NA,NA,Bacteroidota
+MP_bin691,Mixedwood Plains,50.34,0,0,1.126016,40.0073356,1217,0.945631323,256,4439,4,4,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Cytophagales,Spirosomaceae,UBA6715,NA,Bacteroidota
+MP_bin694,Mixedwood Plains,56.48,1.21,0,2.169865,61.7490489,2424,0.879922484,509,4370,25,11,0,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Hyphomicrobium,NA,Alphaproteobacteria
+MP_bin701,Mixedwood Plains,90.27,0.54,0,2.097046,42.17690027,2037,0.955960432,179,20408,31,19,1,0,0,high,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Crocinitomicaceae,UBA952,NA,Bacteroidota
+MP_bin712,Mixedwood Plains,93.55,1.08,0,1.670362,38.69837796,1684,0.881713066,158,15310,35,17,0,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Paracaedibacterales,UBA11393,NA,NA,Alphaproteobacteria
+MP_bin73,Mixedwood Plains,59.95,0,0,0.852453,23.09605339,919,0.920910596,161,5624,18,13,0,0,0,medium,Bacteria,Patescibacteria,Gracilibacteria,BD1-5,UBA6164,UBA6164,NA,Patescibacteria
+MP_bin734,Mixedwood Plains,68.38,0.82,0,2.525266,62.96457482,2664,0.945941536,490,5527,17,10,0,1,1,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,SYIM01,NA,Gammaproteobacteria
+MP_bin81,Mixedwood Plains,59.48,6.61,4,3.327621,67.34372694,3771,0.910473879,861,3803,21,14,0,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,NA,NA,Alphaproteobacteria
+MP_bin811,Mixedwood Plains,78.39,0,0,2.918175,43.59378721,2938,0.892698005,547,5792,30,19,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,RDXD01,NA,Bacteroidota
+MP_bin821,Mixedwood Plains,66.49,0.68,0,1.110456,40.35468312,1228,0.926061006,227,5218,23,18,0,0,0,medium,Bacteria,Verrucomicrobiota_A,Chlamydiia,2-12-FULL-49-11,2-12-FULL-49-11,NA,NA,Verrucomicrobiota/_A
+MP_bin837,Mixedwood Plains,53.23,0.93,0,1.301718,51.68992055,1447,0.92940176,301,4384,16,10,1,1,0,medium,Bacteria,Armatimonadota,Fimbriimonadia,Fimbriimonadales,Fimbriimonadaceae,NA,NA,Armatimonadota
+MP_bin84,Mixedwood Plains,92.16,1.68,0,4.605237,47.04704666,4037,0.882267514,136,55029,41,19,1,1,1,high,Bacteria,Bdellovibrionota_C,UBA2361,UBA2361,UBA2361,NA,NA,Bdellovibrionota/_C
+MP_bin843,Mixedwood Plains,93.17,0.55,0,2.211272,57.22113788,1969,0.954992421,213,15470,31,18,0,1,1,high,Bacteria,Bacteroidota,Kapabacteria,Kapabacteriales,Kapabacteriaceae,UBA10438,NA,Bacteroidota
+MP_bin846,Mixedwood Plains,85.17,0,0,0.77356,37.72364135,832,0.958533275,121,7225,26,14,0,0,0,medium,Bacteria,Firmicutes,Bacilli,RFN20,CAG-826,UBA970,NA,Firmicutes/_A
+MP_bin86,Mixedwood Plains,52.59,0,0,1.410586,65.23650454,1827,0.926604971,312,4638,19,10,0,0,0,medium,Bacteria,Cyanobacteria,Cyanobacteriia,PCC-6307,Cyanobiaceae,Vulcanococcus,NA,Cyanobacteria
+MP_bin861,Mixedwood Plains,68.58,0.18,0,1.755283,40.24188692,1656,0.913693689,318,6023,21,13,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,J057,NA,NA,NA,Bacteroidota
+MP_bin867,Mixedwood Plains,63.92,2.69,0,2.383176,55.32935881,2248,0.918523013,508,4935,21,14,0,1,1,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Saprospiraceae,Haliscomenobacter,NA,Bacteroidota
+P_bin1009,Prairies,56.9,0,0,1.492801,56.9593,1606,0.935276705,325,4746,25,15,0,0,1,medium,Bacteria,Chloroflexota,Chloroflexia,Chloroflexales,Roseiflexaceae,UBA965,NA,Chloroflexota
+P_bin1010,Prairies,73.09,0,0,1.005541,60.12882617,1024,0.892864637,117,10143,36,18,2,1,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,UBA1280,UBA6156,NA,NA,Alphaproteobacteria
+P_bin103,Prairies,57.98,0.85,0,1.433118,52.52023909,1328,0.930366516,86,30025,22,12,0,1,1,medium,Bacteria,Acidobacteriota,Blastocatellia,Pyrinomonadales,Pyrinomonadaceae,NA,NA,Acidobacteriota
+P_bin1041,Prairies,54.66,0,0,2.508937,45.44817188,2524,0.903478246,471,5830,14,10,0,0,1,medium,Bacteria,Bacteroidota,Bacteroidia,Cytophagales,Cyclobacteriaceae,Algoriphagus,NA,Bacteroidota
+P_bin1056,Prairies,54.02,0,0,1.373122,44.57761219,1478,0.928096702,212,7684,17,13,0,0,1,medium,Bacteria,Firmicutes,Bacilli,NA,NA,NA,NA,Firmicutes/_A
+P_bin1063,Prairies,81.89,0.79,0,2.064861,65.32275054,2224,0.952163366,275,8829,35,18,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,S36-B12,Mxb001,NA,Actinobacteriota
+P_bin1072,Prairies,67.17,0,0,1.739985,71.03653192,1724,0.952168553,293,6596,23,13,0,0,0,medium,Bacteria,Planctomycetota,Phycisphaerae,Phycisphaerales,SM1A02,UBA966,NA,Planctomycetota
+P_bin108,Prairies,63.81,0.86,0,1.517391,31.46703783,1585,0.876560491,244,7014,27,16,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,UBA6186,UBA6186,UBA6186,NA,Gammaproteobacteria
+P_bin1092,Prairies,92.8,0.71,0,2.330014,36.69286966,2053,0.923077286,66,58590,23,14,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UBA955,NA,NA,Bacteroidota
+P_bin1094,Prairies,70.03,0.03,0,1.277606,41.52571294,1351,0.936246386,204,7125,20,14,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Sphingobacteriales,Sphingobacteriaceae,NA,NA,Bacteroidota
+P_bin1106,Prairies,76.36,0,0,3.827193,51.7902285,3352,0.879369031,602,7336,30,19,0,0,0,medium,Bacteria,Planctomycetota,Planctomycetes,Isosphaerales,Isosphaeraceae,QWQI01,NA,Planctomycetota
+P_bin1112,Prairies,54.31,0,0,2.560027,68.22338202,2714,0.928681221,453,6288,17,10,1,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,UBA3065,NA,NA,Gammaproteobacteria
+P_bin1122,Prairies,98.57,0,0,2.795518,49.80572474,2344,0.933613735,95,50662,30,17,1,1,1,medium,Bacteria,Bacteroidota,Bacteroidia,AKYH767-A,NA,NA,NA,Bacteroidota
+P_bin1129,Prairies,54.31,0.86,0,1.757267,52.55621371,1727,0.927287088,247,7938,12,11,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,UBA7662,UBA7662,NA,NA,Bacteroidota
+P_bin113,Prairies,93.03,0,0,0.917613,39.31886318,914,0.95413208,46,36216,20,11,1,0,1,medium,Bacteria,Firmicutes,Bacilli,RFN20,CAG-826,UBA970,NA,Firmicutes/_A
+P_bin1132,Prairies,89.3,0.68,0,1.25964,56.44446032,1298,0.962878283,86,22603,36,16,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,NA,NA,Actinobacteriota
+P_bin1135,Prairies,94.81,0.82,0,2.318805,40.27897991,2031,0.919794894,137,25123,34,19,0,0,0,high,Bacteria,Bacteroidota,Rhodothermia,Balneolales,HLUCCA01,UBA11400,NA,Bacteroidota
+P_bin1146,Prairies,94.71,3.36,0,6.958596,75.86247283,6037,0.936242167,424,26541,60,20,2,1,1,high,Bacteria,Myxococcota,UBA796,UBA796,UBA796,NA,NA,Myxococcota
+P_bin115,Prairies,53.85,0,0,0.777868,40.12223154,743,0.892710588,58,19146,27,17,1,2,1,medium,Bacteria,Patescibacteria,ABY1,Magasanikbacterales,UBA922,SZUA-124,NA,Patescibacteria
+P_bin1157,Prairies,92.88,0,0,1.777125,55.56874165,1785,0.956654709,118,21379,30,14,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,UBA954,NA,Gammaproteobacteria
+P_bin1161,Prairies,94.67,0,0,1.010345,45.86314576,1063,0.945595811,88,17387,30,16,0,0,0,medium,Bacteria,Firmicutes,Bacilli,Izemoplasmatales,Izemoplasmataceae,CSBR16-87,NA,Firmicutes/_A
+P_bin1164,Prairies,51.75,0,0,0.673898,53.73290913,709,0.963740804,73,11667,8,6,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,Aquiluna,NA,Actinobacteriota
+P_bin117,Prairies,65.52,0,0,2.206323,34.54915713,2157,0.896123097,384,6116,17,12,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Cytophagales,Cyclobacteriaceae,NA,NA,Bacteroidota
+P_bin1175,Prairies,69.45,2.16,0,3.259943,53.39547348,2980,0.896021188,600,5798,25,16,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Pedosphaerales,UBA9464,UBA6176,NA,Verrucomicrobiota/_A
+P_bin1181,Prairies,64.88,1.67,0,2.369528,32.47887343,2423,0.918301451,475,5389,13,9,0,0,1,medium,Bacteria,Bacteroidota,Bacteroidia,AKYH767,B-17BO,UBA4416,NA,Bacteroidota
+P_bin1211,Prairies,52.49,3.45,0,2.430184,67.69491528,2435,0.914077288,415,6265,30,16,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,Akkermansiaceae,Haloferula,NA,Verrucomicrobiota/_A
+P_bin1216,Prairies,96.67,3.11,0,1.159222,34.32379648,1101,0.950086351,28,152716,17,12,1,0,0,medium,Bacteria,Firmicutes,Bacilli,Acholeplasmatales,Acholeplasmataceae,UBA8290,NA,Firmicutes/_A
+P_bin122,Prairies,94.03,1.02,0,2.880494,37.60893097,2700,0.905341931,250,17694,30,16,1,1,1,medium,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UBA8524,NA,NA,Bacteroidota
+P_bin1233,Prairies,50.49,0,0,0.848826,46.65337772,872,0.906033745,96,10624,30,16,1,1,0,medium,Bacteria,Patescibacteria,Microgenomatia,UBA1400,PJMF01,UBA1370,NA,Patescibacteria
+P_bin1242,Prairies,52.76,0,0,1.51905,36.41901188,1502,0.944052533,237,7393,6,6,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Crocinitomicaceae,Fluviicola,NA,Bacteroidota
+P_bin1259,Prairies,77.19,0,0,0.812183,49.409308,875,0.9620061,94,12293,31,14,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,Aquiluna,NA,Actinobacteriota
+P_bin1277,Prairies,94.51,0,0,1.453403,34.03770324,1327,0.934849453,55,50156,35,20,2,2,1,high,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,UBA1997,NA,NA,Alphaproteobacteria
+P_bin1279,Prairies,54.31,1.72,0,1.57759,64.27924873,1852,0.909779474,383,4138,15,11,1,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Novosphingobium,NA,Alphaproteobacteria
+P_bin1285,Prairies,70.21,2.25,0,0.561513,36.95568936,581,0.901683487,26,37519,31,18,2,2,1,medium,Bacteria,Patescibacteria,Paceibacteria,UBA9983,CSBR16-119,CSBR16-119,CSBR16-119 sp007117675,Patescibacteria
+P_bin13,Prairies,51.72,0,0,1.370188,36.31107556,1352,0.942688886,183,8532,8,7,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Sediminibacterium,NA,Bacteroidota
+P_bin1321,Prairies,79.47,0,0,1.875067,44.02829339,1833,0.931753372,232,10348,14,10,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Sediminibacterium,NA,Bacteroidota
+P_bin1322,Prairies,92.57,0,0,1.139646,31.92500127,1094,0.918475562,16,94454,21,15,2,0,0,medium,Bacteria,Firmicutes,Bacilli,Acholeplasmatales,Acholeplasmataceae,Acholeplasma,NA,Firmicutes/_A
+P_bin1339,Prairies,80.34,0,0,2.00731,61.57519267,2094,0.960658792,100,39045,42,14,0,0,1,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,S36-B12,NA,NA,Actinobacteriota
+P_bin1341,Prairies,92.84,0,0,1.38982,60.5896447,1471,0.961436733,103,17458,27,14,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,UBA2463,NA,Gammaproteobacteria
+P_bin1347,Prairies,86.45,0.74,0,3.375111,50.17796452,2868,0.929286178,400,10037,29,16,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Saprospiraceae,M3007,NA,Bacteroidota
+P_bin1351,Prairies,72.07,1.12,0,0.701648,40.10386975,744,0.958262548,98,9427,11,8,0,0,0,medium,Bacteria,Firmicutes,Bacilli,RFN20,CAG-826,UBA970,NA,Firmicutes/_A
+P_bin1356,Prairies,94.05,0.48,0,2.855221,42.38537052,2667,0.929509835,322,11565,19,12,0,0,1,medium,Bacteria,Bacteroidota,Bacteroidia,AKYH767,NA,NA,NA,Bacteroidota
+P_bin1368,Prairies,61.75,0.43,0,1.005432,49.94350687,1159,0.949089546,212,4919,15,12,0,0,0,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,Ilumatobacteraceae,UBA2093,NA,Actinobacteriota
+P_bin1371,Prairies,70.33,0,0,4.293679,68.48949351,4399,0.915773163,551,9965,37,15,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,UBA4615,NA,Gammaproteobacteria
+P_bin1382,Prairies,96.23,0.64,0,2.492369,41.47560012,2592,0.874420682,211,17188,30,18,1,0,0,high,Bacteria,Firmicutes,Bacilli,Caldalkalibacillales,Caldalkalibacillaceae,NA,NA,Firmicutes/_A
+P_bin1393,Prairies,89.56,3.3,0,2.928777,65.42888038,2501,0.922607286,150,33732,29,17,0,1,0,medium,Bacteria,Gemmatimonadota,Gemmatimonadetes,SG8-23,UBA6960,SKNW01,NA,Gemmatimonadota
+P_bin1394,Prairies,65.52,0,0,1.402124,52.45848441,1515,0.954411307,159,10806,15,9,1,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,S36-B12,UBA6154,NA,Actinobacteriota
+P_bin1396,Prairies,78.47,0,0,1.040621,44.47834514,1094,0.95818074,75,21719,28,16,1,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,AcAMD-5,AcAMD-5,AcAMD-5 sp002293025,Actinobacteriota
+P_bin1403,Prairies,71.17,1.28,0,1.286415,58.66668221,1460,0.963850701,201,7443,18,10,0,0,0,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,Ilumatobacteraceae,NA,NA,Actinobacteriota
+P_bin1407,Prairies,81.03,0,0,2.350791,35.57628049,2048,0.889351286,223,14732,26,15,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UBA955,NA,NA,Bacteroidota
+P_bin1409,Prairies,57.07,0,0,0.82799,45.01805577,848,0.956315898,75,15808,19,12,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,AcAMD-5,AcAMD-5,NA,Actinobacteriota
+P_bin1417,Prairies,77.6,0.79,0,2.409373,37.12700358,2469,0.939189158,428,6010,16,12,0,1,1,medium,Bacteria,Bacteroidota,Bacteroidia,AKYH767,B-17BO,NA,NA,Bacteroidota
+P_bin1422,Prairies,88.8,2.03,0,2.381609,44.75789267,2475,0.905043607,316,8776,25,14,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Cellvibrionaceae,NA,NA,Gammaproteobacteria
+P_bin1425,Prairies,76.26,0,0,2.209511,47.03416276,2280,0.932701399,346,7716,25,15,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,SXYR01,NA,Bacteroidota
+P_bin1428,Prairies,60.85,0,0,2.383319,65.38868695,2221,0.900354506,491,5149,25,16,1,0,0,medium,Bacteria,Planctomycetota,Planctomycetes,Pirellulales,UBA1268,NA,NA,Planctomycetota
+P_bin1432,Prairies,93.67,0.55,0,2.358346,52.228511,2016,0.95696009,101,43598,36,16,0,0,0,medium,Bacteria,Bacteroidota,Kapabacteria,Kapabacteriales,Kapabacteriaceae,UBA10438,NA,Bacteroidota
+P_bin1441,Prairies,84.15,0,0,1.196035,52.63759004,1255,0.954458691,107,15617,20,12,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Thiomicrospirales,NA,NA,NA,Gammaproteobacteria
+P_bin1443,Prairies,95.93,0.44,0,2.163248,39.21126935,2131,0.897557284,167,16853,36,18,1,0,0,high,Bacteria,Proteobacteria,Gammaproteobacteria,NA,NA,NA,NA,Gammaproteobacteria
+P_bin1454,Prairies,60.02,1.72,0,0.994358,32.14003407,1113,0.930003077,162,6941,34,18,1,1,1,medium,Bacteria,Patescibacteria,WWE3,2-01-FULL-39-13,NA,NA,NA,Patescibacteria
+P_bin1479,Prairies,82.82,0,0,2.252519,45.13799884,2136,0.90494109,312,8940,28,18,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Schleiferiaceae,NA,NA,Bacteroidota
+P_bin1480,Prairies,57.68,0,0,2.399447,60.01145264,2218,0.906520544,429,6459,21,14,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Pedosphaerales,UBA9464,SXXZ01,NA,Verrucomicrobiota/_A
+P_bin1485,Prairies,63.95,0,0,0.886812,58.04274187,962,0.962547868,106,11120,11,8,0,0,0,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,Ilumatobacteraceae,F1-60-MAGs027,NA,Actinobacteriota
+P_bin1499,Prairies,93.96,0.99,0,2.900245,54.19473182,2397,0.936826372,144,39899,32,18,0,1,1,high,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Saprospiraceae,M3007,NA,Bacteroidota
+P_bin150,Prairies,93.4,0.43,0,3.290285,63.8631304,3440,0.935429606,297,14884,40,19,1,0,0,high,Bacteria,Proteobacteria,Alphaproteobacteria,NA,NA,NA,NA,Alphaproteobacteria
+P_bin1509,Prairies,63.57,0.49,0,1.584249,33.44057658,1638,0.898796843,322,5260,13,10,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,NA,NA,Bacteroidota
+P_bin1515,Prairies,54.91,0,0,1.651048,33.90743334,1672,0.905857976,313,6198,18,14,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Crocinitomicaceae,UBA952,NA,Bacteroidota
+P_bin1521,Prairies,84.27,0.74,0,2.242284,35.17328759,2215,0.884746535,274,10896,41,19,0,0,0,medium,Bacteria,Firmicutes_A,Clostridia,Acetivibrionales,NA,NA,NA,Firmicutes/_A
+P_bin1524,Prairies,95.73,5.13,0,3.485231,54.56209359,3158,0.87821209,94,60266,41,20,0,0,0,high,Bacteria,Cyanobacteria,Vampirovibrionia,Vampirovibrionales,Vampirovibrionaceae,NA,NA,Cyanobacteria
+P_bin1547,Prairies,65.66,0.85,0,1.287572,67.39731836,1488,0.959949424,234,6075,22,13,0,0,0,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,Ilumatobacteraceae,NA,NA,Actinobacteriota
+P_bin1567,Prairies,95.79,0.24,0,2.661369,46.02138974,2423,0.920314695,139,30822,33,18,0,1,1,high,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,PHOS-HE28,NA,NA,Bacteroidota
+P_bin1581,Prairies,71.71,0,0,1.841146,51.15922366,1806,0.945013052,141,20207,28,14,0,1,1,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Alteromonadaceae,Idiomarina,NA,Gammaproteobacteria
+P_bin1583,Prairies,51.88,0,0,1.505589,33.64065492,1527,0.905286901,239,7219,14,11,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,NA,Bacteroidota
+P_bin1589,Prairies,50,0,0,0.781306,59.56603431,876,0.956024912,151,5535,22,13,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,Pontimonas,NA,Actinobacteriota
+P_bin1597,Prairies,94.42,1.78,0,0.957102,32.92564429,971,0.950593563,57,25146,22,14,1,1,1,medium,Bacteria,Firmicutes,Bacilli,Acholeplasmatales,Acholeplasmataceae,UBA8290,NA,Firmicutes/_A
+P_bin1611,Prairies,52.74,0,0,0.50191,38.14966827,549,0.962405611,93,5810,7,6,0,0,0,medium,Bacteria,Firmicutes,Bacilli,RFN20,CAG-826,UBA970,NA,Firmicutes/_A
+P_bin1615,Prairies,72.09,0,0,2.377554,35.96894119,2525,0.945700077,286,11094,21,14,1,0,0,medium,Bacteria,Bdellovibrionota,Bacteriovoracia,Bacteriovoracales,Bacteriovoracaceae,NA,NA,Bdellovibrionota/_C
+P_bin1620,Prairies,70.34,1.72,0,3.372261,64.17884025,3017,0.911472451,549,7013,33,15,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,V1-33,V1-33,V1-33 sp003402705,Verrucomicrobiota/_A
+P_bin1628,Prairies,77.81,0.49,0,1.973562,34.79718398,1885,0.903481624,207,13541,22,12,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Sphingobacteriales,Sphingobacteriaceae,Daejeonella,NA,Bacteroidota
+P_bin1636,Prairies,71.15,0,0,2.330225,40.60105784,2172,0.907533393,262,12091,21,14,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Crocinitomicaceae,UBA6165,NA,Bacteroidota
+P_bin1654,Prairies,81.19,0,0,1.655725,51.2435338,1702,0.952045177,95,29190,32,15,0,0,0,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,Ilumatobacteraceae,UBA2093,NA,Actinobacteriota
+P_bin1663,Prairies,76.03,0,0,3.431349,40.02600726,3251,0.892375273,400,11875,20,11,0,1,2,medium,Bacteria,Bacteroidota,Bacteroidia,Cytophagales,Cyclobacteriaceae,Aquiflexum,NA,Bacteroidota
+P_bin1664,Prairies,71.39,1.72,0,0.626091,31.1608057,647,0.94446015,23,57204,38,19,1,1,1,medium,Bacteria,Patescibacteria,WWE3,UBA101185,NA,NA,NA,Patescibacteria
+P_bin1667,Prairies,70,0,0,1.952837,41.37150208,2027,0.907451057,230,10421,14,9,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Methylophilaceae,Methylotenera_A,NA,Gammaproteobacteria
+P_bin1680,Prairies,77.84,2.31,0,2.749966,65.58262902,2749,0.916997519,390,8656,33,17,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Opitutales,Opitutaceae,UBA2377,NA,Verrucomicrobiota/_A
+P_bin1704,Prairies,59.98,0,0,1.699906,37.61313861,1640,0.911163911,373,4574,9,7,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,AKYH767,UBA4408,NA,NA,Bacteroidota
+P_bin1713,Prairies,61.99,0,0,0.916772,59.01685479,1022,0.960922672,165,6630,22,13,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,UBA2463,NA,Gammaproteobacteria
+P_bin1724,Prairies,57.18,0,0,1.252516,43.42515385,1220,0.94303945,166,9249,12,11,0,0,0,medium,Bacteria,Bacteroidota,Rhodothermia,Balneolales,M1805,NA,NA,Bacteroidota
+P_bin1741,Prairies,53.09,0,0,2.576041,47.78169292,2252,0.938117056,270,12648,14,11,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,UA16,NA,NA,Bacteroidota
+P_bin1747,Prairies,94.12,0,0,2.979985,32.08982596,2921,0.933669129,299,13447,28,15,1,0,0,medium,Bacteria,Spirochaetota,Leptospirae,Leptospirales,Leptospiraceae,NA,NA,Spirochaetota
+P_bin1761,Prairies,65.79,0.74,0,2.019561,51.16171287,1855,0.924720273,238,10930,19,10,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,SXYR01,NA,Bacteroidota
+P_bin1776,Prairies,68.81,1.72,0,0.514552,30.94614344,604,0.945785849,89,7552,20,15,1,0,0,medium,Bacteria,Patescibacteria,WWE3,UBA101185,NA,NA,NA,Patescibacteria
+P_bin1778,Prairies,60.34,0,0,1.021507,49.47102663,1097,0.95429302,98,13294,23,12,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,Nanopelagicaceae,Planktophila,NA,Actinobacteriota
+P_bin1780,Prairies,66.15,0,0,2.114481,53.27217412,2120,0.933362844,348,7113,24,13,0,0,0,medium,Bacteria,Armatimonadota,BOG-944,Capsulimonadales,NA,NA,NA,Armatimonadota
+P_bin1785,Prairies,70.71,0.54,0,1.090994,46.71354746,1170,0.961130859,101,17287,32,16,1,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,AcAMD-5,NA,NA,Actinobacteriota
+P_bin1787,Prairies,72.81,0,0,1.135848,50.43403695,1132,0.951157197,86,19925,30,15,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,Rhodoluna,NA,Actinobacteriota
+P_bin1799,Prairies,80.81,0.53,0,1.22785,47.27629596,1234,0.955832553,29,56213,38,20,1,0,1,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,Nanopelagicaceae,MAG-120802,NA,Actinobacteriota
+P_bin1823,Prairies,71,0,0,0.787765,32.28627827,853,0.925594562,107,9266,34,20,1,1,1,medium,Bacteria,Patescibacteria,WWE3,UBA101185,NA,NA,NA,Patescibacteria
+P_bin1824,Prairies,89.27,1.28,0,2.795523,71.30440351,2938,0.938468401,377,8716,44,20,0,0,1,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,Microtrichaceae,SKRR01,NA,Actinobacteriota
+P_bin1834,Prairies,80.72,1.1,0,2.140257,63.91975356,2079,0.946452692,188,14751,30,19,0,0,1,medium,Bacteria,Gemmatimonadota,Gemmatimonadetes,Gemmatimonadales,Gemmatimonadaceae,Fen-1231,NA,Gemmatimonadota
+P_bin1844,Prairies,87.37,0.33,0,3.016881,34.56626231,2895,0.918747541,401,10129,27,16,0,1,1,medium,Bacteria,Bacteroidota,Bacteroidia,Sphingobacteriales,Sphingobacteriaceae,Pseudopedobacter,NA,Bacteroidota
+P_bin1850,Prairies,80.83,1.47,0,1.940979,67.61175675,2034,0.942982897,302,7764,34,18,0,1,1,medium,Bacteria,Gemmatimonadota,Gemmatimonadetes,Gemmatimonadales,Gemmatimonadaceae,Fen-1231,NA,Gemmatimonadota
+P_bin1853,Prairies,98.39,0.49,0,3.432344,33.70635344,3155,0.895636335,87,74788,35,17,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Weeksellaceae,Chryseobacterium,Chryseobacterium aquaticum,Bacteroidota
+P_bin1855,Prairies,90.32,0.54,0,3.280686,37.97879468,2828,0.919913091,131,45752,34,19,1,0,0,high,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,UBA10066,NA,NA,Bacteroidota
+P_bin1856,Prairies,71.93,0.07,0,2.727293,72.12738052,2530,0.926571146,442,7065,30,16,0,1,1,medium,Bacteria,Planctomycetota,Planctomycetes,Pirellulales,UBA1268,QWPN01,NA,Planctomycetota
+P_bin1861,Prairies,88.46,3.9,7.14,1.94483,62.64141339,2090,0.946895616,282,8710,29,16,0,0,1,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,Ilumatobacteraceae,CSBr16-110,NA,Actinobacteriota
+P_bin1868,Prairies,82.4,0.8,0,2.350394,53.27345117,2160,0.952721969,42,109770,38,19,0,1,1,medium,Bacteria,Spirochaetota,Spirochaetia,Spirochaetales,Alkalispirochaetaceae,Alkalispirochaeta,NA,Spirochaetota
+P_bin1872,Prairies,90.76,1.48,0,2.033916,46.40609543,1861,0.942462717,143,26886,28,16,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,SXYR01,NA,Bacteroidota
+P_bin1877,Prairies,76.93,1.98,0,2.712565,54.6527733,2356,0.897759501,445,6580,23,14,0,1,1,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Saprospiraceae,M3007,NA,Bacteroidota
+P_bin1879,Prairies,95.57,0.74,0,2.26218,42.09430726,2124,0.917188287,141,24647,33,19,1,0,1,high,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Lacibacter,NA,Bacteroidota
+P_bin1890,Prairies,92.45,0.94,0,3.803165,66.74761679,3339,0.894933036,169,33714,47,19,0,0,0,high,Bacteria,Chloroflexota,Chloroflexia,Chloroflexales,Roseiflexaceae,NA,NA,Chloroflexota
+P_bin1895,Prairies,92.06,0,0,3.267598,47.90815761,2927,0.918911996,56,118562,41,19,0,0,0,high,Bacteria,Bdellovibrionota,Oligoflexia,Oligoflexales,NA,NA,NA,Bdellovibrionota/_C
+P_bin1915,Prairies,52.24,0,0,1.49452,45.28430533,1610,0.928019699,314,4913,6,6,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Cytophagales,Cyclobacteriaceae,NA,NA,Bacteroidota
+P_bin1925,Prairies,54.24,0,0,0.623762,33.46388526,672,0.898905352,136,4910,13,10,0,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,Rickettsiaceae,SXXS01,SXXS01 sp005791235,Alphaproteobacteria
+P_bin1926,Prairies,58.43,0,0,0.353535,28.15279958,342,0.934289391,2,263755,27,17,1,1,1,medium,Bacteria,Fusobacteriota,Fusobacteriia,Bac17,UBA816,NA,NA,Fusobacteriota
+P_bin1932,Prairies,53.62,0,0,1.428589,36.3331231,1411,0.943415496,236,6701,9,7,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Crocinitomicaceae,NA,NA,Bacteroidota
+P_bin1935,Prairies,66.96,0.58,0,0.819957,54.77372594,869,0.947975321,122,8352,18,13,1,1,1,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,NA,NA,Actinobacteriota
+P_bin1939,Prairies,67.26,0.46,0,1.709108,41.38884143,1795,0.890337533,342,5245,23,15,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Methylococcales,Methylomonadaceae,Methylovulum,Methylovulum sp007280895,Gammaproteobacteria
+P_bin1940,Prairies,97.29,0,0,3.262705,50.27307096,2767,0.937619245,153,32966,33,19,1,0,1,high,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,UA16,NA,NA,Bacteroidota
+P_bin1943,Prairies,95.26,0,0,3.57772,54.24270206,3368,0.854839674,242,21905,35,17,0,1,1,medium,Bacteria,Cyanobacteria,Cyanobacteriia,PCC-7336,JA-3-3Ab,NA,NA,Cyanobacteria
+P_bin1949,Prairies,74.79,0.85,0,3.124122,60.73751281,2884,0.911735201,437,9261,34,18,1,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,Akkermansiaceae,UBA1315,UBA1315 sp005787565,Verrucomicrobiota/_A
+P_bin1951,Prairies,61.63,0,0,1.575767,42.52576682,1569,0.964452232,243,7534,10,8,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Crocinitomicaceae,UBA952,NA,Bacteroidota
+P_bin1966,Prairies,78.39,0.68,0,1.592101,57.98884619,1697,0.935778572,276,6506,31,15,0,1,1,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Chthoniobacterales,Terrimicrobiaceae,UBA967,NA,Verrucomicrobiota/_A
+P_bin1968,Prairies,90.71,0.55,0,2.281709,56.876841,1946,0.951847497,140,24747,40,19,0,0,0,high,Bacteria,Bacteroidota,Kapabacteria,Kapabacteriales,Kapabacteriaceae,UBA10438,NA,Bacteroidota
+P_bin1969,Prairies,97.8,0,0,1.705857,35.23202707,1680,0.915317638,11,258728,33,20,2,2,1,high,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,UBA8987,NA,NA,Alphaproteobacteria
+P_bin1974,Prairies,52.79,0,0,3.597077,69.5407688,3453,0.961348339,702,5758,28,13,0,0,1,medium,Bacteria,Myxococcota,Bradimonadia,UBA7976,UBA1532,NA,NA,Myxococcota
+P_bin1996,Prairies,63.82,0,0,0.811482,47.63371215,855,0.90926601,28,43344,39,19,1,1,1,medium,Bacteria,Patescibacteria,Saccharimonadia,Saccharimonadales,Saccharimonadaceae,NA,NA,Patescibacteria
+P_bin2008,Prairies,52.9,0,0,2.216824,35.94836577,2072,0.948444261,223,13693,10,8,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Sediminibacterium,Sediminibacterium sp002281575,Bacteroidota
+P_bin2009,Prairies,58.01,0.85,0,0.670122,44.97240801,690,0.915454201,6,178311,38,19,2,2,1,medium,Bacteria,Patescibacteria,Paceibacteria,UBA9983,UBA11359_C,NA,NA,Patescibacteria
+P_bin2012,Prairies,66.38,0,0,1.401275,54.88380225,1455,0.949337568,114,22982,23,11,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Rhodocyclaceae,NA,NA,Gammaproteobacteria
+P_bin2014,Prairies,72.51,0,0,0.615422,36.6831215,690,0.953355584,103,6692,11,9,0,0,0,medium,Bacteria,Firmicutes,Bacilli,RFN20,CAG-826,UBA970,NA,Firmicutes/_A
+P_bin202,Prairies,52.74,0.54,0,1.619176,42.39940562,1659,0.891993211,351,4675,11,9,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Schleiferiaceae,NA,NA,Bacteroidota
+P_bin208,Prairies,82.14,2.14,0,1.637878,60.08744241,1760,0.961163164,131,17657,37,16,0,0,0,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,Ilumatobacteraceae,NA,NA,Actinobacteriota
+P_bin220,Prairies,95,0.44,0,4.739519,41.30889654,4255,0.822802483,396,16555,39,18,0,0,0,high,Bacteria,Cyanobacteria,Cyanobacteriia,Cyanobacteriales,Nostocaceae,Nodularia,Nodularia spumigena,Cyanobacteria
+P_bin236,Prairies,57.05,3.45,0,2.200456,62.03777762,2377,0.929914981,426,5677,30,14,0,1,1,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Palsa-1439,Palsa-1439,NA,NA,Verrucomicrobiota/_A
+P_bin242,Prairies,77.96,0,0,0.904521,41.56796802,831,0.783985115,116,9497,36,17,1,0,1,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Holosporales,NA,NA,NA,Alphaproteobacteria
+P_bin245,Prairies,99.73,0.55,0,2.794109,40.96200256,2387,0.915808582,155,24461,38,19,0,1,1,high,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UBA955,NA,NA,Bacteroidota
+P_bin251,Prairies,52.39,0,0,2.268653,66.33447248,2256,0.923168947,531,4413,20,11,0,0,0,medium,Bacteria,Planctomycetota,UBA1135,UBA2386,UBA2386,SXPK01,NA,Planctomycetota
+P_bin264,Prairies,95.3,0.87,0,3.027138,35.75413476,2779,0.931655577,210,24033,24,15,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UKL13-3,B1,NA,Bacteroidota
+P_bin266,Prairies,95.36,0.55,0,2.530176,57.88170467,2095,0.949501141,73,78198,45,19,0,0,0,high,Bacteria,Bacteroidota,Kapabacteria,Kapabacteriales,Kapabacteriaceae,Kapabacteria,NA,Bacteroidota
+P_bin270,Prairies,53.45,0,0,0.986571,69.26171558,1039,0.939213701,152,7442,14,11,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nitriliruptorales,Nitriliruptoraceae,CSBr16-57R1,NA,Actinobacteriota
+P_bin306,Prairies,82.26,0.73,0,1.920062,39.20831723,1787,0.950408372,229,10288,16,12,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UBA955,NA,NA,Bacteroidota
+P_bin331,Prairies,82.74,0.18,0,2.656171,47.88260997,2495,0.919309788,167,27725,29,15,0,0,0,medium,Bacteria,Bdellovibrionota,Oligoflexia,Oligoflexales,NA,NA,NA,Bdellovibrionota/_C
+P_bin334,Prairies,64.99,0,0,1.064343,56.35955702,1098,0.912748992,189,5934,21,15,1,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,NA,NA,NA,NA,Alphaproteobacteria
+P_bin340,Prairies,63.85,0,0,1.242965,60.26911458,1286,0.94509419,152,10053,21,13,0,0,1,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Methylacidiphilales,UBA3015,UBA3015,NA,Verrucomicrobiota/_A
+P_bin342,Prairies,85.97,0.84,0,1.916151,45.31647036,1792,0.942680405,42,111170,42,20,1,2,1,medium,Bacteria,Bdellovibrionota,UBA2394,UBA2394,UBA2394,NA,NA,Bdellovibrionota/_C
+P_bin345,Prairies,55.62,0.25,0,1.855131,52.57143566,1790,0.926012772,305,6967,19,10,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,SXYR01,NA,Bacteroidota
+P_bin346,Prairies,56.16,0,0,1.254296,39.20860786,1261,0.910487636,235,5728,22,16,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,UBA1312,NA,Bacteroidota
+P_bin361,Prairies,77.59,0,0,1.703626,57.40086146,1710,0.950437479,143,16964,35,15,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,NA,NA,Gammaproteobacteria
+P_bin369,Prairies,68.44,0,0,0.719484,41.28611616,804,0.955736333,102,9291,19,11,1,0,0,medium,Bacteria,Firmicutes,Bacilli,RFN20,CAG-826,UBA970,NA,Firmicutes/_A
+P_bin395,Prairies,93.17,0,0,2.27659,45.54777101,2001,0.947491204,96,40166,23,15,0,1,1,medium,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UBA955,NA,NA,Bacteroidota
+P_bin402,Prairies,83.19,0.3,0,1.515311,46.63075765,1558,0.949157632,40,55903,30,12,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Polynucleobacter,NA,Gammaproteobacteria
+P_bin404,Prairies,74.14,0,0,2.661052,43.69963458,2362,0.91146772,237,14974,29,18,0,0,0,medium,Bacteria,Bacteroidota,Rhodothermia,Balneolales,HLUCCA01,HLUCCA01,NA,Bacteroidota
+P_bin417,Prairies,97.44,2.14,0,2.958339,65.90495545,2974,0.95644752,101,53792,49,20,1,1,1,high,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,Ilumatobacteraceae,NA,NA,Actinobacteriota
+P_bin427,Prairies,66.46,0,0,1.708703,39.11586742,1681,0.92304397,355,5235,15,13,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Crocinitomicaceae,UBA952,NA,Bacteroidota
+P_bin441,Prairies,86.72,0,0,4.555043,52.21219646,3567,0.914087309,425,14080,38,19,0,0,0,medium,Bacteria,Planctomycetota,Planctomycetes,Pirellulales,Pirellulaceae,Pirellula_B,NA,Planctomycetota
+P_bin449,Prairies,89.48,0,0,1.729776,46.90988891,1702,0.932383731,160,13728,32,18,0,0,2,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Thiomicrospirales,Thiomicrospiraceae,GCA-002282575,NA,Gammaproteobacteria
+P_bin462,Prairies,81.19,2.59,0,2.404881,30.63232651,2272,0.892873286,313,9642,28,18,1,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Flavobacterium_B,NA,Bacteroidota
+P_bin468,Prairies,72.92,0,0,2.374915,44.87802721,2343,0.935383372,396,6893,17,11,1,0,1,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,UA16,NA,NA,Bacteroidota
+P_bin472,Prairies,59.48,0,0,1.505303,59.4812473,1553,0.95452477,190,9698,7,7,0,0,0,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,Ilumatobacteraceae,CSBr16-110,NA,Actinobacteriota
+P_bin474,Prairies,77.16,1.6,0,1.737166,68.1553749,1899,0.948969759,262,8038,21,11,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,S36-B12,Mxb001,NA,Actinobacteriota
+P_bin482,Prairies,90.6,0.85,0,1.952877,59.26143838,2008,0.952629377,176,17587,26,12,0,0,0,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,Ilumatobacteraceae,CSBr16-110,NA,Actinobacteriota
+P_bin493,Prairies,88.34,0,0,2.523834,53.5772955,2408,0.918708996,232,14743,33,19,1,1,1,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Opitutales,Puniceicoccaceae,SKFT01,NA,Verrucomicrobiota/_A
+P_bin498,Prairies,75.58,0.36,0,2.011176,31.65565818,2038,0.909496732,385,5853,15,10,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,GCA-002722245,NA,NA,Bacteroidota
+P_bin509,Prairies,70.92,0,0,2.595764,71.01600916,2451,0.908192732,434,6660,33,13,2,1,0,medium,Bacteria,Planctomycetota,Planctomycetes,Pirellulales,UBA1268,NA,NA,Planctomycetota
+P_bin515,Prairies,50,0,0,0.861993,71.17122761,952,0.941845235,165,5949,16,8,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nitriliruptorales,Nitriliruptoraceae,CSBr16-57R1,NA,Actinobacteriota
+P_bin516,Prairies,67.32,1.71,0,1.405254,44.02229063,1379,0.88819032,251,6041,17,14,0,0,0,medium,Bacteria,Cyanobacteria,Vampirovibrionia,Vampirovibrionales,NA,NA,NA,Cyanobacteria
+P_bin524,Prairies,80.34,0,0,3.586234,40.65197642,3261,0.901009248,202,27907,27,16,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Cytophagales,Cyclobacteriaceae,Cecembia,NA,Bacteroidota
+P_bin525,Prairies,89.74,1.28,0,1.963858,62.40787267,2016,0.952831111,97,33975,38,18,1,0,0,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,Ilumatobacteraceae,F1-20-MAGs119,NA,Actinobacteriota
+P_bin532,Prairies,62.07,0,0,1.112325,46.67376891,1183,0.942034028,124,11419,10,9,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Thiomicrospirales,Thiomicrospiraceae,Thiomicrospira,NA,Gammaproteobacteria
+P_bin538,Prairies,87.88,0,0,1.614925,48.51736149,1513,0.953709305,87,33066,21,15,0,1,1,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,JJ008,JJ008 sp003489485,Bacteroidota
+P_bin541,Prairies,93.92,0,0,2.924111,51.94539469,2738,0.909412126,241,17666,34,18,0,0,1,high,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Opitutales,Verruco-01,NA,NA,Verrucomicrobiota/_A
+P_bin546,Prairies,83.8,3.88,7.69,3.778319,69.83338358,3964,0.921358943,496,9781,39,15,0,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Wagnerdoeblera,NA,Alphaproteobacteria
+P_bin560,Prairies,81.6,1.52,0,2.812725,50.91649557,2597,0.945622128,338,10346,27,15,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Saprospiraceae,UBA2329,NA,Bacteroidota
+P_bin569,Prairies,51.8,1.36,0,1.103532,61.6725206,1171,0.908601654,248,4468,13,12,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,Akkermansiaceae,UBA1315,NA,Verrucomicrobiota/_A
+P_bin573,Prairies,79.12,0,0,1.483859,36.90108022,1547,0.911186305,213,8772,20,12,1,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,UBA12402,NA,NA,NA,Gammaproteobacteria
+P_bin577,Prairies,95.79,1,0,3.019526,29.27635,2695,0.906191568,213,23332,33,18,1,1,1,high,Bacteria,Bacteroidota,Kapabacteria,Kapabacteriales,GCA-002839825,NA,NA,Bacteroidota
+P_bin582,Prairies,86.03,0,0,2.603617,37.79999132,2598,0.94659468,151,30971,24,17,1,0,0,medium,Bacteria,Bdellovibrionota,Bacteriovoracia,Bacteriovoracales,Bacteriovoracaceae,NA,NA,Bdellovibrionota/_C
+P_bin615,Prairies,86.52,0,0,0.686709,40.45104986,757,0.956274055,86,10331,21,10,1,0,0,medium,Bacteria,Firmicutes,Bacilli,RFN20,CAG-826,UBA970,NA,Firmicutes/_A
+P_bin620,Prairies,55.67,0,0,1.643502,70.24025526,1874,0.920560486,301,5810,33,15,1,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Brevundimonas,NA,Alphaproteobacteria
+P_bin622,Prairies,93.94,0.5,0,2.508722,60.86174554,2527,0.923799448,193,18687,38,17,0,1,1,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Hyphomonadaceae,NA,NA,Alphaproteobacteria
+P_bin623,Prairies,86.89,0,0,1.827135,37.41573556,1759,0.931435827,98,27534,39,20,0,1,1,medium,Bacteria,Cyanobacteria,Vampirovibrionia,Caenarcaniphilales,LMEP-6097,NA,NA,Cyanobacteria
+P_bin630,Prairies,65.96,0,0,0.582595,41.17096783,612,0.951609609,74,10771,5,4,1,0,0,medium,Bacteria,Firmicutes,Bacilli,Izemoplasmatales,Izemoplasmataceae,CSBR16-87,NA,Firmicutes/_A
+P_bin638,Prairies,89.01,0,0,1.398434,27.05469118,1342,0.892040668,157,11864,30,19,0,1,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,UBA1997,SYAR01,NA,Alphaproteobacteria
+P_bin641,Prairies,91.25,4.36,5.56,4.013293,64.74687993,4001,0.91842933,368,16282,29,15,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,HTCC2089,UBA7803,NA,Gammaproteobacteria
+P_bin651,Prairies,84.45,0.87,0,2.810287,63.44451652,2835,0.915844894,254,17231,36,17,1,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,UBA1301,UBA1301,SZUA-430,NA,Alphaproteobacteria
+P_bin668,Prairies,82.23,2.2,0,1.765767,63.67612488,1684,0.950571621,218,10759,28,13,1,0,1,medium,Bacteria,Gemmatimonadota,Gemmatimonadetes,Gemmatimonadales,Gemmatimonadaceae,NA,NA,Gemmatimonadota
+P_bin669,Prairies,75.86,0,0,2.229041,31.74122863,2172,0.905833495,167,18704,32,17,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,NA,Bacteroidota
+P_bin675,Prairies,56.9,0,0,1.602505,66.27193051,2012,0.924280423,317,5483,16,12,0,0,0,medium,Bacteria,Cyanobacteria,Cyanobacteriia,PCC-6307,Cyanobiaceae,NA,NA,Cyanobacteria
+P_bin711,Prairies,79.73,0,0,3.12523,57.65313273,2909,0.912680667,492,7558,25,14,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Chthoniobacterales,Chthoniobacteraceae,Chth-196,NA,Verrucomicrobiota/_A
+P_bin716,Prairies,54.28,0,0,2.600759,67.65117414,2359,0.897222311,412,7534,37,15,0,0,0,medium,Bacteria,Planctomycetota,Phycisphaerae,Phycisphaerales,SM1A02,QWPT01,NA,Planctomycetota
+P_bin719,Prairies,92.31,0,0,1.493096,35.04664134,1380,0.920828266,65,34590,33,20,2,2,1,high,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,UBA1997,NA,NA,Alphaproteobacteria
+P_bin723,Prairies,70.8,0,0,0.608561,37.14648162,654,0.959238269,83,8869,17,10,0,0,0,medium,Bacteria,Firmicutes,Bacilli,RFN20,CAG-826,UBA970,NA,Firmicutes/_A
+P_bin724,Prairies,93.98,1.85,0,2.376958,64.33630716,2471,0.939584124,233,13403,40,19,1,1,0,high,Bacteria,Armatimonadota,Fimbriimonadia,Fimbriimonadales,Fimbriimonadaceae,Uphvl-Ar1,NA,Armatimonadota
+P_bin732,Prairies,95.75,1.26,0,2.449631,45.54722732,2229,0.857373621,128,33159,32,19,1,0,0,high,Bacteria,Bdellovibrionota_C,UBA2361,UBA2361,UBA2361,NA,NA,Bdellovibrionota/_C
+P_bin738,Prairies,77.93,1.72,0,3.001193,63.98732104,2913,0.919024535,163,30414,40,16,1,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,UBA1301,UBA1301,SZUA-430,NA,Alphaproteobacteria
+P_bin739,Prairies,61.25,0,0,0.853143,57.33235812,962,0.960186041,168,5371,16,9,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,NA,NA,Actinobacteriota
+P_bin740,Prairies,78.95,8.77,6.25,2.568232,35.43694651,2853,0.925987995,406,7248,29,17,0,1,1,medium,Bacteria,Bdellovibrionota,Bacteriovoracia,Bacteriovoracales,Bacteriovoracaceae,NA,NA,Bdellovibrionota/_C
+P_bin748,Prairies,70.29,0.57,0,2.406664,63.23446065,2157,0.903564852,243,13786,39,18,0,1,0,medium,Bacteria,Planctomycetota,Phycisphaerae,Phycisphaerales,SM1A02,QWPT01,NA,Planctomycetota
+P_bin754,Prairies,64.97,1.72,0,1.550322,68.14261811,1585,0.930131934,187,10615,27,13,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nitriliruptorales,Nitriliruptoraceae,CSBr16-57R1,NA,Actinobacteriota
+P_bin760,Prairies,78.77,0,0,2.486575,67.12932447,2283,0.909771473,329,9623,34,14,2,1,1,medium,Bacteria,Planctomycetota,Planctomycetes,Pirellulales,UBA1268,NA,NA,Planctomycetota
+P_bin762,Prairies,50.07,0.84,0,1.477809,51.61147347,1572,0.922760654,335,4423,25,13,1,1,1,medium,Bacteria,Bdellovibrionota,Oligoflexia,Oligoflexales,NA,NA,NA,Bdellovibrionota/_C
+P_bin768,Prairies,97.41,0,0,1.696825,65.24538476,1727,0.937840968,143,18216,50,19,1,0,0,high,Bacteria,Actinobacteriota,Thermoleophilia,Solirubrobacterales,Sep-70,67-14,NA,Actinobacteriota
+P_bin77,Prairies,93.72,0.55,0,1.788661,57.67409252,1818,0.910573887,156,15031,42,19,0,0,0,high,Bacteria,Bacteroidota,Chlorobia,Chlorobiales,Chlorobiaceae,Chlorobium,Chlorobium luteolum_B,Bacteroidota
+P_bin770,Prairies,73.02,1.02,0,4.028152,60.38374421,3701,0.906631378,604,7695,31,18,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,Verrucomicrobiaceae,NA,NA,Verrucomicrobiota/_A
+P_bin771,Prairies,82.54,0.08,0,1.444604,42.66338734,1362,0.959021296,77,32481,16,13,1,0,1,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,UBA3478,NA,Bacteroidota
+P_bin773,Prairies,65.99,0,0,2.47759,62.7165108,2757,0.916453085,431,6589,26,17,1,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,UBA1936,NA,Alphaproteobacteria
+P_bin775,Prairies,61.42,0,0,2.228149,35.89230343,2106,0.949220631,256,11930,12,7,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Sediminibacterium,NA,Bacteroidota
+P_bin782,Prairies,52.35,0,0,2.195737,58.65761701,2269,0.916398913,344,7549,25,12,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,Akkermansiaceae,UBA1315,NA,Verrucomicrobiota/_A
+P_bin789,Prairies,88.82,0,0,2.618583,30.86455537,2350,0.896665487,136,29075,28,17,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Crocinitomicaceae,M2408,NA,Bacteroidota
+P_bin796,Prairies,64.14,0,0,1.973581,52.67257842,1838,0.935107807,252,10161,13,9,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UBA955,NA,NA,Bacteroidota
+P_bin805,Prairies,56.58,1.72,0,2.652789,52.94537183,2614,0.921464919,345,9688,19,11,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,Akkermansiaceae,UBA956,NA,Verrucomicrobiota/_A
+P_bin810,Prairies,84.39,1.82,0,4.015928,48.48849382,3902,0.877382015,350,15401,39,17,0,0,0,medium,Bacteria,Chloroflexota,Anaerolineae,Thermoflexales,J036,J036,NA,Chloroflexota
+P_bin816,Prairies,50,0,0,1.684105,33.08968265,1664,0.916123401,219,9843,18,10,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,NA,Bacteroidota
+P_bin829,Prairies,62.96,0.43,0,1.309297,58.33726038,1451,0.953481143,231,6220,16,14,0,0,0,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,Ilumatobacteraceae,CSBr16-110,NA,Actinobacteriota
+P_bin837,Prairies,96.33,0,0,5.514318,62.36214524,4057,0.882676153,249,39081,44,18,2,0,0,high,Bacteria,Planctomycetota,Planctomycetes,Pirellulales,Pirellulaceae,UBA6163,UBA6163 sp002422955,Planctomycetota
+P_bin868,Prairies,57.16,0,0,2.26292,39.33431142,2141,0.910356089,338,7681,17,12,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Crocinitomicaceae,UBA6165,NA,Bacteroidota
+P_bin873,Prairies,64.25,0,0,0.836407,43.55953501,857,0.912773327,11,156295,42,20,2,2,1,medium,Bacteria,Patescibacteria,Saccharimonadia,Saccharimonadales,Saccharimonadaceae,UBA2112,NA,Patescibacteria
+P_bin876,Prairies,57.44,0,0,1.157828,68.11495317,1392,0.942069979,265,4534,21,14,1,0,0,medium,Bacteria,Actinobacteriota,Thermoleophilia,Gaiellales,F1-60-MAGs149,F1-60-MAGs149,NA,Actinobacteriota
+P_bin877,Prairies,88.07,0.1,0,2.920824,68.97628888,2569,0.902855153,363,10260,44,17,2,0,0,medium,Bacteria,Planctomycetota,Phycisphaerae,Phycisphaerales,SM1A02,UBA2402,NA,Planctomycetota
+P_bin887,Prairies,82.31,0,0,1.404946,39.95747879,1456,0.905284616,207,7956,32,15,1,1,1,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,AVCC01,NA,Gammaproteobacteria
+P_bin90,Prairies,89.13,0.95,0,1.24042,33.27816385,1219,0.881428065,56,39065,32,19,1,2,1,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,UBA4311,NA,NA,Alphaproteobacteria
+P_bin901,Prairies,57.16,0,0,2.304515,41.31980048,2491,0.886060624,508,4665,16,12,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,RDXD01,NA,Bacteroidota
+P_bin902,Prairies,75.23,0,0,1.203839,46.36068444,1224,0.959252857,139,11582,16,10,1,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,UBA3478,NA,Bacteroidota
+P_bin904,Prairies,64.66,0,0,1.416844,53.96677404,1632,0.950984018,288,5196,21,16,0,0,0,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,Ilumatobacteraceae,F1-20-MAGs119,NA,Actinobacteriota
+P_bin914,Prairies,53.76,0,0,1.714951,68.40055488,1911,0.91551537,312,6079,25,15,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,NA,NA,Gammaproteobacteria
+P_bin929,Prairies,82.51,0,0,1.785706,34.52970422,1685,0.924452289,300,6741,17,12,1,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UBA955,UBA6161,UBA6161 sp002422315,Bacteroidota
+P_bin93,Prairies,58.88,0,0,0.835087,58.00569282,948,0.950568025,129,7411,21,11,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,Pontimonas,NA,Actinobacteriota
+P_bin946,Prairies,80.43,0,0,3.956048,61.59978342,3290,0.897132441,542,8766,37,16,1,0,0,medium,Bacteria,Planctomycetota,Planctomycetes,Pirellulales,Pirellulaceae,NA,NA,Planctomycetota
+P_bin955,Prairies,73.69,0.68,0,2.984253,63.14565152,2821,0.914624196,508,6657,32,16,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,Akkermansiaceae,UBA1315,NA,Verrucomicrobiota/_A
+P_bin957,Prairies,53.56,0,0,1.309271,38.61965934,1455,0.877054483,278,4819,16,8,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Moraxellaceae,Acinetobacter,Acinetobacter pittii,Gammaproteobacteria
+P_bin965,Prairies,83.85,1.71,0,2.366142,60.19364011,2144,0.90438655,283,10881,28,16,1,0,0,medium,Bacteria,Acidobacteriota,Blastocatellia,Pyrinomonadales,Pyrinomonadaceae,NA,NA,Acidobacteriota
+P_bin966,Prairies,93.01,5.22,0,7.288669,67.09186547,5923,0.918560439,282,41647,66,20,0,0,0,high,Bacteria,Myxococcota,UBA727,UBA727,GCA-2721815,NA,NA,Myxococcota
+P_bin983,Prairies,73.32,0,0,1.343095,71.32116492,1563,0.952013074,213,7215,23,14,0,0,0,medium,Bacteria,Actinobacteriota,Thermoleophilia,Ga0077560,Ga0077560,F1-20-MAGs101,NA,Actinobacteriota
+PM_bin100,Pacific Maritime,65.67,0,0,1.131893,51.12921451,1162,0.954893263,80,21938,28,17,0,0,1,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,Nanopelagicaceae,PALSA-747,NA,Actinobacteriota
+PM_bin1004,Pacific Maritime,65,2.59,0,1.947406,40.96079605,1827,0.944777309,259,9071,9,6,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Cytophagales,Spirosomaceae,UBA6715,NA,Bacteroidota
+PM_bin1021,Pacific Maritime,61.4,0,0,1.993964,63.77186348,1825,0.926654142,196,13812,36,17,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Opitutales,Opitutaceae,IMCC26134_A,NA,Verrucomicrobiota/_A
+PM_bin1031,Pacific Maritime,50.36,1.43,0,1.299252,55.96974259,1517,0.94825869,294,4398,15,10,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Hylemonella,NA,Gammaproteobacteria
+PM_bin1033,Pacific Maritime,61.6,0.8,0,1.492207,55.45155598,1565,0.958015878,268,6239,11,10,0,0,0,medium,Bacteria,Spirochaetota,Spirochaetia,Spirochaetales,Spirochaetaceae_B,NA,NA,Spirochaetota
+PM_bin1049,Pacific Maritime,74.91,0.32,0,1.487505,41.08423165,1438,0.966115072,186,11262,9,8,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Crocinitomicaceae,UBA952,NA,Bacteroidota
+PM_bin1070,Pacific Maritime,64.21,0.48,0,1.164903,53.10588092,1151,0.96442193,239,4988,13,10,1,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,UBA7662,UBA7662,SYHX01,NA,Bacteroidota
+PM_bin108,Pacific Maritime,78.39,1.07,0,1.194189,30.99827582,1418,0.931325778,224,6093,15,10,1,0,0,medium,Bacteria,Campylobacterota,Campylobacteria,Campylobacterales,Arcobacteraceae,NA,NA,Campylobacterota
+PM_bin1085,Pacific Maritime,92.16,2.94,0,3.27498,53.93663473,2928,0.876046266,110,47194,45,20,1,0,0,high,Bacteria,Bdellovibrionota_C,UBA2361,UBA2361,UBA2361,NA,NA,Bdellovibrionota/_C
+PM_bin1095,Pacific Maritime,52.59,3.45,0,1.945498,34.65513714,1857,0.930357163,303,7750,19,9,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Sediminibacterium,NA,Bacteroidota
+PM_bin1096,Pacific Maritime,95.74,0.54,0,1.823931,52.57380899,2056,0.947671814,109,25563,38,18,1,0,0,high,Bacteria,Cyanobacteria,Cyanobacteriia,PCC-6307,Cyanobiaceae,Synechococcus_D,Synechococcus_D lacustris,Cyanobacteria
+PM_bin1099,Pacific Maritime,79.31,0,0,2.005935,36.08900588,1922,0.91997298,247,10339,30,16,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,Legionellaceae,UBA2653,NA,Gammaproteobacteria
+PM_bin1109,Pacific Maritime,53.23,1.72,0,0.479457,30.95793783,545,0.934959757,101,5311,32,18,1,2,1,medium,Bacteria,Patescibacteria,WWE3,UBA101185,NA,NA,NA,Patescibacteria
+PM_bin1117,Pacific Maritime,75.97,1.08,0,1.666937,39.40910784,1637,0.955776973,253,8064,18,13,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Crocinitomicaceae,UBA952,NA,Bacteroidota
+PM_bin1136,Pacific Maritime,51.45,3.45,0,2.658922,65.7099757,2875,0.920787823,520,5566,22,12,0,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Novosphingobium,NA,Alphaproteobacteria
+PM_bin1154,Pacific Maritime,63.93,1.86,7.69,2.639299,62.45938789,2958,0.914916044,545,5144,28,15,0,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Beijerinckiaceae,NA,NA,Alphaproteobacteria
+PM_bin1173,Pacific Maritime,73.69,4.65,0,6.629895,65.5698318,6774,0.901733889,1287,5589,49,18,0,0,1,medium,Bacteria,Myxococcota,Myxococcia,Myxococcales,Myxococcaceae,NA,NA,Myxococcota
+PM_bin1175,Pacific Maritime,57.05,0,0,1.204544,48.44397548,1277,0.957727572,115,13552,29,15,0,0,1,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,Nanopelagicaceae,Planktophila,NA,Actinobacteriota
+PM_bin1178,Pacific Maritime,57.61,0.49,0,1.165426,39.73465497,1235,0.908953464,272,4261,13,10,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,OLB11,NA,Bacteroidota
+PM_bin1193,Pacific Maritime,50.46,0.17,0,1.085468,60.04248859,1255,0.947980963,245,4602,18,14,0,1,1,medium,Bacteria,Actinobacteriota,Thermoleophilia,Solirubrobacterales,NA,NA,NA,Actinobacteriota
+PM_bin1198,Pacific Maritime,61.43,0.89,0,1.711089,34.03142677,1986,0.94346349,361,4870,11,8,1,1,1,medium,Bacteria,Bdellovibrionota,Bacteriovoracia,Bacteriovoracales,Bacteriovoracaceae,NA,NA,Bdellovibrionota/_C
+PM_bin1199,Pacific Maritime,52.88,5.97,0,1.703703,34.68556433,1941,0.90176809,415,4127,18,14,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,AKYH767,2-12-FULL-35-15,2-12-FULL-35-15,NA,Bacteroidota
+PM_bin1233,Pacific Maritime,52.04,1.72,0,1.755658,60.10162572,1935,0.937232081,324,6540,18,12,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,S36-B12,NA,NA,Actinobacteriota
+PM_bin1244,Pacific Maritime,84.79,1.24,0,1.735033,49.8299456,1707,0.946780263,209,10143,23,15,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,JJ008,JJ008 sp002378975,Bacteroidota
+PM_bin1272,Pacific Maritime,87.96,0,0,3.536336,54.42336362,3335,0.893515775,387,11784,43,19,1,0,0,medium,Bacteria,Armatimonadota,BOG-944,Capsulimonadales,NA,NA,NA,Armatimonadota
+PM_bin1284,Pacific Maritime,55.24,1.14,0,2.715687,53.86088308,2413,0.939291605,422,7887,10,7,0,0,0,medium,Bacteria,Planctomycetota,Planctomycetes,Gemmatales,Gemmataceae,NA,NA,Planctomycetota
+PM_bin1285,Pacific Maritime,88.89,1.28,0,1.452858,56.49905221,1485,0.942721174,96,22175,40,20,0,1,1,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,RAAP-2,NA,NA,Actinobacteriota
+PM_bin1301,Pacific Maritime,51.28,0,0,1.971288,50.07183121,2187,0.941364225,388,5407,17,12,0,0,0,medium,Bacteria,Bdellovibrionota,Bdellovibrionia_A,UBA1018,NA,NA,NA,Bdellovibrionota/_C
+PM_bin1345,Pacific Maritime,66.55,0,0,2.062012,39.50170998,2032,0.953705895,278,9499,15,10,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Crocinitomicaceae,UBA952,NA,Bacteroidota
+PM_bin1356,Pacific Maritime,97.97,0.81,0,5.228697,57.65845678,4266,0.897547324,117,75040,47,19,0,0,0,high,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Pedosphaerales,UBA9464,NA,NA,Verrucomicrobiota/_A
+PM_bin1373,Pacific Maritime,92.36,1.07,0,3.283258,53.9265571,3091,0.893066582,150,31518,25,10,0,1,1,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Limnohabitans,NA,Gammaproteobacteria
+PM_bin1419,Pacific Maritime,98.52,0.82,0,3.363347,35.4137114,2826,0.912235936,66,69636,32,19,1,1,1,high,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,SW-11-45-7,NA,NA,Bacteroidota
+PM_bin143,Pacific Maritime,96.14,3.74,8.33,3.213206,63.40810393,2956,0.936274238,124,43795,43,18,1,1,1,high,Bacteria,Proteobacteria,Gammaproteobacteria,Steroidobacterales,Steroidobacteraceae,RPQJ01,NA,Gammaproteobacteria
+PM_bin1433,Pacific Maritime,53.47,0.25,0,0.807629,59.55506798,894,0.944824913,137,6998,12,10,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,Aurantimicrobium,NA,Actinobacteriota
+PM_bin1448,Pacific Maritime,59.9,0,0,0.715342,32.57980099,748,0.856073039,152,5115,16,14,0,1,1,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,Midichloriaceae,Midichloria,NA,Alphaproteobacteria
+PM_bin1451,Pacific Maritime,73.52,7.9,4.26,2.126901,39.96669333,2429,0.930518158,416,5489,21,14,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Polynucleobacter,NA,Gammaproteobacteria
+PM_bin1452,Pacific Maritime,52.59,0,0,1.578476,45.61456747,1675,0.938269571,165,11758,17,11,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Polynucleobacter,NA,Gammaproteobacteria
+PM_bin1466,Pacific Maritime,53.45,0,0,2.16388,43.00774535,2131,0.952798676,394,6162,5,4,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Cytophagales,Spirosomaceae,UBA6715,NA,Bacteroidota
+PM_bin1470,Pacific Maritime,64.66,0,0,2.164353,44.3262721,2047,0.962769474,184,16479,18,13,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Crocinitomicaceae,UBA952,NA,Bacteroidota
+PM_bin1473,Pacific Maritime,68.68,0,0,0.800735,41.45141651,764,0.907328892,121,7763,23,18,0,0,0,medium,Bacteria,Patescibacteria,Gracilibacteria,BD1-5,UBA2023,NA,NA,Patescibacteria
+PM_bin1476,Pacific Maritime,62.23,0,0,2.415836,37.82135873,2286,0.923821402,318,9054,18,11,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Sediminibacterium,NA,Bacteroidota
+PM_bin1480,Pacific Maritime,87.55,0.85,0,1.55835,60.06506882,1632,0.953760708,196,10125,32,18,0,1,1,medium,Bacteria,Actinobacteriota,Thermoleophilia,Solirubrobacterales,Solirubrobacteraceae,NA,NA,Actinobacteriota
+PM_bin1487,Pacific Maritime,50,0,0,1.651663,39.74939198,1777,0.939427716,256,7490,12,9,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Polynucleobacter,NA,Gammaproteobacteria
+PM_bin1490,Pacific Maritime,87.34,2.57,0,2.239185,44.5574171,2318,0.945986598,232,13689,40,19,1,1,1,medium,Bacteria,Bdellovibrionota,FAC87,UBA2466,UBA2466,NA,NA,Bdellovibrionota/_C
+PM_bin1506,Pacific Maritime,84.9,1.07,0,1.396414,57.23259721,1410,0.952797666,107,21647,37,16,0,1,1,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,MWH-TA3,NA,Actinobacteriota
+PM_bin1512,Pacific Maritime,58.25,1.75,0,0.974937,52.23055438,1068,0.950591679,175,6174,24,15,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,Rhodoluna,NA,Actinobacteriota
+PM_bin1517,Pacific Maritime,52.59,1.72,0,1.756886,35.20097491,1634,0.947866282,297,6862,12,10,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UBA955,NA,NA,Bacteroidota
+PM_bin1532,Pacific Maritime,94.05,0,0,5.391075,53.78311376,4154,0.877907838,148,69476,46,20,1,0,0,high,Bacteria,Planctomycetota,Planctomycetes,Pirellulales,Pirellulaceae,Pirellula_B,NA,Planctomycetota
+PM_bin1551,Pacific Maritime,59.43,0.85,0,1.543226,69.66951049,1718,0.93588107,366,4217,17,14,0,0,0,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,Microtrichaceae,SXMI01,NA,Actinobacteriota
+PM_bin1554,Pacific Maritime,52.69,1.54,0,3.303772,59.24010495,3273,0.926019108,634,5560,40,17,1,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,Verrucomicrobiaceae,Prosthecobacter,NA,Verrucomicrobiota/_A
+PM_bin1561,Pacific Maritime,51.56,0.24,0,1.286258,35.5781655,1334,0.944597429,281,4873,13,10,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UKL13-3,B1,NA,Bacteroidota
+PM_bin1576,Pacific Maritime,98.63,0.34,0,3.818174,64.70975393,3073,0.932212361,68,96632,51,19,0,0,0,high,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Opitutales,Opitutaceae,Opitutus,NA,Verrucomicrobiota/_A
+PM_bin1582,Pacific Maritime,51.49,0,0,1.09918,54.39100056,1208,0.913757528,272,4085,8,6,0,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Beijerinckiaceae,28-YEA-48,NA,Alphaproteobacteria
+PM_bin1583,Pacific Maritime,98.96,3.22,7.69,4.595603,40.54760605,4200,0.917885857,130,61318,36,19,0,0,0,high,Bacteria,Bacteroidota,Bacteroidia,Cytophagales,Cyclobacteriaceae,ELB16-189,NA,Bacteroidota
+PM_bin1587,Pacific Maritime,59.48,0,0,0.959194,47.69869286,1037,0.96273538,119,9350,19,13,0,0,1,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,Nanopelagicaceae,Planktophila,NA,Actinobacteriota
+PM_bin1591,Pacific Maritime,94.59,1.35,0,4.745225,58.31976355,4122,0.898372785,354,19198,43,19,0,0,0,high,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Pedosphaerales,UBA9464,NA,NA,Verrucomicrobiota/_A
+PM_bin160,Pacific Maritime,89.67,0.2,0,1.692122,55.78114344,1802,0.930294033,163,15003,26,15,1,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,SXRF01,NA,NA,Alphaproteobacteria
+PM_bin1612,Pacific Maritime,88.71,1.7,0,3.159453,62.90604734,2806,0.919049278,364,10732,46,19,1,0,0,medium,Bacteria,Planctomycetota,Phycisphaerae,Phycisphaerales,SM1A02,QWPT01,QWPT01 sp003671075,Planctomycetota
+PM_bin1626,Pacific Maritime,97.04,0.49,0,3.409257,45.03541387,3100,0.894882668,170,27247,33,18,1,0,0,high,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,LD1,UBA1941,NA,Bacteroidota
+PM_bin1646,Pacific Maritime,71.55,0,0,1.289051,47.46584891,1263,0.953734957,40,64039,37,18,0,1,1,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,Nanopelagicaceae,PALSA-747,NA,Actinobacteriota
+PM_bin165,Pacific Maritime,95.89,0,0,2.4552,42.22006354,2041,0.936868687,53,90830,47,18,1,1,1,high,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Opitutales,Opitutaceae,NA,NA,Verrucomicrobiota/_A
+PM_bin168,Pacific Maritime,66.37,0,0,1.112626,28.736251,1104,0.892031105,230,5074,22,14,0,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,UBA1997,SYAR01,NA,Alphaproteobacteria
+PM_bin190,Pacific Maritime,69.51,0,0,0.790597,30.33049708,583,0.849270867,24,70530,37,19,1,1,1,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,AB1-6,NA,NA,Alphaproteobacteria
+PM_bin212,Pacific Maritime,84.68,1.88,7.14,2.005499,46.82490492,1969,0.899892745,252,9662,32,16,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudohongiellaceae,NA,NA,Gammaproteobacteria
+PM_bin23,Pacific Maritime,61.24,0,0,1.149325,60.44965523,1263,0.94463881,237,5198,27,15,0,0,0,medium,Bacteria,Actinobacteriota,Thermoleophilia,Solirubrobacterales,Solirubrobacteraceae,NA,NA,Actinobacteriota
+PM_bin254,Pacific Maritime,94.51,0,0,1.395242,30.74721088,1240,0.891159383,48,54627,36,20,2,1,0,high,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,UBA1997,SYAR01,NA,Alphaproteobacteria
+PM_bin258,Pacific Maritime,52.83,1.12,0,1.106913,23.97098959,1191,0.882505671,224,5172,16,12,0,0,0,medium,Bacteria,Patescibacteria,Gracilibacteria,BD1-5,UBA6164,NA,NA,Patescibacteria
+PM_bin30,Pacific Maritime,66.27,0,0,1.121927,53.76285623,1208,0.95758191,136,10861,21,12,1,0,1,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,Rhodoluna,NA,Actinobacteriota
+PM_bin305,Pacific Maritime,69.78,0,0,1.321604,49.89338713,1305,0.89681932,105,19741,13,11,0,1,1,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Beijerinckiaceae,Methylocystis,Methylocystis sp002412985,Alphaproteobacteria
+PM_bin336,Pacific Maritime,75.94,0.84,0,2.187728,49.53394572,2310,0.94663779,346,7283,23,15,0,0,0,medium,Bacteria,Bdellovibrionota,Bdellovibrionia_A,UBA1018,NA,NA,NA,Bdellovibrionota/_C
+PM_bin391,Pacific Maritime,83.28,5.39,4.76,1.266775,35.85893312,1268,0.871123917,220,6133,28,18,1,1,1,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,Rickettsiaceae,NA,NA,Alphaproteobacteria
+PM_bin395,Pacific Maritime,51.11,0.54,0,1.002777,53.02245664,1139,0.937287154,204,5157,18,11,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,S36-B12,UBA11398,NA,Actinobacteriota
+PM_bin398,Pacific Maritime,78.88,1.51,0,2.788316,65.59313937,2614,0.919068355,455,7200,33,17,1,0,1,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Opitutales,Opitutaceae,UBA6669,NA,Verrucomicrobiota/_A
+PM_bin400,Pacific Maritime,53.51,3.51,0,1.332072,46.36633756,1354,0.940732933,212,7729,14,12,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,Rhodoluna,NA,Actinobacteriota
+PM_bin409,Pacific Maritime,74.14,0,0,0.699004,41.20620197,728,0.922584134,22,51577,45,20,2,2,1,medium,Bacteria,Patescibacteria,Saccharimonadia,NA,NA,NA,NA,Patescibacteria
+PM_bin426,Pacific Maritime,88.19,0.68,0,1.75164,58.32802402,1762,0.925261469,187,12893,35,18,1,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Chthoniobacterales,UBA6821,NA,NA,Verrucomicrobiota/_A
+PM_bin429,Pacific Maritime,91.34,5.85,7.14,1.209309,33.74811566,1332,0.905915692,175,7859,31,19,0,1,0,high,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,NA,NA,NA,Alphaproteobacteria
+PM_bin445,Pacific Maritime,62.54,0,0,0.658707,36.54826805,639,0.869998345,41,22028,45,20,0,0,1,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,AB1-6,NA,NA,Alphaproteobacteria
+PM_bin454,Pacific Maritime,66.41,1.28,0,1.940343,64.61099919,2034,0.900997401,381,5530,28,17,0,0,0,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,RAAP-2,Bog-756,NA,Actinobacteriota
+PM_bin457,Pacific Maritime,90.24,1.28,0,2.127833,57.05081179,2134,0.935412695,86,54034,43,18,1,1,1,high,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,RAAP-2,NA,NA,Actinobacteriota
+PM_bin51,Pacific Maritime,85.94,0.84,0,4.401147,51.5481078,3836,0.906054263,80,92089,49,20,1,0,0,medium,Bacteria,Bdellovibrionota,Oligoflexia,Silvanigrellales,Silvanigrellaceae,NA,NA,Bdellovibrionota/_C
+PM_bin524,Pacific Maritime,82.42,0.11,0,1.856285,59.47346447,2022,0.946541614,274,7962,32,18,1,1,1,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,UBA5976,NA,NA,Actinobacteriota
+PM_bin540,Pacific Maritime,57.24,0,0,1.437793,44.24475568,1540,0.946980546,171,10586,16,12,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Polynucleobacter,NA,Gammaproteobacteria
+PM_bin543,Pacific Maritime,56.47,0,0,0.623869,39.85099436,690,0.962528992,96,6753,9,7,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,Nanopelagicaceae,Nanopelagicus,NA,Actinobacteriota
+PM_bin549,Pacific Maritime,98.99,1.61,0,3.096148,62.50014534,2944,0.877301408,60,74909,44,19,1,1,1,high,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Hyphomicrobium,NA,Alphaproteobacteria
+PM_bin552,Pacific Maritime,69.82,1.15,0,3.314488,71.38396639,2884,0.883872562,640,5642,26,14,2,0,1,medium,Bacteria,Planctomycetota,Planctomycetes,Pirellulales,UBA1268,NA,NA,Planctomycetota
+PM_bin569,Pacific Maritime,65.52,1.72,0,1.299043,47.35409067,1380,0.955550355,215,6742,24,17,2,0,0,medium,Bacteria,Margulisbacteria,Marinamargulisbacteria,SXXA01,NA,NA,NA,Margulisbacteria
+PM_bin580,Pacific Maritime,98.64,0,0,5.008675,52.72450299,4394,0.915983169,89,95405,39,18,0,0,0,high,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,Verrucomicrobiaceae,NA,NA,Verrucomicrobiota/_A
+PM_bin605,Pacific Maritime,62.23,0,0,1.811642,39.82790198,1850,0.950625455,357,5347,13,11,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UBA955,NA,NA,Bacteroidota
+PM_bin615,Pacific Maritime,91.34,0,0,2.289172,39.36978086,2099,0.951132986,142,22556,27,15,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Crocinitomicaceae,UBA952,NA,Bacteroidota
+PM_bin622,Pacific Maritime,52.04,0,0,0.988017,47.59573975,1118,0.941599183,180,6195,15,11,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,UBA5976,UBA5976,NA,Actinobacteriota
+PM_bin645,Pacific Maritime,92.77,1.14,0,4.536256,60.93168022,3666,0.885970721,296,23909,44,19,1,1,0,high,Bacteria,Planctomycetota,Phycisphaerae,Phycisphaerales,SM1A02,UBA2402,NA,Planctomycetota
+PM_bin646,Pacific Maritime,52.04,5.17,0,2.041111,32.91398655,2143,0.904202172,426,5015,11,7,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Ferruginibacter,NA,Bacteroidota
+PM_bin658,Pacific Maritime,55.3,0,0,2.171694,52.53184841,2127,0.922268054,282,9277,14,9,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,SCGC-AAA027-K21,NA,Gammaproteobacteria
+PM_bin668,Pacific Maritime,69.31,0,0,2.362209,59.5006623,2456,0.913039447,366,7945,24,12,0,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,BOG-935,NA,Alphaproteobacteria
+PM_bin670,Pacific Maritime,96.58,1.45,0,1.851281,56.29809845,1855,0.943330051,63,45534,52,20,1,0,0,high,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,RAAP-2,NA,NA,Actinobacteriota
+PM_bin671,Pacific Maritime,52.53,0,0,2.146384,70.70948162,2033,0.915088353,469,4772,20,14,0,1,0,medium,Bacteria,Planctomycetota,Planctomycetes,Pirellulales,UBA1268,NA,NA,Planctomycetota
+PM_bin680,Pacific Maritime,71.53,0.48,0,1.943879,44.47473325,1925,0.932333751,358,6004,19,11,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,AKYH767,NA,NA,NA,Bacteroidota
+PM_bin684,Pacific Maritime,55.17,0,0,1.294733,61.44000346,1274,0.94032901,257,5528,11,8,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Opitutales,UBA953,UBA953,NA,Verrucomicrobiota/_A
+PM_bin693,Pacific Maritime,95.92,3.16,0,2.166061,55.58693869,2147,0.907170666,127,34711,42,18,0,0,0,high,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Chthoniobacterales,UBA6821,NA,NA,Verrucomicrobiota/_A
+PM_bin694,Pacific Maritime,91.7,1.18,0,4.270006,54.75174976,3452,0.914938761,388,16055,34,20,0,2,1,high,Bacteria,Planctomycetota,Planctomycetes,Pirellulales,Pirellulaceae,Pirellula_B,NA,Planctomycetota
+PM_bin699,Pacific Maritime,68.91,0,0,2.731592,69.48285103,2607,0.91052983,541,5340,26,15,2,0,0,medium,Bacteria,Planctomycetota,Planctomycetes,Pirellulales,UBA1268,QWPN01,NA,Planctomycetota
+PM_bin700,Pacific Maritime,72.67,0,0,1.026699,49.37055554,1103,0.960663252,142,9088,19,14,1,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,Rhodoluna,NA,Actinobacteriota
+PM_bin708,Pacific Maritime,78.08,0.42,0,2.413086,47.59067849,2386,0.925357405,271,12213,29,16,0,0,0,medium,Bacteria,Bdellovibrionota,Bdellovibrionia_A,UBA1018,UBA1018,NA,NA,Bdellovibrionota/_C
+PM_bin727,Pacific Maritime,65.86,1.72,0,2.385284,39.77924641,2450,0.923965867,249,13123,19,14,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Polynucleobacter,NA,Gammaproteobacteria
+PM_bin759,Pacific Maritime,86.29,3.93,5.56,2.734699,61.10230047,2714,0.924227493,353,9590,30,16,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Steroidobacterales,Steroidobacteraceae,NA,NA,Gammaproteobacteria
+PM_bin768,Pacific Maritime,65.03,0.52,0,0.694912,34.96097348,764,0.891807884,152,4715,14,12,0,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,Rickettsiaceae,GCA-2402195,NA,Alphaproteobacteria
+PM_bin780,Pacific Maritime,95.27,0,0,1.612804,42.71399376,1523,0.895777788,130,17493,41,19,1,0,0,high,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Chthoniobacterales,UBA6821,NA,NA,Verrucomicrobiota/_A
+PM_bin791,Pacific Maritime,90.25,2.58,0,5.877772,66.48073454,5232,0.922665935,476,17491,44,18,1,0,0,high,Bacteria,Myxococcota,Polyangia,Polyangiales,Polyangiaceae,NA,NA,Myxococcota
+PM_bin804,Pacific Maritime,55.64,1.72,0,2.29603,36.76023397,2354,0.910049085,357,7518,19,13,0,0,1,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,NA,Bacteroidota
+PM_bin828,Pacific Maritime,76.95,0,0,3.836266,62.40714278,3378,0.891778099,636,6793,27,16,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Pedosphaerales,UBA9464,NA,NA,Verrucomicrobiota/_A
+PM_bin831,Pacific Maritime,62.71,0,0,1.685189,45.73890525,1584,0.951829735,236,8928,16,14,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UBA955,UBA955,UBA955 sp002293105,Bacteroidota
+PM_bin839,Pacific Maritime,83.46,0,0,2.923018,64.1619039,2941,0.935090718,392,9419,26,17,0,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Acetobacterales,Acetobacteraceae,70-18,NA,Alphaproteobacteria
+PM_bin849,Pacific Maritime,74.58,0,0,2.008627,51.45529757,1994,0.92212591,267,9105,24,15,1,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,Akkermansiaceae,UBA1315,NA,Verrucomicrobiota/_A
+PM_bin867,Pacific Maritime,52.59,0,0,0.978421,46.80592506,1009,0.957757448,98,13095,16,10,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,Nanopelagicaceae,AAA044-D11,NA,Actinobacteriota
+PM_bin890,Pacific Maritime,93.18,4.19,0,6.603327,70.35824517,5260,0.950367141,168,60571,51,18,1,1,1,high,Bacteria,Myxococcota,Bradimonadia,UBA7976,UBA1532,NA,NA,Myxococcota
+PM_bin920,Pacific Maritime,90.6,1.28,0,1.208002,56.22714201,1238,0.949370117,66,29542,44,19,0,0,1,high,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,RAAP-2,RAAP-2,NA,Actinobacteriota
+PM_bin943,Pacific Maritime,50.89,0.85,0,1.493463,58.54701456,1622,0.954750804,241,7046,12,10,0,0,0,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,UBA8139,F1-20-MAGs160,NA,Actinobacteriota
+PM_bin946,Pacific Maritime,64.14,0,0,2.053134,31.03937687,2047,0.920083151,272,9291,15,12,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,NA,Bacteroidota
+PM_bin953,Pacific Maritime,80.14,0.88,0,1.129735,51.79958132,1162,0.952887182,107,15120,34,15,0,0,1,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,Rhodoluna,NA,Actinobacteriota
+PM_bin980,Pacific Maritime,88.95,2.68,0,3.52164,41.15184971,3534,0.923549539,151,40603,26,15,0,0,0,medium,Bacteria,Bdellovibrionota,Bacteriovoracia,Bacteriovoracales,Bacteriovoracaceae,Bacteriovorax,NA,Bdellovibrionota/_C
+PM_bin998,Pacific Maritime,56.54,8.62,0,2.293801,35.91388268,2157,0.939141626,395,6277,6,5,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Sediminibacterium,NA,Bacteroidota
+SAP_bin101,Semi-Arid Plateaux,56.14,1.75,0,0.831575,59.25238253,895,0.955382257,129,7798,13,11,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,Pontimonas,NA,Actinobacteriota
+SAP_bin1011,Semi-Arid Plateaux,59.48,0,0,0.5697,41.33684395,638,0.962367913,101,5907,10,7,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,Nanopelagicaceae,Nanopelagicus,Nanopelagicus sp000294575,Actinobacteriota
+SAP_bin1015,Semi-Arid Plateaux,56.9,1.72,0,2.121272,48.93964565,2285,0.863579022,409,5654,19,11,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Moraxellaceae,Alkanindiges,NA,Gammaproteobacteria
+SAP_bin1032,Semi-Arid Plateaux,64.04,0,0,2.022583,38.11967173,2251,0.937655463,313,7604,18,15,0,0,0,medium,Bacteria,Bdellovibrionota,Bacteriovoracia,Bacteriovoracales,Bacteriovoracaceae,UBA4096,NA,Bdellovibrionota/_C
+SAP_bin1041,Semi-Arid Plateaux,61.29,0,0,2.059823,42.66716121,2047,0.885378015,279,8979,24,16,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Moraxellaceae,Acinetobacter,Acinetobacter radioresistens,Gammaproteobacteria
+SAP_bin1055,Semi-Arid Plateaux,58.05,0,0,0.68184,46.41543471,697,0.92040948,44,18900,31,17,0,0,0,medium,Bacteria,Patescibacteria,Saccharimonadia,Saccharimonadales,Saccharimonadaceae,UBA1547,NA,Patescibacteria
+SAP_bin1058,Semi-Arid Plateaux,98.26,0.03,0,4.100953,68.07373798,3956,0.908105262,244,25107,48,19,0,0,0,high,Bacteria,Proteobacteria,Alphaproteobacteria,Acetobacterales,Acetobacteraceae,Paracraurococcus,NA,Alphaproteobacteria
+SAP_bin1061,Semi-Arid Plateaux,68.64,0,0,1.845868,67.84986792,1826,0.943112942,346,5972,28,14,0,1,1,medium,Bacteria,Planctomycetota,Phycisphaerae,Phycisphaerales,SM1A02,SYIB01,NA,Planctomycetota
+SAP_bin1082,Semi-Arid Plateaux,97.58,0,0,1.594817,41.95196063,1495,0.884334692,62,45607,34,17,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Methylophilaceae,Methylotenera,NA,Gammaproteobacteria
+SAP_bin1088,Semi-Arid Plateaux,94.6,0.41,0,2.330641,60.60727499,2267,0.949211397,56,90829,40,17,1,0,1,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,UBA954,NA,Gammaproteobacteria
+SAP_bin1090,Semi-Arid Plateaux,82.98,3.38,7.14,2.504555,36.16263169,2526,0.942632124,400,7466,18,12,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Crocinitomicaceae,UBA952,NA,Bacteroidota
+SAP_bin1091,Semi-Arid Plateaux,57.92,1.72,0,1.963241,53.58669669,2090,0.925608726,378,5535,10,9,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,Akkermansiaceae,UBA956,NA,Verrucomicrobiota/_A
+SAP_bin1096,Semi-Arid Plateaux,54.39,0,0,0.781442,48.55421132,801,0.956189967,87,13519,22,13,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,Rhodoluna,NA,Actinobacteriota
+SAP_bin1115,Semi-Arid Plateaux,76.04,2.19,0,2.441918,31.2284442,2543,0.926241586,472,5539,17,10,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,UBA10324,NA,NA,Bacteroidota
+SAP_bin1121,Semi-Arid Plateaux,53.01,3.08,0,0.722252,37.83347087,774,0.873185536,159,4656,20,14,0,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,Rickettsiaceae,Phycorickettsia,NA,Alphaproteobacteria
+SAP_bin1142,Semi-Arid Plateaux,63.26,4.46,0,1.367734,50.83408031,1508,0.948546282,210,8314,22,15,0,1,1,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,Ilumatobacteraceae,UBA3006,NA,Actinobacteriota
+SAP_bin1167,Semi-Arid Plateaux,73.71,6.03,0,1.854426,35.46698547,1778,0.938444025,199,13083,14,10,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Sediminibacterium,NA,Bacteroidota
+SAP_bin117,Semi-Arid Plateaux,93.48,1.71,0,1.703169,67.62617215,1681,0.934991771,56,44623,38,17,1,1,1,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,UBA3065,UBA3065,NA,Gammaproteobacteria
+SAP_bin1182,Semi-Arid Plateaux,94.19,1.07,0,2.309035,36.84773076,2030,0.907683946,81,49779,38,19,2,0,0,high,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,Legionellaceae,NA,NA,Gammaproteobacteria
+SAP_bin119,Semi-Arid Plateaux,63.33,0.85,0,0.889953,48.03163763,949,0.907892889,22,76125,41,17,1,1,1,medium,Bacteria,Patescibacteria,Saccharimonadia,Saccharimonadales,Saccharimonadaceae,UBA1547,NA,Patescibacteria
+SAP_bin12,Semi-Arid Plateaux,55.35,1.12,0,0.82233,32.25773108,1031,0.924245741,207,3877,16,12,0,0,0,medium,Bacteria,Firmicutes,Bacilli,Mycoplasmatales,UBA3375,NA,NA,Firmicutes/_A
+SAP_bin1206,Semi-Arid Plateaux,91.48,0.62,0,3.846094,66.50939889,3471,0.931089308,446,11708,39,19,0,0,0,high,Bacteria,Planctomycetota,UBA1135,UBA2386,UBA2386,SXPK01,NA,Planctomycetota
+SAP_bin1210,Semi-Arid Plateaux,89.27,0.8,0,2.611551,49.78355774,2608,0.909975336,206,18633,25,14,1,1,1,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Limnohabitans,NA,Gammaproteobacteria
+SAP_bin128,Semi-Arid Plateaux,85.84,1.18,0,4.992157,51.22855711,4340,0.894584445,637,9313,30,17,1,1,1,medium,Bacteria,Planctomycetota,Planctomycetes,Pirellulales,Pirellulaceae,Pirellula_B,NA,Planctomycetota
+SAP_bin136,Semi-Arid Plateaux,98.03,0.99,0,2.801591,43.37913707,2481,0.920990252,51,102404,38,19,0,1,1,high,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Sediminibacterium,NA,Bacteroidota
+SAP_bin160,Semi-Arid Plateaux,66.14,0,0,2.100078,40.29955078,2121,0.94149884,145,22244,19,11,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Polynucleobacter,NA,Gammaproteobacteria
+SAP_bin173,Semi-Arid Plateaux,92.97,1.74,0,2.82006,53.36315539,2650,0.906733899,295,12791,28,14,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,Akkermansiaceae,UBA956,NA,Verrucomicrobiota/_A
+SAP_bin176,Semi-Arid Plateaux,96.5,0.61,0,3.938934,65.66045534,3984,0.900494398,115,52248,49,20,1,1,1,high,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Devosiaceae,Devosia,NA,Alphaproteobacteria
+SAP_bin181,Semi-Arid Plateaux,50.47,0,0,2.438601,34.79343279,2359,0.931647695,448,6140,16,11,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Sediminibacterium,NA,Bacteroidota
+SAP_bin20,Semi-Arid Plateaux,74.14,0,0,5.526874,71.1579638,5385,0.944445088,954,6707,34,16,0,0,0,medium,Bacteria,Myxococcota,UBA796,UBA796,UBA796,NA,NA,Myxococcota
+SAP_bin213,Semi-Arid Plateaux,89.41,0.43,0,2.261673,64.76219153,2358,0.93168818,240,11942,28,15,1,0,1,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sandarakinorhabdus,NA,Alphaproteobacteria
+SAP_bin214,Semi-Arid Plateaux,65,0,0,1.844183,39.63516636,1877,0.944943099,315,6551,9,6,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Cytophagales,Spirosomaceae,UBA6715,NA,Bacteroidota
+SAP_bin215,Semi-Arid Plateaux,69.14,0,0,4.752591,63.95793368,4669,0.891488453,333,21353,42,15,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Ralstonia,Ralstonia pickettii_B,Gammaproteobacteria
+SAP_bin219,Semi-Arid Plateaux,63.83,0.99,0,1.81861,33.80746834,1857,0.898394378,367,5136,12,8,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Ferruginibacter,NA,Bacteroidota
+SAP_bin221,Semi-Arid Plateaux,94.51,2.63,0,1.960625,39.34021039,1947,0.883646286,295,8682,43,19,2,1,0,high,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,Midichloriaceae,NA,NA,Alphaproteobacteria
+SAP_bin222,Semi-Arid Plateaux,50.32,0,0,0.745343,54.84052309,854,0.957583287,134,6018,20,12,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,Aquiluna,NA,Actinobacteriota
+SAP_bin232,Semi-Arid Plateaux,75.09,1.69,0,0.721258,36.69616143,762,0.896426799,17,78547,36,20,2,3,1,medium,Bacteria,Patescibacteria,Paceibacteria,UBA9983,UBA1006,NA,NA,Patescibacteria
+SAP_bin250,Semi-Arid Plateaux,79.93,2.2,0,1.825964,55.46703002,2008,0.921729015,195,12391,37,20,0,2,1,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,UBA3002,UBA6189,NA,Alphaproteobacteria
+SAP_bin261,Semi-Arid Plateaux,99.73,0,0,2.605639,32.66714998,2277,0.936602883,45,97899,33,19,1,1,1,high,Bacteria,Bacteroidota,Bacteroidia,UBA7662,NA,NA,NA,Bacteroidota
+SAP_bin3,Semi-Arid Plateaux,98.58,0.95,0,2.359608,56.80998708,2380,0.890311018,86,41147,44,17,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,NA,NA,Gammaproteobacteria
+SAP_bin306,Semi-Arid Plateaux,62.07,1.72,0,1.001188,62.77871888,1068,0.963530326,125,10376,24,12,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,UBA2463,NA,Gammaproteobacteria
+SAP_bin308,Semi-Arid Plateaux,71.55,1.72,0,1.006244,66.73351593,1032,0.958068818,92,16395,34,19,0,0,0,medium,Bacteria,Chloroflexota,Ellin6529,CSP1-4,UBA10416,UBA10416,UBA10416 sp003670745,Chloroflexota
+SAP_bin32,Semi-Arid Plateaux,90.95,0.86,0,2.615321,48.41038634,2436,0.931327359,252,14806,32,19,0,1,1,high,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,UA16,NA,NA,Bacteroidota
+SAP_bin321,Semi-Arid Plateaux,94.56,1.36,0,5.244924,57.84139103,4387,0.910877832,171,42531,39,18,0,0,0,high,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,Verrucomicrobiaceae,NA,NA,Verrucomicrobiota/_A
+SAP_bin338,Semi-Arid Plateaux,50.31,1.72,0,1.699235,59.58363617,1963,0.934823023,300,6635,15,9,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Limnohabitans,NA,Gammaproteobacteria
+SAP_bin350,Semi-Arid Plateaux,70.61,1.72,0,2.790682,52.61402052,2686,0.925794842,297,11738,32,15,0,0,1,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,Akkermansiaceae,UBA956,NA,Verrucomicrobiota/_A
+SAP_bin37,Semi-Arid Plateaux,90.88,1.88,0,3.237469,55.66240171,3182,0.92279401,319,12401,30,16,1,1,1,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,UBA10329,UBA10329,NA,Bacteroidota
+SAP_bin383,Semi-Arid Plateaux,63.2,0.22,0,1.382199,63.71202699,1587,0.920174302,292,5106,26,13,0,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Micavibrionales,UBA2020,UBA2020,NA,Alphaproteobacteria
+SAP_bin4,Semi-Arid Plateaux,72.67,0,0,1.037469,45.02891171,1119,0.955894586,102,13810,21,12,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,AcAMD-5,AcAMD-5,NA,Actinobacteriota
+SAP_bin411,Semi-Arid Plateaux,50,3.45,0,1.059766,48.49429025,1169,0.937260678,162,7785,20,11,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,Nanopelagicaceae,Planktophila,NA,Actinobacteriota
+SAP_bin423,Semi-Arid Plateaux,88.33,0.48,0,2.605573,33.95990057,2408,0.903691434,370,8668,18,14,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,AKYH767,UBA4408,NA,NA,Bacteroidota
+SAP_bin425,Semi-Arid Plateaux,55.17,0,0,1.79655,40.19849155,1867,0.946203,182,14869,17,8,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Polynucleobacter,NA,Gammaproteobacteria
+SAP_bin436,Semi-Arid Plateaux,72.16,1.14,0,2.694537,61.9589191,2471,0.904748014,493,5897,28,14,1,1,0,medium,Bacteria,Planctomycetota,Phycisphaerae,Phycisphaerales,SM1A02,QWPT01,NA,Planctomycetota
+SAP_bin451,Semi-Arid Plateaux,60.14,0,0,1.788837,41.26273104,1807,0.943835576,294,7010,10,8,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Cytophagales,Spirosomaceae,UBA6715,NA,Bacteroidota
+SAP_bin452,Semi-Arid Plateaux,79.51,1.53,0,3.410383,35.98974074,3304,0.925291382,465,9325,16,10,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Crocinitomicaceae,M0103,NA,Bacteroidota
+SAP_bin454,Semi-Arid Plateaux,58.62,0,0,1.374619,56.9721501,1301,0.953528941,174,9659,14,7,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Schleiferiaceae,TMED14,NA,Bacteroidota
+SAP_bin478,Semi-Arid Plateaux,87.76,0,0,0.898784,36.72528661,915,0.948715153,91,13430,34,15,1,0,0,medium,Bacteria,Firmicutes,Bacilli,RFN20,CAG-826,UBA970,NA,Firmicutes/_A
+SAP_bin508,Semi-Arid Plateaux,98.3,2.04,0,5.106782,60.73752512,4535,0.889344797,433,15356,39,19,0,0,0,high,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,DEV007,Arctic95D-9,NA,Verrucomicrobiota/_A
+SAP_bin518,Semi-Arid Plateaux,91.93,3.33,0,2.650349,38.17867005,2891,0.92188425,340,9796,27,15,0,0,0,medium,Bacteria,Bdellovibrionota,Bdellovibrionia,Bdellovibrionales,Bdellovibrionaceae,Pseudobdellovibrio,NA,Bdellovibrionota/_C
+SAP_bin53,Semi-Arid Plateaux,66.68,0,0,1.767285,45.48259053,1799,0.946431956,292,6955,23,15,0,0,1,medium,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UBA955,NA,NA,Bacteroidota
+SAP_bin533,Semi-Arid Plateaux,85.8,8.92,3.85,3.579808,32.4095594,3471,0.903138381,362,15329,35,15,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Crocinitomicaceae,M2408,NA,Bacteroidota
+SAP_bin550,Semi-Arid Plateaux,54.81,0.86,0,2.095983,67.08241431,2338,0.917320417,412,5784,31,16,0,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Porphyrobacter,NA,Alphaproteobacteria
+SAP_bin554,Semi-Arid Plateaux,66.34,0.54,0,1.632617,37.63393374,1677,0.946851589,305,5589,12,9,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Crocinitomicaceae,M0103,NA,Bacteroidota
+SAP_bin589,Semi-Arid Plateaux,62.07,0,0,1.663336,45.88910479,1761,0.922827378,277,6721,19,10,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,SCGC-AAA027-K21,NA,Gammaproteobacteria
+SAP_bin601,Semi-Arid Plateaux,70.35,2.46,0,1.464413,34.66685969,1537,0.914795894,268,6176,21,14,0,1,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,UBA1997,SYAR01,NA,Alphaproteobacteria
+SAP_bin606,Semi-Arid Plateaux,97.1,1.47,0,3.198057,58.70630198,3086,0.90021191,198,23074,41,19,0,0,0,high,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,Akkermansiaceae,UBA1315,NA,Verrucomicrobiota/_A
+SAP_bin614,Semi-Arid Plateaux,97.7,0,0,3.613133,65.33180484,3009,0.915152307,81,68122,50,20,1,2,1,high,Bacteria,Planctomycetota,Planctomycetes,Pirellulales,UBA1268,NA,NA,Planctomycetota
+SAP_bin621,Semi-Arid Plateaux,79.31,0,0,2.616018,57.91825591,2676,0.922743269,337,10417,28,17,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudohongiellaceae,NA,NA,Gammaproteobacteria
+SAP_bin624,Semi-Arid Plateaux,88.04,0.62,0,2.215823,35.64066263,2095,0.933735682,213,14110,26,14,1,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Sediminibacterium,NA,Bacteroidota
+SAP_bin630,Semi-Arid Plateaux,53.99,1.75,0,1.282597,60.5652438,1445,0.933273663,274,4952,28,16,1,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,SISG01,NA,Actinobacteriota
+SAP_bin643,Semi-Arid Plateaux,71.23,4.74,0,3.532665,29.06245002,3687,0.904622431,656,5922,40,17,0,0,0,medium,Bacteria,Bdellovibrionota,Oligoflexia,Silvanigrellales,Silvanigrellaceae,Silvanigrella,NA,Bdellovibrionota/_C
+SAP_bin646,Semi-Arid Plateaux,91.81,1.65,0,2.090844,37.111664,2059,0.870399226,194,13496,30,18,1,0,0,high,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,UBA6187,1-14-0-20-39-49,NA,Alphaproteobacteria
+SAP_bin684,Semi-Arid Plateaux,93.21,1.09,0,4.343012,58.62406091,4098,0.831428281,394,14341,34,18,0,0,0,high,Bacteria,Cyanobacteria,Cyanobacteriia,Phormidesmiales,Phormidesmiaceae,Nodosilinea,NA,Cyanobacteria
+SAP_bin697,Semi-Arid Plateaux,59.25,1.72,0,2.889978,64.53997228,2658,0.912839821,479,6930,27,16,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Pedosphaerales,UBA9464,SXXZ01,NA,Verrucomicrobiota/_A
+SAP_bin698,Semi-Arid Plateaux,63.59,0,0,1.748765,53.68165534,1841,0.926795195,249,8606,19,14,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,SYFN01,NA,Gammaproteobacteria
+SAP_bin7,Semi-Arid Plateaux,51.72,1.72,0,1.808906,36.72921644,1791,0.937032107,345,5537,21,15,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UKL13-3,B1,NA,Bacteroidota
+SAP_bin71,Semi-Arid Plateaux,81.17,0,0,0.659254,32.68815965,721,0.889690468,21,59008,34,19,2,2,1,medium,Bacteria,Patescibacteria,Paceibacteria,UBA9983,UBA11359_D,NA,NA,Patescibacteria
+SAP_bin724,Semi-Arid Plateaux,51.83,1.48,0,1.215911,32.60625161,1349,0.921905468,268,4852,18,12,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,UBA8649,NA,NA,Bacteroidota
+SAP_bin729,Semi-Arid Plateaux,89.73,3.64,0,2.539147,38.61674807,2455,0.938186722,247,20305,22,13,2,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Crocinitomicaceae,UBA952,NA,Bacteroidota
+SAP_bin742,Semi-Arid Plateaux,65.04,2.36,0,2.073913,65.54291332,2209,0.892665218,399,5533,26,15,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Opitutales,Opitutaceae,UBA6669,NA,Verrucomicrobiota/_A
+SAP_bin759,Semi-Arid Plateaux,87.49,0.84,0,3.037672,47.63963983,2702,0.908076646,50,92714,42,20,0,0,0,medium,Bacteria,Bdellovibrionota,Oligoflexia,Oligoflexales,NA,NA,NA,Bdellovibrionota/_C
+SAP_bin764,Semi-Arid Plateaux,89.15,0,0,0.838863,37.98880151,872,0.952118522,82,15021,44,18,1,1,1,medium,Bacteria,Firmicutes,Bacilli,RFN20,CAG-826,UBA970,NA,Firmicutes/_A
+SAP_bin77,Semi-Arid Plateaux,84.8,2.52,0,3.191475,54.27007888,2975,0.873868979,221,23083,38,18,0,1,1,medium,Bacteria,Bdellovibrionota_C,UBA2361,UBA2361,UBA2361,NA,NA,Bdellovibrionota/_C
+SAP_bin781,Semi-Arid Plateaux,63.48,1.72,0,0.990453,24.04324082,769,0.846245102,42,44263,33,17,1,0,1,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,AB1-6,NA,NA,Alphaproteobacteria
+SAP_bin783,Semi-Arid Plateaux,68.42,0,0,2.69745,42.1127361,2959,0.934586369,382,8718,17,11,0,0,0,medium,Bacteria,Bdellovibrionota,Bacteriovoracia,Bacteriovoracales,Bacteriovoracaceae,UBA4096,NA,Bdellovibrionota/_C
+SAP_bin784,Semi-Arid Plateaux,54.31,0,0,1.280248,36.01739663,1360,0.936479495,312,4066,3,3,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UBA955,NA,NA,Bacteroidota
+SAP_bin80,Semi-Arid Plateaux,59.42,1.71,0,0.93723,50.41174525,1067,0.961409686,189,5345,7,7,0,0,0,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,Ilumatobacteraceae,BACL27,NA,Actinobacteriota
+SAP_bin805,Semi-Arid Plateaux,57.76,0,0,1.788634,39.7704617,1740,0.939564494,296,6726,12,10,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UBA955,NA,NA,Bacteroidota
+SAP_bin824,Semi-Arid Plateaux,63.66,1.08,0,1.559111,56.8885089,1506,0.943504985,205,10253,15,9,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Schleiferiaceae,TMED14,NA,Bacteroidota
+SAP_bin829,Semi-Arid Plateaux,67.6,1.75,0,1.34491,59.70258233,1423,0.950191463,156,11303,41,15,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,MWH-TA3,NA,Actinobacteriota
+SAP_bin833,Semi-Arid Plateaux,75.86,1.72,0,1.927129,46.58587982,1773,0.917210005,143,18465,26,15,1,0,0,medium,Bacteria,Margulisbacteria,Marinamargulisbacteria,SXXA01,NA,NA,NA,Margulisbacteria
+SAP_bin835,Semi-Arid Plateaux,55.52,0,0,1.323127,47.66639937,1370,0.915364889,264,5401,8,7,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Cytophagales,Cyclobacteriaceae,Algoriphagus,NA,Bacteroidota
+SAP_bin840,Semi-Arid Plateaux,87.93,3.92,6.67,2.853787,31.09485746,2772,0.911771621,332,11707,22,15,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Crocinitomicaceae,UBA2040,NA,Bacteroidota
+SAP_bin859,Semi-Arid Plateaux,82.76,3.45,0,4.827157,62.90228389,4056,0.894324755,466,12965,37,17,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Pedosphaerales,UBA9464,UBA6176,NA,Verrucomicrobiota/_A
+SAP_bin865,Semi-Arid Plateaux,73.22,0.49,0,0.65288,36.23881877,626,0.8652708,32,32565,39,20,1,2,1,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,Rickettsiaceae,NA,NA,Alphaproteobacteria
+SAP_bin882,Semi-Arid Plateaux,53.45,0,0,1.283181,44.52341486,1463,0.942749308,230,6091,10,8,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Polynucleobacter,NA,Gammaproteobacteria
+SAP_bin894,Semi-Arid Plateaux,99.32,0,0,3.035144,52.05809016,2747,0.904203886,155,32028,41,18,0,0,0,high,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,Akkermansiaceae,UBA956,UBA956 sp002293145,Verrucomicrobiota/_A
+SAP_bin898,Semi-Arid Plateaux,62.74,0,0,1.678714,66.36598015,1937,0.913897781,385,4486,20,14,0,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Phenylobacterium,NA,Alphaproteobacteria
+SAP_bin919,Semi-Arid Plateaux,86.05,0,0,2.13982,41.99848585,1999,0.962036526,183,17617,16,10,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,UA16,UBA4660,NA,Bacteroidota
+SAP_bin935,Semi-Arid Plateaux,78.8,1.65,0,1.177171,30.87750208,1283,0.919774612,234,5274,20,15,0,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,UBA1997,SYAR01,NA,Alphaproteobacteria
+SAP_bin942,Semi-Arid Plateaux,89.28,2.03,0,1.665789,55.9314535,1712,0.915527117,159,14895,34,16,1,1,1,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Chthoniobacterales,UBA6821,NA,NA,Verrucomicrobiota/_A
+SAP_bin972,Semi-Arid Plateaux,93.24,0.23,0,1.519053,39.49269709,1418,0.928542322,67,41109,34,20,0,0,0,high,Bacteria,Verrucomicrobiota_A,Chlamydiia,Parachlamydiales,NA,NA,NA,Verrucomicrobiota/_A
+SAP_bin978,Semi-Arid Plateaux,64.37,0,0,0.634646,37.67407342,709,0.894757077,20,43738,37,19,2,3,1,medium,Bacteria,Patescibacteria,Paceibacteria,UBA9983,UBA1006,NA,NA,Patescibacteria
+SAP_bin981,Semi-Arid Plateaux,63.79,1.72,0,1.159458,46.32216087,1306,0.950011126,193,6558,13,8,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Polynucleobacter,Polynucleobacter sp002292975,Gammaproteobacteria
+SAP_bin987,Semi-Arid Plateaux,63.79,2.59,0,2.304244,31.71565164,2474,0.901196227,401,6544,25,15,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,NA,Bacteroidota
+SAP_bin991,Semi-Arid Plateaux,75.17,0,0,2.360919,62.1268667,2535,0.921845264,297,10067,29,14,1,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Roseicyclus,NA,Alphaproteobacteria
+SAP_bin992,Semi-Arid Plateaux,90.02,0.74,0,1.88045,33.14063123,1852,0.900623255,241,9690,30,18,1,0,0,high,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Ferruginibacter,NA,Bacteroidota
+SAP_bin999,Semi-Arid Plateaux,51.2,0.17,0,1.446675,35.58228351,1417,0.941606097,328,4573,7,7,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Saprospiraceae,Haliscomenobacter,NA,Bacteroidota
+TP_bin1036,Taiga Plains,90.79,0.6,0,1.620214,53.71129987,1501,0.958438824,153,15863,31,17,1,1,1,medium,Bacteria,Bacteroidota,Bacteroidia,UBA7662,UBA7662,SYHX01,NA,Bacteroidota
+TP_bin1037,Taiga Plains,71.43,1.46,0,1.754348,66.39874187,1969,0.924080057,307,6251,29,17,0,0,0,medium,Bacteria,Cyanobacteria,Cyanobacteriia,PCC-6307,Cyanobiaceae,NA,NA,Cyanobacteria
+TP_bin1055,Taiga Plains,67.24,0,0,2.624585,45.5020127,2765,0.903774501,526,5334,17,11,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Cytophagales,Cyclobacteriaceae,Algoriphagus,NA,Bacteroidota
+TP_bin1066,Taiga Plains,65.83,0,0,2.54392,56.22566747,2510,0.897108007,244,13682,33,15,0,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Hyphomonadaceae,Aquidulcibacter,NA,Alphaproteobacteria
+TP_bin1082,Taiga Plains,96.29,0,0,1.221211,25.93311066,1182,0.918336798,69,32264,31,20,0,0,0,high,Bacteria,Proteobacteria,Alphaproteobacteria,Bin98,NA,NA,NA,Alphaproteobacteria
+TP_bin112,Taiga Plains,95.26,4.5,0,1.372818,34.84948478,1438,0.9041417,121,19912,37,20,0,2,1,high,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,Rickettsiaceae,NA,NA,Alphaproteobacteria
+TP_bin118,Taiga Plains,97.14,0.03,0,2.879486,35.58617753,2576,0.941141579,67,88397,31,19,1,0,0,high,Bacteria,Bacteroidota,Bacteroidia,AKYH767,UBA4408,NA,NA,Bacteroidota
+TP_bin153,Taiga Plains,90.11,0.06,0,0.944691,33.25362473,1030,0.933837625,93,12301,28,17,1,2,1,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,Midichloriaceae,NA,NA,Alphaproteobacteria
+TP_bin159,Taiga Plains,62.95,1.83,0,0.528757,39.97450625,624,0.924899339,78,7790,35,19,1,0,0,medium,Bacteria,Patescibacteria,Saccharimonadia,NA,NA,NA,NA,Patescibacteria
+TP_bin165,Taiga Plains,89.73,2.05,0,5.557985,65.03376673,5002,0.905725006,588,13394,47,18,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Opitutales,Opitutaceae,Tous-C4FEB,NA,Verrucomicrobiota/_A
+TP_bin20,Taiga Plains,71.86,0.93,0,1.489316,55.04406049,1673,0.951589857,224,7657,15,12,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Limnohabitans,NA,Gammaproteobacteria
+TP_bin22,Taiga Plains,74.45,1.68,0,3.048742,70.35849541,3120,0.919463503,579,5784,27,16,0,0,0,medium,Bacteria,Desulfobacterota_B,Binatia,UBA12015,NA,NA,NA,Desulfobacterota/_B
+TP_bin229,Taiga Plains,51.2,0.88,0,0.77886,45.98965154,830,0.955750713,115,8148,17,12,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,Rhodoluna,NA,Actinobacteriota
+TP_bin248,Taiga Plains,97.36,0,0,1.751151,59.28198082,1854,0.968004472,138,18618,33,17,1,1,1,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,UBA2463,NA,Gammaproteobacteria
+TP_bin249,Taiga Plains,94.8,1.19,0,3.237015,37.30337981,2950,0.893955697,296,16299,30,17,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,AKYH767,B-17BO,UBA2475,NA,Bacteroidota
+TP_bin250,Taiga Plains,71.52,0.25,0,1.645325,69.17691034,1926,0.93382037,289,6599,23,15,1,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,Rhodoglobus,NA,Actinobacteriota
+TP_bin254,Taiga Plains,97.75,0,0,2.201748,41.25762803,2028,0.96158643,171,17889,27,16,1,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Crocinitomicaceae,UBA952,NA,Bacteroidota
+TP_bin263,Taiga Plains,96.92,0.68,0,1.710578,41.85684605,1575,0.896049172,99,25219,40,19,1,0,0,high,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Chthoniobacterales,UBA6821,NA,NA,Verrucomicrobiota/_A
+TP_bin266,Taiga Plains,62.07,0,0,1.808341,58.77718859,2032,0.912460095,384,4985,14,9,0,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Beijerinckiaceae,Alsobacter,NA,Alphaproteobacteria
+TP_bin288,Taiga Plains,94.08,3.45,0,2.98272,66.45776338,2557,0.916451762,270,16286,44,19,2,2,1,high,Bacteria,Planctomycetota,Planctomycetes,Pirellulales,UBA1268,NA,NA,Planctomycetota
+TP_bin333,Taiga Plains,55.67,1.72,0,1.896545,37.4346509,1741,0.950937099,200,13207,17,11,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,Sediminibacterium,NA,Bacteroidota
+TP_bin338,Taiga Plains,76.85,0,0,0.612493,52.16794314,669,0.884960318,57,12195,35,18,2,2,1,medium,Bacteria,Patescibacteria,Paceibacteria,UBA9983,UBA2163,OLB19,NA,Patescibacteria
+TP_bin340,Taiga Plains,50.97,0,0,2.019665,65.80447748,2166,0.92455531,409,5073,14,8,0,0,1,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Polaromonas,NA,Gammaproteobacteria
+TP_bin35,Taiga Plains,55.58,0.58,0,0.963502,40.09789289,1123,0.935803973,215,4593,10,9,0,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,Legionellaceae,UBA11403,NA,Gammaproteobacteria
+TP_bin352,Taiga Plains,96.74,0.62,0,3.14777,60.01470883,2981,0.92897861,161,34975,39,17,0,0,1,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,NA,NA,Gammaproteobacteria
+TP_bin354,Taiga Plains,70.59,0,0,0.861355,55.25445374,966,0.908434966,147,6517,22,12,0,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,UBA1280,UBA6156,NA,NA,Alphaproteobacteria
+TP_bin361,Taiga Plains,71.44,0.5,0,2.163118,49.4866207,2065,0.871491523,429,5378,15,11,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Saprospiraceae,NA,NA,Bacteroidota
+TP_bin376,Taiga Plains,58.4,0,0,1.187983,54.89859703,1217,0.925608363,143,10439,24,14,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Chthoniobacterales,UBA6821,NA,NA,Verrucomicrobiota/_A
+TP_bin39,Taiga Plains,58.15,0.57,0,2.252081,64.88967315,2201,0.928916855,498,4677,23,13,1,2,1,medium,Bacteria,Planctomycetota,Planctomycetes,Pirellulales,UBA1268,NA,NA,Planctomycetota
+TP_bin394,Taiga Plains,87.52,0,0,2.461331,48.15207707,2266,0.885762216,67,59321,31,16,0,1,1,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,SG8-41,Ga0077527,NA,Gammaproteobacteria
+TP_bin404,Taiga Plains,68.59,0,0,0.579258,40.02189007,636,0.9561836,101,6589,16,12,0,0,0,medium,Bacteria,Firmicutes,Bacilli,RFN20,CAG-826,UBA970,NA,Firmicutes/_A
+TP_bin41,Taiga Plains,58.14,0.91,0,2.243683,37.56840873,2243,0.895329242,514,4541,20,15,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Cytophagales,Catalimonadaceae,NA,NA,Bacteroidota
+TP_bin426,Taiga Plains,64.55,0,0,0.469504,36.1029938,557,0.895378953,70,7443,33,20,1,0,0,medium,Bacteria,Patescibacteria,Paceibacteria,UBA9983,UBA9973,MFUC01,NA,Patescibacteria
+TP_bin454,Taiga Plains,89.21,0.86,0,1.468112,62.4253463,1562,0.948461698,185,10387,29,17,1,0,0,medium,Bacteria,Actinobacteriota,Thermoleophilia,Solirubrobacterales,Sep-70,NA,NA,Actinobacteriota
+TP_bin466,Taiga Plains,78.49,0,0,2.529174,61.83390308,2532,0.898756274,457,6194,26,15,0,1,0,medium,Bacteria,Chloroflexota,UBA2235,UBA12225,UBA12225,UBA12225,UBA12225 sp002347925,Chloroflexota
+TP_bin473,Taiga Plains,68.34,2.04,0,2.080417,56.68334762,2065,0.914099914,300,8587,23,12,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,Akkermansiaceae,UBA1315,NA,Verrucomicrobiota/_A
+TP_bin474,Taiga Plains,53.45,1.72,0,1.265535,63.87851778,1385,0.938060188,262,5175,10,9,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Chthoniobacterales,NA,NA,NA,Verrucomicrobiota/_A
+TP_bin479,Taiga Plains,59.48,0,0,1.714939,54.10064148,1781,0.914631366,229,8778,14,11,1,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Methylococcales,Methylococcaceae,UBA6136,UBA6136 sp007280285,Gammaproteobacteria
+TP_bin509,Taiga Plains,65.72,0.81,0,2.329573,62.45857073,2430,0.882711123,467,5372,24,12,1,0,0,medium,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,NA,NA,Alphaproteobacteria
+TP_bin522,Taiga Plains,59.93,0,0,1.549032,65.63776604,1668,0.924608401,335,4866,25,15,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,FW305-bin1,NA,NA,Actinobacteriota
+TP_bin53,Taiga Plains,72.04,0,0,1.40801,35.78284245,1395,0.948011733,249,6284,9,7,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,NA,NA,Bacteroidota
+TP_bin556,Taiga Plains,96.7,1.1,0,1.871679,53.13160002,1866,0.909409145,52,64830,40,20,1,0,0,high,Bacteria,Proteobacteria,Alphaproteobacteria,Rickettsiales,UBA3002,UBA6189,NA,Alphaproteobacteria
+TP_bin557,Taiga Plains,52.04,1.72,0,3.040536,35.13808092,3215,0.863950303,598,5321,25,14,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Cytophagales,Spirosomaceae,Emticicia,NA,Bacteroidota
+TP_bin559,Taiga Plains,73.94,0.16,0,1.633886,40.2312034,1624,0.949879,254,7490,15,12,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,SXYR01,NA,Bacteroidota
+TP_bin57,Taiga Plains,76.36,0.03,0,1.185814,54.1455068,1293,0.953124183,167,9013,25,17,1,0,0,medium,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,UBA954,UBA954 sp002293155,Gammaproteobacteria
+TP_bin59,Taiga Plains,54.48,0,0,1.395711,35.02680713,1440,0.907568257,319,4573,10,8,1,1,1,medium,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UKL13-3,NA,NA,Bacteroidota
+TP_bin609,Taiga Plains,84.9,0,0,2.02457,34.16888524,2082,0.905908415,224,11262,29,18,1,2,1,medium,Bacteria,Cyanobacteria,Vampirovibrionia,Caenarcaniphilales,LMEP-6097,NA,NA,Cyanobacteria
+TP_bin621,Taiga Plains,79.15,8.93,0,2.107632,34.152594,2111,0.923428283,376,6274,19,12,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Sphingobacteriales,Sphingobacteriaceae,Pelobium,NA,Bacteroidota
+TP_bin645,Taiga Plains,57.02,0,0,0.651573,53.83771274,715,0.954212345,106,7002,17,14,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,NA,NA,Actinobacteriota
+TP_bin648,Taiga Plains,54.78,0,0,2.131561,51.43742074,2030,0.929890348,386,5954,11,8,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Chitinophagaceae,SXYR01,NA,Bacteroidota
+TP_bin649,Taiga Plains,73.7,0,0,3.093899,46.10289476,3078,0.90616662,635,5264,28,18,1,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,Chitinophagales,Saprospiraceae,M3007,NA,Bacteroidota
+TP_bin657,Taiga Plains,54.83,3.45,0,2.005527,58.52436791,2063,0.924270778,424,4934,13,8,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,Akkermansiaceae,UBA956,NA,Verrucomicrobiota/_A
+TP_bin718,Taiga Plains,87.91,0.95,0,2.366264,36.68314271,2238,0.942706731,231,15674,33,16,1,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UKL13-3,B1,NA,Bacteroidota
+TP_bin729,Taiga Plains,70.49,1.75,0,1.110193,55.98738237,1149,0.950559047,128,11065,28,12,1,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,Rhodoluna,NA,Actinobacteriota
+TP_bin738,Taiga Plains,54.11,3.43,0,1.482937,57.01941485,1597,0.928728597,346,4400,9,8,0,0,0,medium,Bacteria,Verrucomicrobiota,Verrucomicrobiae,Verrucomicrobiales,Akkermansiaceae,UBA1315,NA,Verrucomicrobiota/_A
+TP_bin744,Taiga Plains,51.78,1.75,0,0.904964,48.96747274,969,0.951178168,137,7403,27,14,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Actinomycetales,Microbacteriaceae,Rhodoluna,NA,Actinobacteriota
+TP_bin750,Taiga Plains,75.4,0.63,0,2.410363,30.39612706,2427,0.900125832,382,7417,28,17,0,0,0,medium,Bacteria,Bacteroidota,Bacteroidia,NS11-12g,UKL13-3,NA,NA,Bacteroidota
+TP_bin765,Taiga Plains,62.17,0,0,2.452082,47.01682081,2597,0.900147303,482,5439,20,13,0,0,0,medium,Bacteria,Bdellovibrionota,Oligoflexia,Oligoflexales,NA,NA,NA,Bdellovibrionota/_C
+TP_bin787,Taiga Plains,61.09,0,0,1.3663,63.74002781,1563,0.95884652,283,4969,20,11,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,S36-B12,UBA10649,NA,Actinobacteriota
+TP_bin796,Taiga Plains,56.9,0,0,0.762342,41.2098507,817,0.9602475,90,11834,17,6,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,Nanopelagicaceae,Nanopelagicus,NA,Actinobacteriota
+TP_bin809,Taiga Plains,71.13,0,0,1.839097,65.68005929,2003,0.942639785,338,6125,24,14,0,0,0,medium,Bacteria,Actinobacteriota,Acidimicrobiia,Acidimicrobiales,UBA8139,F1-20-MAGs160,NA,Actinobacteriota
+TP_bin928,Taiga Plains,87.78,1.14,0,3.850765,54.69152233,3345,0.912724614,433,11574,31,17,0,0,0,medium,Bacteria,Planctomycetota,Planctomycetes,Gemmatales,Gemmataceae,UBA6894,NA,Planctomycetota
+TP_bin941,Taiga Plains,54.07,0,0,0.648561,63.11850389,724,0.961624273,122,6086,15,11,0,0,0,medium,Bacteria,Chloroflexota,Ellin6529,CSP1-4,UBA10416,UBA10416,NA,Chloroflexota
+TP_bin949,Taiga Plains,76.15,0,0,0.52032,32.9541436,536,0.911335332,18,66502,32,18,2,0,0,medium,Bacteria,Patescibacteria,Paceibacteria,UBA9983,UBA9973,NA,NA,Patescibacteria
+TP_bin983,Taiga Plains,80.17,1.72,0,1.265183,45.97658995,1327,0.960832544,125,14331,22,14,0,0,0,medium,Bacteria,Actinobacteriota,Actinomycetia,Nanopelagicales,Nanopelagicaceae,Planktophila,NA,Actinobacteriota
