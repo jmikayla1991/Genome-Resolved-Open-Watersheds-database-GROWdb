@@ -2,7 +2,7 @@
 ### sources of global MAGs
 1. GROW global sites to date - This includes 1,286 additional MAGs derived from 23 metagenomes released in this study, including 11 sites beyond the United States (UK, Canada, Italy, Germany, Israel).
 
->> [Link to list of 1,286 MAGs used here.](https://github.com/jmikayla1991/Genome-Resolved-Open-Watersheds-database-GROWdb/blob/main/USA_SurfaceWater/GlobalComparison/GROW_global_1286.csv)
+>> [Link to list of 1,286 MAGs used here.](https://github.com/jmikayla1991/Genome-Resolved-Open-Watersheds-database-GROWdb/blob/main/USA_SurfaceWater/GlobalComparison/GROW_global_1286.csv) - GROW_global_1286.csv
    
 2. [GROW Erpe river 48-hr study](https://www.frontiersin.org/articles/10.3389/frmbi.2023.1199766/full)
    
