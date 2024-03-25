@@ -157,3 +157,29 @@ dunnTest(abund ~ group,
          data=lifestyle,
          method="bh") # headwater and river are significantly different (p.adj=0.001703097)
 
+###########
+## breaking out CAZymes
+###########
+carbon_gene%>%
+  left_join(.,river_info,by=c("code"="Sample"))%>%
+  filter(is.na(StreamUpdated)==0)%>%
+  filter(Guild=="heterotroph-polymer")%>%
+  mutate(filter=ifelse(substr(final_ID,1,3)=="CBM","yes",
+                       ifelse(substr(final_ID,1,1)=="K","yes","no")))%>%
+  mutate(group=ifelse(StreamUpdated>=7,"river",ifelse(StreamUpdated>=4,"midsize","headwater")))%>%
+  filter(filter=="no")%>%
+  group_by(final_ID,code,group)%>%
+  summarise(sum=sum(geTMM))%>%
+  mutate(count=ifelse(sum>1,1/57,0))%>%
+  ggplot()+
+  geom_jitter(aes(x=reorder(final_ID,log(sum+1)),y=-log(sum+1)),size=0.7)+
+  geom_boxplot(aes(x=reorder(final_ID,log(sum+1)),y=-log(sum+1)),fill="NA",color="green",outlier.colour = "NA")+
+  geom_bar(aes(x=reorder(final_ID,log(sum+1)),y=count*100,fill=group),stat="identity",position="stack")+
+  geom_hline(yintercept = 50)+
+  geom_hline(yintercept = -5)+
+  geom_hline(yintercept = -3)+
+  theme_classic()+
+  coord_flip()+
+  ylim(c(-5,60))+
+  xlab("CAZy Family")
+
