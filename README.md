@@ -17,7 +17,5 @@ Please see [our authorship agreement](https://docs.google.com/document/d/1DcqMnl
 3. Coastal_Rivers_Study - This contains scripts and commands used for data processing of US coastal rivers data, a subproject of GROWdb currently generating data.
 
 ### References below represent additional publications and associated GitHub leveraging GROWdb data
-1. Rodríguez-Ramos, Josué, et al. "Spatial and temporal metagenomics of river compartments reveals viral community dynamics in an urban impacted stream." Frontiers in Microbiomes 2 (2023): 1199766.
-
-[GitHub](https://github.com/jrr-microbio/erpe_river)
+1. Rodríguez-Ramos, Josué, et al. "Spatial and temporal metagenomics of river compartments reveals viral community dynamics in an urban impacted stream." Frontiers in Microbiomes 2 (2023): 1199766. [GitHub](https://github.com/jrr-microbio/erpe_river)
 
