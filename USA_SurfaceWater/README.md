@@ -1,7 +1,7 @@
 ## This respository contains the code and commands for "A functional microbiome catalog crowdsourced from North American rivers" currently on [BioArchive](https://www.biorxiv.org/content/10.1101/2023.07.22.550117v1). 
 
 ### Information in this repository
-# Directories
+#### Directories
 1. Figures- R scripts for data analysis and figure generation
 2. GenomeBasedCarbonAnalyses- R scripts and commands for assigning microbial genomes to carbon usage patterns, as shown in Fig. 5 of the manuscript
 3. MetaG_mapping- commands used for mapping metagenomes to dereplicated MAG database
