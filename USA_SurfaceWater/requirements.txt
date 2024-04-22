@@ -1,0 +1,13 @@
+sickle	v1.33	
+megahit	v1.2.9	
+metabat2	2.12.1	
+metaspades	v3.13.0	
+bbtools	v38.89	
+gtdb-tk	v2.1.1	r207
+DRAM	v1.4.4	
+dRep	v2.6.2	
+checkM	v1.1.2	
+coverM	v0.6.0	
+bowtie2	v2.4.5	
+samtools	v1.9	
+featurecount	v1.5.3	
