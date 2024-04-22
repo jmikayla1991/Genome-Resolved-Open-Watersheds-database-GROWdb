@@ -14,7 +14,7 @@ Please see [our authorship agreement](https://docs.google.com/document/d/1DcqMnl
 
   [Fadum, Jemma M., et al. "Dominant nitrogen metabolisms of a warm, seasonally anoxic freshwater ecosystem revealed using genome resolved metatranscriptomics."     Msystems 9.2 (2024): e01059-23](https://journals.asm.org/doi/10.1128/msystems.01059-23)
 
-3. Coastal_Rivers_Study - This contains scripts and commands used for data processing of US coastal rivers data, a subproject of GROWdb currently generating data.
+3. Coastal_Rivers_Study - This contains scripts and commands used for data processing of US coastal rivers data, a subproject of GROWdb that is *in progress*.
 
 ### References below represent additional publications and associated GitHub leveraging GROWdb data
 1. Rodríguez-Ramos, Josué, et al. "Spatial and temporal metagenomics of river compartments reveals viral community dynamics in an urban impacted stream." Frontiers in Microbiomes 2 (2023): 1199766. [GitHub](https://github.com/jrr-microbio/erpe_river)
