@@ -6,6 +6,8 @@
 3. MetaG_mapping- commands used for mapping metagenomes to dereplicated MAG database
 4. MetaT_mapping- commands used for mapping metatranscriptomes to dereplicated MAG database and R scripts for data normalization
 5. Metagenomic_Pipeline_GROWdb- commands used for read trimming, assembly, and binning of GROWdb metagenome-assembled genomes
+6. GROW_ML_randomforest- R code and associated data for machine learning reported in this manuscript
+7. Geospatial_Data- R code and associated geospatial data generated for each sampling location in this manuscript
 
 Other relevant GitHub respositories: 
 - https://github.com/rossyndicate/GROWdb for geospatial data mining for GROWdb
