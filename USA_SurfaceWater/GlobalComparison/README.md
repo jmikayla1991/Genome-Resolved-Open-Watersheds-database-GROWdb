@@ -1,6 +1,6 @@
 ## Comparison of US Surface Water GROW MAGs to global MAGs
 ### Sources of global MAGs
-1. GROW global sites to date - This includes 1,286 additional MAGs derived from 23 metagenomes released in this study, including 11 sites beyond the United States (UK, Canada, Italy, Germany, Israel).
+1. GROW global sites to date - This includes 1,286 additional MAGs derived from 23 metagenomes released in this study, including 11 sites beyond the United States (UK, Canada, Italy, Germany, Israel, Republic of the Congo).
 
 >> [Link to list of 1,286 MAGs used here.](https://github.com/jmikayla1991/Genome-Resolved-Open-Watersheds-database-GROWdb/blob/main/USA_SurfaceWater/GlobalComparison/GROW_global_1286.csv) - GROW_global_1286.csv
    
