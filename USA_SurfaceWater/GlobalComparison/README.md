@@ -18,14 +18,6 @@
 
 ### Compilation of MAGs from other freshwater global studies resulted in 7,705 MAGs to compare to 2,093 United States surface water GROW MAGs. 
 
-### How similar are the set of 3,379 MAGs recovered from GROW efforts at 99% ID?
-We will use drep_3.0.0 to which genomes are similar at 99% ID. 
-
-**99% ID**
-```
-dRep dereplicate dRep_v3.0.0_3379MAGs -p 20 -comp 50 -con 10 -g ./*fa 
-```
-
 #### How similar are the set of 9,798 MAGs recovered from various studies at 99% ID? 
 We will use drep_3.0.0 to which genomes are similar at 99% ID. 
 
